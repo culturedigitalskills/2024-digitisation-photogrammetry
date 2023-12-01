@@ -27,13 +27,13 @@ life_cycle: 'alpha'
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://example.com/FIXME-template-source'
+source: 'https://github.com/culturedigitalskills/2023-digitisation-photogrammetry'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org'
+contact: 'K.Rodriguez@brighton.ac.uk'
 
 # Navigation ------------------------------------------------
 #
