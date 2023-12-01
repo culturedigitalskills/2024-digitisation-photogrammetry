@@ -60,15 +60,6 @@ points which are repeatable and distinctive.
 Corners and other distinctive patterns 
 in the image are obvious features to consider.
 
-:::::::::::challenge 
-
-## Try it yourself?
-What points would you choose?
-:::::::
-:::::::::::::solution
-aaa
-::::::::::::::::::::
-
  
 ### Feature matching
 
@@ -82,16 +73,6 @@ two or more images.
 We want a reliable result.
 
 
-
-:::::::::::challenge 
-
-## Try it yourself?
-Do the features below correspond with each other?
-
-:::::::
-:::::::::::::solution
-ssss
-::::::::::::::::::::
 
 ### Structure reconstruction
 
