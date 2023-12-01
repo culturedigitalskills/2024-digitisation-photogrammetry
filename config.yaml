@@ -60,7 +60,10 @@ contact: 'team@carpentries.org'
 # Order of episodes in your lesson
 episodes:
 - introduction.Rmd
-
+- setting-up-the-environment.Rmd
+- capturing-photographs.Rmd
+- photogrammetry-software.Rmd
+- additional-links.Rmd
 
 # Information for Learners
 learners:
