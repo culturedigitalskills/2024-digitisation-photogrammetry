@@ -66,7 +66,7 @@ in the image are obvious features to consider.
 What points would you choose?
 :::::::
 :::::::::::::solution
-
+aaa
 ::::::::::::::::::::
 
  
@@ -90,7 +90,7 @@ Do the features below correspond with each other?
 
 :::::::
 :::::::::::::solution
-
+ssss
 ::::::::::::::::::::
 
 ### Structure reconstruction
