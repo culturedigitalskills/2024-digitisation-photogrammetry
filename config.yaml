@@ -8,7 +8,7 @@
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor training for instance)
 # incubator: The Carpentries Incubator
-carpentry: 'incubator'
+carpentry: 'cp'
 
 # Overall title for pages.
 title: 'Photogrammetry Digitisation'
@@ -58,21 +58,18 @@ contact: 'team@carpentries.org'
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
+episodes:
 - introduction.Rmd
-- setting-up-the-environment.Rmd
-- capturing-photographs.Rmd
-- photogrammetry-software.Rmd
-- additional-links.Rmd
+
 
 # Information for Learners
-learners: 
+learners:
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #
