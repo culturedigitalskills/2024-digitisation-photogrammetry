@@ -11,13 +11,13 @@
 carpentry: 'incubator'
 
 # Overall title for pages.
-title: '2023-digitisation-photogrammetry'
+title: 'Photogrammetry Digitisation'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: '2023-11-29'
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries'
+keywords: 'photogrammetry, digitisation, data, lesson, The Carpentries'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
@@ -60,6 +60,10 @@ contact: 'team@carpentries.org'
 # Order of episodes in your lesson
 episodes: 
 - introduction.Rmd
+- setting-up-the-environment.Rmd
+- capturing-photographs.Rmd
+- photogrammetry-software.Rmd
+- additional-links.Rmd
 
 # Information for Learners
 learners: 
