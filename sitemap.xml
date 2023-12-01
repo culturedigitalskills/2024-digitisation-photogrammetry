@@ -10,7 +10,13 @@
     <loc>https://FIXME-template-source.github.io/NA/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://FIXME-template-source.github.io/NA/additional-links.html</loc>
+  </url>
+  <url>
     <loc>https://FIXME-template-source.github.io/NA/aio.html</loc>
+  </url>
+  <url>
+    <loc>https://FIXME-template-source.github.io/NA/capturing-photographs.html</loc>
   </url>
   <url>
     <loc>https://FIXME-template-source.github.io/NA/images.html</loc>
@@ -28,7 +34,13 @@
     <loc>https://FIXME-template-source.github.io/NA/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://FIXME-template-source.github.io/NA/instructor/additional-links.html</loc>
+  </url>
+  <url>
     <loc>https://FIXME-template-source.github.io/NA/instructor/aio.html</loc>
+  </url>
+  <url>
+    <loc>https://FIXME-template-source.github.io/NA/instructor/capturing-photographs.html</loc>
   </url>
   <url>
     <loc>https://FIXME-template-source.github.io/NA/instructor/images.html</loc>
@@ -46,10 +58,16 @@
     <loc>https://FIXME-template-source.github.io/NA/instructor/key-points.html</loc>
   </url>
   <url>
+    <loc>https://FIXME-template-source.github.io/NA/instructor/photogrammetry-software.html</loc>
+  </url>
+  <url>
     <loc>https://FIXME-template-source.github.io/NA/instructor/profiles.html</loc>
   </url>
   <url>
     <loc>https://FIXME-template-source.github.io/NA/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://FIXME-template-source.github.io/NA/instructor/setting-up-the-environment.html</loc>
   </url>
   <url>
     <loc>https://FIXME-template-source.github.io/NA/instructor-notes.html</loc>
@@ -61,9 +79,15 @@
     <loc>https://FIXME-template-source.github.io/NA/key-points.html</loc>
   </url>
   <url>
+    <loc>https://FIXME-template-source.github.io/NA/photogrammetry-software.html</loc>
+  </url>
+  <url>
     <loc>https://FIXME-template-source.github.io/NA/profiles.html</loc>
   </url>
   <url>
     <loc>https://FIXME-template-source.github.io/NA/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://FIXME-template-source.github.io/NA/setting-up-the-environment.html</loc>
   </url>
 </urlset>
