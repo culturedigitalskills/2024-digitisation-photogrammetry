@@ -92,7 +92,7 @@ as much as possible (thus you might want to add
 more light sources, for example one at the back).
 
 
-Source: [http://www.agisoft.com/pdf/tips_and_tricks/_blankRepository_Technical%20Guide%20and%20Prod uctions%20Tips.pdf]([http://www.agisoft.com/pdf/tips_and_tricks/_blankRepository_Technical%20Guide%20and%20Prod uctions%20Tips.pdf])
+Source: [http://www.agisoft.com/pdf/tips_and_tricks/_blankRepository_Technical%20Guide%20and%20Prod uctions%20Tips.pdf](http://www.agisoft.com/pdf/tips_and_tricks/_blankRepository_Technical%20Guide%20and%20Prod uctions%20Tips.pdf)
 
 ### Background
 This should be kept simple and plain. 
