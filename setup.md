@@ -56,3 +56,24 @@ You will also need access to a laptop or a
 PC with at least 16GB RAM.
 
 
+The tutorial is built with [The Carpentries Workbench](https://carpentries.github.io/sandpaper-docs/), as part of the training activities of the [AHRC-funded network service on Digital Skills in Visual and Material Culture](https://www.culturedigitalskills.org).
+
+::::::::::::::::::::::::::::::::::::::: discussion
+
+### Details
+
+For this lesson, you will need access to some paper and pen. 
+
+Access to the [Culture Digital Skills Virtual Research Environment D4Science](https://services.d4science.org/group/culturedigitalskills) is also 
+required.
+
+If you have not registered, it would be useful to do this before
+the lesson. For more information, see [instructions](https://universityofbrighton.github.io/2023-fair-multidimensional-media/virtual-research-environment.html#virtual-research-environments-vre)
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::
+
+The tutorial is built with [The Carpentries Workbench](https://carpentries.github.io/sandpaper-docs/), as part of the training activities of the [AHRC-funded network service on Digital Skills in Visual and Material Culture](https://www.culturedigitalskills.org). 
+
+
+![](../episodes/fig/colorlogo_centre.png){width=50% alt="logo"}
+
