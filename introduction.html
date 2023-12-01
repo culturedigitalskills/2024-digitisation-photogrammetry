@@ -147,12 +147,21 @@
 <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
         1. Basics
         </span>
-      
+      </button>
     </div><!--/div.accordion-header-->
+        
+    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
+      <div class="accordion-body">
+        <ul><li><a href="#definition">Definition</a></li>
+<li><a href="#photogrammetry-process">Photogrammetry Process</a></li>
+<li><a href="#lessons-for-acquisition">Lessons for acquisition</a></li>
+        </ul></div><!--/div.accordion-body-->
+    </div><!--/div.accordion-collapse-->
         
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -251,14 +260,107 @@ challenge blocks</li>
 </div>
 </div>
 </div>
-<!-- 
+<section id="definition"><h2 class="section-heading">Definition<a class="anchor" aria-label="anchor" href="#definition"></a>
+</h2>
+<hr class="half-width"><p>The art, science, and technology of obtaining spatial information
+about physical objects and environments through processes of capturing,
+measuring and interpreting photographic images.</p>
+<p>Underlying technology is more familiar that we think! We can happily
+ignore the concepts and formulas used in the software.</p>
+<p>But it is useful to be aware of what it works.</p>
+</section><section id="photogrammetry-process"><h2 class="section-heading">Photogrammetry Process<a class="anchor" aria-label="anchor" href="#photogrammetry-process"></a>
+</h2>
+<hr class="half-width"><p>Basic steps of the photogrammetry process</p>
+<ol style="list-style-type: decimal"><li>Feature detection</li>
+<li>Feature matching</li>
+<li>Structure reconstruction</li>
+</ol><div class="section level3">
+<h3 id="feature-detection">Feature detection<a class="anchor" aria-label="anchor" href="#feature-detection"></a></h3>
+<p>Features are “interest points” or “key points” in an image. The goal
+of this step is to find points which are repeatable and distinctive.
+Corners and other distinctive patterns in the image are obvious features
+to consider.</p>
+<div id="try-it-yourself" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="try-it-yourself" class="callout-inner">
+<h3 class="callout-title">Try it yourself?<a class="anchor" aria-label="anchor" href="#try-it-yourself"></a>
+</h3>
+<div class="callout-content">
+<p>What points would you choose?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<p>aaa</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="feature-matching">Feature matching<a class="anchor" aria-label="anchor" href="#feature-matching"></a></h3>
+<p>Find correspondences of features across different views. The goal of
+this step is to detect (at least some of) correspondence between
+features in two or more images.</p>
+<p>We want a reliable result.</p>
+<div id="try-it-yourself-1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="try-it-yourself-1" class="callout-inner">
+<h3 class="callout-title">Try it yourself?<a class="anchor" aria-label="anchor" href="#try-it-yourself-1"></a>
+</h3>
+<div class="callout-content">
+<p>Do the features below correspond with each other?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div class="accordion-body">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="structure-reconstruction">Structure reconstruction<a class="anchor" aria-label="anchor" href="#structure-reconstruction"></a></h3>
+<p>Load all extracted features from an initial pair of images. Builds a
+projection of the points in 3D space by using the camera position.</p>
+<p>The scene is incrementally extended by adding new images and
+triangulating new points. A much denser set of features is produced.</p>
+<p>The output of this process is a “point cloud” or a collection of
+points. The 3D model is created by creating a triangular mesh. The
+texture is then mapped to this surface.</p>
+</div>
+</section><section id="lessons-for-acquisition"><h2 class="section-heading">Lessons for acquisition<a class="anchor" aria-label="anchor" href="#lessons-for-acquisition"></a>
+</h2>
+<hr class="half-width"><ul><li>Capture images with good texture.</li>
+<li>Avoid completely texture-less, transparent and reflective images.
+The computer will have difficulty finding and matching features.</li>
+<li>If the scene does not contain enough texture itself, you could place
+additional background objects, such as posters, etc.</li>
+</ul><!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
- -->
-
-
-
-      </div> <!-- / div.lesson-content -->
+ --></section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="index.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="index.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
