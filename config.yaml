@@ -58,21 +58,22 @@ contact: 'K.Rodriguez@brighton.ac.uk'
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes:
+episodes: 
 - introduction.Rmd
 - setting-up-the-environment.Rmd
 - capturing-photographs.Rmd
 - photogrammetry-software.Rmd
 - additional-links.Rmd
+- links.Rmd
 
 # Information for Learners
-learners:
+learners: 
 
 # Information for Instructors
-instructors:
+instructors: 
 
 # Learner Profiles
-profiles:
+profiles: 
 
 # Customisation ---------------------------------------------
 #
