@@ -159,7 +159,7 @@
       <div class="accordion-body">
         <ul><li><a href="#definition">Definition</a></li>
 <li><a href="#photogrammetry-process">Photogrammetry Process</a></li>
-<li><a href="#lessons-for-acquisition">Lessons for acquisition</a></li>
+<li><a href="#tips-for-acquisition">Tips for acquisition</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
         
@@ -169,7 +169,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="photogrammetry-software.html">2. Photogrammetry Software</a>
+        <a href="setting-up-the-environment.html">2. Setting up the environment</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -178,7 +178,25 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="additional-links.html">3. Additional Links</a>
+        <a href="capturing-photographs.html">3. Capturing Photographs</a>
+    </div><!--/div.accordion-header-->
+        
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush5">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading5">
+        <a href="photogrammetry-software.html">4. Photogrammetry Software</a>
+    </div><!--/div.accordion-header-->
+        
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush6">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading6">
+        <a href="additional-links.html">5. Additional Links</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -227,7 +245,7 @@
   <div class="col-xl-8 col-lg-12 primary-content">
     <nav class="lesson-content mx-md-4" aria-label="Previous and Next Chapter"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="../instructor/index.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
-        <a class="chapter-link float-end" href="../instructor/photogrammetry-software.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="../instructor/setting-up-the-environment.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
@@ -235,8 +253,8 @@
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
           Home
         </a>
-        <a class="chapter-link float-end" href="../instructor/photogrammetry-software.html" rel="next">
-          Next: Photogrammetry... 
+        <a class="chapter-link float-end" href="../instructor/setting-up-the-environment.html" rel="next">
+          Next: Setting up the... 
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
         </a>
       </div>
@@ -264,7 +282,7 @@
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <!-- - How do you write a lesson using R Markdown and `{sandpaper}`?-->
-<ul><li>How do you cupture images and create 3d models for 3D digital
+<ul><li>How do you capture images and create 3d models for 3D digital
 preservation and publication ?</li>
 </ul></div>
 </div>
@@ -303,6 +321,8 @@ Mesh of a small object</em></p>
 for the final realistic appearance of the studied subject.</p>
 <p><img src="https://data.d4science.org/shub/E_ZEp0UkZxbFFvdUVXN29QMmtqWldTdDlBRnBhZUdUcTBPZUhJbG44ZEFLOEsxM2R5dlBZaE1yUG9XVUZzcHZBVg==" alt="https://data.d4science.org/shub/E_ZEp0UkZxbFFvdUVXN29QMmtqWldTdDlBRnBhZUdUcTBPZUhJbG44ZEFLOEsxM2R5dlBZaE1yUG9XVUZzcHZBVg==" class="figure"><em>3d
 Mesh with texture of a small object</em></p>
+<iframe src="https://gltf-viewer.donmccurdy.com#kiosk=1&amp;model=https://data.d4science.org/shub/E_ZXp0WWx5S3JiVjE2RFc3WkVoMjhJSlUyUmpCWUFEQUdCSVlqamY2aC9zRUVGdWZLYWRVV0Vwem0xMHRiRkYwWQ==" style="width: 100%;" height="400px" frameborder="0">
+</iframe>
 <!--Underlying technology is more familiar
 that we think! We can happily ignore 
 the concepts and formulas used 
@@ -408,16 +428,16 @@ creating a <a href="#definition">triangular mesh</a>. The texture is
 then mapped to the <a href="#definition">surface</a>.</p>
 <p><img src="https://data.d4science.org/shub/E_bU9MSEZaRGpOaGFJZ2hsL1dCWi85U0NZbUJiVDh5YlBlUmxmTGI3UE9ic1dvOEdkOGFpS3JnYmRrelYrY0JOaQ==" alt="https://data.d4science.org/shub/E_bU9MSEZaRGpOaGFJZ2hsL1dCWi85U0NZbUJiVDh5YlBlUmxmTGI3UE9ic1dvOEdkOGFpS3JnYmRrelYrY0JOaQ==" class="figure"><em>Matching
 features in multiple images</em></p>
-<p>We can apply a mask to the whole sets of images so that the
-algorithom does not have to calculate all the points that we are not
-interested.In this case when using turntables is reccomended to shoot
-always one image without the object.</p>
+<p>We can apply a mask to the whole sets of images so that the algorithm
+does not have to calculate the points that are not interested. In this
+case when using turntables is recommended to shoot always one image
+without the object.</p>
 <p><img src="https://data.d4science.org/shub/E_L3Y4dlE2Rm9ZVU1BcCtSaHFoS1A5UHZpUEpXYVdaK2tRNm9MOGdjT1Y0YXE3bkdvR2FTdU1MSlp1R3ozRVVwYg==" alt="https://data.d4science.org/shub/E_L3Y4dlE2Rm9ZVU1BcCtSaHFoS1A5UHZpUEpXYVdaK2tRNm9MOGdjT1Y0YXE3bkdvR2FTdU1MSlp1R3ozRVVwYg==" class="figure"><em>Mask
 used in multiple images</em></p>
 <p><img src="https://data.d4science.org/shub/E_dUFhdW4vd2x0SVRNOWFjOWVjc1pwU2FyaFJXWlA2VnBzWjI1QnN5L3UvalMxYlVVSFhkMmEwb0FqTlkrdHZaMg==" alt="https://data.d4science.org/shub/E_dUFhdW4vd2x0SVRNOWFjOWVjc1pwU2FyaFJXWlA2VnBzWjI1QnN5L3UvalMxYlVVSFhkMmEwb0FqTlkrdHZaMg==" class="figure"><em>Reconstructed
 model from matching features in multiple images</em></p>
 </div>
-</section><section id="lessons-for-acquisition"><h2 class="section-heading">Lessons for acquisition<a class="anchor" aria-label="anchor" href="#lessons-for-acquisition"></a>
+</section><section id="tips-for-acquisition"><h2 class="section-heading">Tips for acquisition<a class="anchor" aria-label="anchor" href="#tips-for-acquisition"></a>
 </h2>
 <hr class="half-width"><ul><li>Capture images with good texture.</li>
 <li>Avoid completely texture-less, transparent and reflective images.
@@ -430,7 +450,7 @@ any links that you are not going to use.
  --></section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="../instructor/index.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
-        <a class="chapter-link float-end" href="../instructor/photogrammetry-software.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="../instructor/setting-up-the-environment.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
@@ -438,8 +458,8 @@ any links that you are not going to use.
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
           Home
         </a>
-        <a class="chapter-link float-end" href="../instructor/photogrammetry-software.html" rel="next">
-          Next: Photogrammetry... 
+        <a class="chapter-link float-end" href="../instructor/setting-up-the-environment.html" rel="next">
+          Next: Setting up the... 
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
         </a>
       </div>

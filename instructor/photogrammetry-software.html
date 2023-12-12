@@ -86,11 +86,11 @@
   Photogrammetry Digitisation
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: 33%" class="percentage">
-    33%
+<aside class="col-md-12 lesson-progress"><div style="width: 60%" class="percentage">
+    60%
   </div>
   <div class="progress incubator">
-    <div class="progress-bar incubator" role="progressbar" style="width: 33%" aria-valuenow="33" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar incubator" role="progressbar" style="width: 60%" aria-valuenow="60" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -153,20 +153,38 @@
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
 
+<div class="accordion accordion-flush" id="accordionFlush3">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading3">
+        <a href="setting-up-the-environment.html">2. Setting up the environment</a>
+    </div><!--/div.accordion-header-->
+        
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush4">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading4">
+        <a href="capturing-photographs.html">3. Capturing Photographs</a>
+    </div><!--/div.accordion-header-->
+        
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
 <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
-        2. Photogrammetry Software
+        4. Photogrammetry Software
         </span>
       </button>
     </div><!--/div.accordion-header-->
         
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
-        <ul><li><a href="#processing-the-images">Processing the images</a></li>
+        <ul><li><a href="#preparing-the-images">Preparing the images</a></li>
 <li><a href="#using-the-photogrammetry-software">Using the photogrammetry software</a></li>
 <li><a href="#photogrammetry-software-workflow">Photogrammetry Software Workflow</a></li>
         </ul></div><!--/div.accordion-body-->
@@ -175,10 +193,10 @@
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
 
-<div class="accordion accordion-flush" id="accordionFlush4">
+<div class="accordion accordion-flush" id="accordionFlush6">
   <div class="accordion-item">
-    <div class="accordion-header" id="flush-heading4">
-        <a href="additional-links.html">3. Additional Links</a>
+    <div class="accordion-header" id="flush-heading6">
+        <a href="additional-links.html">5. Additional Links</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -226,14 +244,14 @@
         <!-- START: inst/pkgdown/templates/content-instructor.html -->
   <div class="col-xl-8 col-lg-12 primary-content">
     <nav class="lesson-content mx-md-4" aria-label="Previous and Next Chapter"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
-        <a class="chapter-link" href="../instructor/introduction.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
+        <a class="chapter-link" href="../instructor/capturing-photographs.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="../instructor/additional-links.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link" href="../instructor/introduction.html" rel="prev">
+        <a class="chapter-link" href="../instructor/capturing-photographs.html" rel="prev">
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
-          Previous: Basics
+          Previous: Capturing
         </a>
         <a class="chapter-link float-end" href="../instructor/additional-links.html" rel="next">
           Next: Additional Links... 
@@ -255,17 +273,42 @@
         </div>
 
         
+<!--
+## Processing the images
 
-<section id="processing-the-images"><h2 class="section-heading">Processing the images<a class="anchor" aria-label="anchor" href="#processing-the-images"></a>
+Once the photographs have been acquired, 
+the next step is to transfer the images 
+to a PC (refer to [setup for specifications][setup]).
+
+
+Whatever processing you apply to images 
+(e.g. brightness, colour adjustments) 
+should be applied to the whole dataset. 
+Otherwise you will have alignment problems. 
+
+Resizing, rotating and transforming the 
+geometry of the images should not be applied.
+-->
+<section id="preparing-the-images"><h2 class="section-heading">Preparing the images<a class="anchor" aria-label="anchor" href="#preparing-the-images"></a>
 </h2>
 <hr class="half-width"><p>Once the photographs have been acquired, the next step is to transfer
-the images to a PC (refer to <a href="index.html#equipment">setup for
-specifications</a>).</p>
-<p>Whatever processing you apply to images (e.g. brightness, colour
-adjustments) should be applied to the whole dataset. Otherwise you will
-have alignment problems.</p>
-<p>Resizing, rotating and transforming the geometry of the images should
-not be applied.</p>
+the images to a PC (refer to <a href="index.html#equipment">setup</a>
+for specifications).</p>
+<p>Please use the software we downloaded in the setup section <a href="https://www.3dflow.net" class="external-link">Raw Therapee</a> if you need to convert
+the images from raw file format to various other formats.</p>
+<p>Whatever file format you use it must be readable form the software
+you are about to use for reconstructing the models and you must be sure
+you choose a format that retains the Exif information within the file.
+if you are not sure if your file has the information needed there are
+lots of tool online that can provide with this information such as <a href="https://exifinfo.org/" class="external-link">ExifInfo.org</a>. Raw Therapee can also
+provide this information on the info panel however you should always
+check after exporting them.</p>
+<p>Each photogrammetry software is quite different and will import
+different image files formats.</p>
+<p><em>In this case the images that you have downloaded previously are
+already converted for you and although it is better you get use to the
+software at this stage you will not need to take further
+actions.</em></p>
 </section><section id="using-the-photogrammetry-software"><h2 class="section-heading">Using the photogrammetry software<a class="anchor" aria-label="anchor" href="#using-the-photogrammetry-software"></a>
 </h2>
 <hr class="half-width"><p>The steps to use the software are as follows:</p>
@@ -373,14 +416,14 @@ any links that you are not going to use.
 </div>
 </section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
-        <a class="chapter-link" href="../instructor/introduction.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
+        <a class="chapter-link" href="../instructor/capturing-photographs.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="../instructor/additional-links.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link" href="../instructor/introduction.html" rel="prev">
+        <a class="chapter-link" href="../instructor/capturing-photographs.html" rel="prev">
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
-          Previous: Basics
+          Previous: Capturing
         </a>
         <a class="chapter-link float-end" href="../instructor/additional-links.html" rel="next">
           Next: Additional Links... 
