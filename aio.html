@@ -460,13 +460,28 @@ the image to see the exact feature points.</p>
 <div class="section level3">
 <h3 id="structure-reconstruction">Structure reconstruction<a class="anchor" aria-label="anchor" href="#structure-reconstruction"></a>
 </h3>
-<p>Load all extracted features from an initial pair of images. Builds a
-projection of the points in 3D space by using the camera position.</p>
+<!--Load all extracted features from an 
+initial pair of images. Builds a 
+projection of the points in 3D space by using the camera position.-->
+<p>The software will recognize the features from all the loaded images.
+Builds a projection of the points in 3D space by using the camera
+position.</p>
 <p>The scene is incrementally extended by adding new images and
 triangulating new points. A much denser set of features is produced.</p>
 <p>The output of this process is a “point cloud” or a collection of
-points. The 3D model is created by creating a triangular mesh. The
-texture is then mapped to this surface.</p>
+points like we saw <a href="#id_%20Definition">before</a>. The 3D model
+is created by creating a triangular mesh. The texture is then mapped to
+the surface like we saw <a href="#id_%20Definition">before</a>.</p>
+<p><img src="https://data.d4science.org/shub/E_bU9MSEZaRGpOaGFJZ2hsL1dCWi85U0NZbUJiVDh5YlBlUmxmTGI3UE9ic1dvOEdkOGFpS3JnYmRrelYrY0JOaQ==" alt="https://data.d4science.org/shub/E_bU9MSEZaRGpOaGFJZ2hsL1dCWi85U0NZbUJiVDh5YlBlUmxmTGI3UE9ic1dvOEdkOGFpS3JnYmRrelYrY0JOaQ==" class="figure"><em>Matching
+features in multiple images</em></p>
+<p>We can apply a mask to the whole sets of images so that the
+algorithom does not have to calculate all the points that we are not
+interested.In this case when using turntables is reccomended to shoot
+always one image without the object.</p>
+<p><img src="https://data.d4science.org/shub/E_L3Y4dlE2Rm9ZVU1BcCtSaHFoS1A5UHZpUEpXYVdaK2tRNm9MOGdjT1Y0YXE3bkdvR2FTdU1MSlp1R3ozRVVwYg==" alt="https://data.d4science.org/shub/E_L3Y4dlE2Rm9ZVU1BcCtSaHFoS1A5UHZpUEpXYVdaK2tRNm9MOGdjT1Y0YXE3bkdvR2FTdU1MSlp1R3ozRVVwYg==" class="figure"><em>Mask
+used in multiple images</em></p>
+<p><img src="https://data.d4science.org/shub/E_dUFhdW4vd2x0SVRNOWFjOWVjc1pwU2FyaFJXWlA2VnBzWjI1QnN5L3UvalMxYlVVSFhkMmEwb0FqTlkrdHZaMg==" alt="https://data.d4science.org/shub/E_dUFhdW4vd2x0SVRNOWFjOWVjc1pwU2FyaFJXWlA2VnBzWjI1QnN5L3UvalMxYlVVSFhkMmEwb0FqTlkrdHZaMg==" class="figure"><em>Reconstructed
+model from matching features in multiple images</em></p>
 </div>
 </section><section id="lessons-for-acquisition"><h2 class="section-heading">Lessons for acquisition<a class="anchor" aria-label="anchor" href="#lessons-for-acquisition"></a>
 </h2>
