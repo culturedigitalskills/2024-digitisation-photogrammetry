@@ -4,7 +4,7 @@ teaching: 10
 exercises: 2
 ---
 
-
+<!--
 ## Processing the images
 
 Once the photographs have been acquired, 
@@ -19,6 +19,24 @@ Otherwise you will have alignment problems.
 
 Resizing, rotating and transforming the 
 geometry of the images should not be applied.
+-->
+
+## Preparing the images
+
+Once the photographs have been acquired, 
+the next step is to transfer the images 
+to a PC (refer to [setup][setup] for specifications).
+
+Please use the software we downloaded in the setup section [Raw Therapee](https://www.3dflow.net) if you need to convert the images from raw file format to various other formats.
+
+Whatever file format you use it must be readable form the software you are about to use for reconstructing the models and you must be sure you choose a format that retains the Exif information within the file.
+if you are not sure if your file has the information needed there are lots of tool online that can provide with this information such as [ExifInfo.org](https://exifinfo.org/).
+Raw Therapee can also provide this information on the info panel however you should always check after exporting them.
+
+Each photogrammetry software is quite different and will import different image files formats.
+
+*In this case the images that you have downloaded previously are already converted for you and although it is better you get use to the software at this stage you will not need to take further actions.*
+
 
 
 ## Using the photogrammetry software

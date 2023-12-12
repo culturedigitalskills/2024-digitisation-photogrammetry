@@ -7,7 +7,7 @@ exercises: 2
 :::::::::::::::::::::::::::::::::::::: questions 
 
 <!-- - How do you write a lesson using R Markdown and `{sandpaper}`?-->
-- How do you cupture images and create 3d models for 3D digital preservation and publication ?
+- How do you capture images and create 3d models for 3D digital preservation and publication ?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -44,6 +44,9 @@ The mesh can then be [texture mapped](https://en.wikipedia.org/wiki/Texture_mapp
 
 ![https://data.d4science.org/shub/E_ZEp0UkZxbFFvdUVXN29QMmtqWldTdDlBRnBhZUdUcTBPZUhJbG44ZEFLOEsxM2R5dlBZaE1yUG9XVUZzcHZBVg==](https://data.d4science.org/shub/E_ZEp0UkZxbFFvdUVXN29QMmtqWldTdDlBRnBhZUdUcTBPZUhJbG44ZEFLOEsxM2R5dlBZaE1yUG9XVUZzcHZBVg==)*3d Mesh with texture of a small object*
 
+
+
+<iframe src="https://gltf-viewer.donmccurdy.com#kiosk=1&model=https://data.d4science.org/shub/E_ZXp0WWx5S3JiVjE2RFc3WkVoMjhJSlUyUmpCWUFEQUdCSVlqamY2aC9zRUVGdWZLYWRVV0Vwem0xMHRiRkYwWQ==" style="width: 100%;" height="400px" frameBorder="0"></iframe>
 
 
 <!--Underlying technology is more familiar
@@ -135,7 +138,7 @@ The 3D model is created by creating a [triangular mesh](#definition). The textur
 
 ![https://data.d4science.org/shub/E_bU9MSEZaRGpOaGFJZ2hsL1dCWi85U0NZbUJiVDh5YlBlUmxmTGI3UE9ic1dvOEdkOGFpS3JnYmRrelYrY0JOaQ==](https://data.d4science.org/shub/E_bU9MSEZaRGpOaGFJZ2hsL1dCWi85U0NZbUJiVDh5YlBlUmxmTGI3UE9ic1dvOEdkOGFpS3JnYmRrelYrY0JOaQ==)*Matching features in multiple images*
 
-We can apply a mask to the whole sets of images so that the algorithom does not have to calculate all the points that we are not interested.In this case when using turntables is reccomended to shoot always one image without the object.
+We can apply a mask to the whole sets of images so that the algorithm does not have to calculate the points that are not interested. In this case when using turntables is recommended to shoot always one image without the object.
 
 ![https://data.d4science.org/shub/E_L3Y4dlE2Rm9ZVU1BcCtSaHFoS1A5UHZpUEpXYVdaK2tRNm9MOGdjT1Y0YXE3bkdvR2FTdU1MSlp1R3ozRVVwYg==](https://data.d4science.org/shub/E_L3Y4dlE2Rm9ZVU1BcCtSaHFoS1A5UHZpUEpXYVdaK2tRNm9MOGdjT1Y0YXE3bkdvR2FTdU1MSlp1R3ozRVVwYg==)*Mask  used in multiple images*
 
@@ -143,7 +146,7 @@ We can apply a mask to the whole sets of images so that the algorithom does not 
 ![https://data.d4science.org/shub/E_dUFhdW4vd2x0SVRNOWFjOWVjc1pwU2FyaFJXWlA2VnBzWjI1QnN5L3UvalMxYlVVSFhkMmEwb0FqTlkrdHZaMg==](https://data.d4science.org/shub/E_dUFhdW4vd2x0SVRNOWFjOWVjc1pwU2FyaFJXWlA2VnBzWjI1QnN5L3UvalMxYlVVSFhkMmEwb0FqTlkrdHZaMg==)*Reconstructed model from matching features in multiple images*
  
  
-## Lessons for acquisition
+## Tips for acquisition
 
 - Capture images with good texture.
 - Avoid completely texture-less, 
