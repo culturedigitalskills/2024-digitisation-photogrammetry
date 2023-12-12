@@ -117,19 +117,31 @@ Do the features below correspond with each other?
 
 ### Structure reconstruction
 
-Load all extracted features from an 
+<!--Load all extracted features from an 
 initial pair of images. Builds a 
-projection of the points in 3D space by using the camera position.
+projection of the points in 3D space by using the camera position.-->
 
+The software will recognize the features from all the loaded images. Builds a 
+projection of the points in 3D space by using the camera position.
 
 The scene is incrementally 
 extended by adding new images and 
 triangulating new points. A much denser set of features is produced.
 
 The output of this process is 
-a "point cloud" or a collection of points. 
+a "point cloud" or a collection of points like we saw [before](# Definition). 
 The 3D model is created by creating a
-triangular mesh. The texture is then mapped to this surface.
+triangular mesh. The texture is then mapped to the surface like we saw [before](# Definition).
+
+
+![https://data.d4science.org/shub/E_bU9MSEZaRGpOaGFJZ2hsL1dCWi85U0NZbUJiVDh5YlBlUmxmTGI3UE9ic1dvOEdkOGFpS3JnYmRrelYrY0JOaQ==](https://data.d4science.org/shub/E_bU9MSEZaRGpOaGFJZ2hsL1dCWi85U0NZbUJiVDh5YlBlUmxmTGI3UE9ic1dvOEdkOGFpS3JnYmRrelYrY0JOaQ==)*Matching features in multiple images*
+
+We can apply a mask to the whole sets of images so that the algorithom does not have to calculate all the points that we are not interested.In this case when using turntables is reccomended to shoot always one image without the object.
+
+![https://data.d4science.org/shub/E_L3Y4dlE2Rm9ZVU1BcCtSaHFoS1A5UHZpUEpXYVdaK2tRNm9MOGdjT1Y0YXE3bkdvR2FTdU1MSlp1R3ozRVVwYg==](https://data.d4science.org/shub/E_L3Y4dlE2Rm9ZVU1BcCtSaHFoS1A5UHZpUEpXYVdaK2tRNm9MOGdjT1Y0YXE3bkdvR2FTdU1MSlp1R3ozRVVwYg==)*Mask  used in multiple images*
+
+
+![https://data.d4science.org/shub/E_dUFhdW4vd2x0SVRNOWFjOWVjc1pwU2FyaFJXWlA2VnBzWjI1QnN5L3UvalMxYlVVSFhkMmEwb0FqTlkrdHZaMg==](https://data.d4science.org/shub/E_dUFhdW4vd2x0SVRNOWFjOWVjc1pwU2FyaFJXWlA2VnBzWjI1QnN5L3UvalMxYlVVSFhkMmEwb0FqTlkrdHZaMg==)*Reconstructed model from matching features in multiple images*
  
  
 ## Lessons for acquisition
