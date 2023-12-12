@@ -1,10 +1,11 @@
----
-title: 'Links'
-teaching: 10
-exercises: 2
----
+<!-- 
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use. 
+ -->
 
-## Other tutorials
-
-- Historic England's Photogrammetry tutorial: 
-https://historicengland.org.uk/images-books/publications/photogrammetric-applications-for-cultural-heritage/heag066-photogrammetric-applications-cultural-heritage/
+[pandoc]: https://pandoc.org/MANUAL.html
+[r-markdown]: https://rmarkdown.rstudio.com/
+[rstudio]: https://www.rstudio.com/
+[carpentries-workbench]: https://carpentries.github.io/sandpaper-docs/
+[setup]: setup.Rmd#equipment
+[ZEPHYR]: https://www.3dflow.net

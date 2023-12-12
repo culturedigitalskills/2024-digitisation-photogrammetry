@@ -129,9 +129,8 @@ extended by adding new images and
 triangulating new points. A much denser set of features is produced.
 
 The output of this process is 
-a "point cloud" or a collection of points like we saw [before](# Definition). 
-The 3D model is created by creating a
-triangular mesh. The texture is then mapped to the surface like we saw [before](# Definition).
+a "point cloud" or a [collection of points](#definition). 
+The 3D model is created by creating a [triangular mesh](#definition). The texture is then mapped to the [surface](#definition).
 
 
 ![https://data.d4science.org/shub/E_bU9MSEZaRGpOaGFJZ2hsL1dCWi85U0NZbUJiVDh5YlBlUmxmTGI3UE9ic1dvOEdkOGFpS3JnYmRrelYrY0JOaQ==](https://data.d4science.org/shub/E_bU9MSEZaRGpOaGFJZ2hsL1dCWi85U0NZbUJiVDh5YlBlUmxmTGI3UE9ic1dvOEdkOGFpS3JnYmRrelYrY0JOaQ==)*Matching features in multiple images*
@@ -155,5 +154,4 @@ finding and matching features.
 enough texture itself, you could 
 place additional background objects, 
 such as posters, etc.
-
 
