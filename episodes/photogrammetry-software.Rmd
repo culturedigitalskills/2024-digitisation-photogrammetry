@@ -27,15 +27,15 @@ Once the photographs have been acquired,
 the next step is to transfer the images 
 to a PC (refer to [setup][setup] for specifications).
 
-Please use the software we downloaded in the setup section [Raw Therapee](https://www.3dflow.net) if you need to convert the images from raw file format to various other formats.
+Please use the software we downloaded in the setup section [Raw Therapee](https://www.3dflow.net) when you need to convert the images from raw file format to various other formats.
 
 Whatever file format you use it must be readable form the software you are about to use for reconstructing the models and you must be sure you choose a format that retains the Exif information within the file.
-if you are not sure if your file has the information needed there are lots of tool online that can provide with this information such as [ExifInfo.org](https://exifinfo.org/).
-Raw Therapee can also provide this information on the info panel however you should always check after exporting them.
+if you are not sure if your file has the information needed there are lots of tool online that can provide it such as [ExifInfo.org](https://exifinfo.org/).
+(Raw Therapee can also provide this information on the info panel however you should always check after exporting them.)
 
 Each photogrammetry software is quite different and will import different image files formats.
 
-*In this case the images that you have downloaded previously are already converted for you and although it is better you get use to the software at this stage you will not need to take further actions.*
+*In this case the images that you have downloaded previously are already converted for you and, although it is better you get use to some software for batch converting images, at this stage you will not need to take further actions.*
 
 
 
@@ -58,8 +58,8 @@ Within this folder, create another
 one named images. 
 Copy the images from the camera into the images folder.
  
-
-### Deleting the background
+<!--
+### Deleting the background 
 
 If you wish to delete the 
 background in the images, open one of the 
@@ -74,14 +74,14 @@ Click with the right mouse button on the
 background to select that area.
 
 Go to "save as" and save it in the 
-main project folder (NOT the images folder). 
+main project folder (NOT the images folder). -->
 
 ## Photogrammetry Software Workflow
 
 The following instructions are specific
-to Agisoft Metashape
+to 3DF Zephir.
 
-Go to the workflow menu and choose *Add Folder*
+Go to the workflow menu and choose *New Project*
  
 ### Import Images 
 
