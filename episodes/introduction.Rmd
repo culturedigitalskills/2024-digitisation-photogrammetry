@@ -58,9 +58,11 @@ But it is useful to be aware of what it works.-->
 
 Basic steps of the photogrammetry process
 
-1. Feature detection
-2. Feature matching
-3. Structure reconstruction
+**1. Feature detection** (originally performed manually but now performed automatically by the algorithm of the software)
+
+**2. Feature matching** (originally performed manually but now performed automatically by the algorithm of the software)
+
+**3. Structure reconstruction** (performed automatically by the algorithm of the software)
 
 
 ### Feature detection
@@ -75,10 +77,15 @@ in the image are obvious features to consider.
 :::::::::::challenge 
 
 ## Try it yourself?
+Open this image in Gimp or others photo editing software and try to recognize 6 or more distinctive features.
+
+[Match-1](https://data.d4science.org/shub/E_VGNNb0R2VVltRmxaOHlhSXZnczIrTkZkL1ZUUXZlTElBLzBWTHUzenREdXZSb1RMcXNwdDBNS1Qwb2d3aWNnWQ==)
+
 What points would you choose?
 :::::::
 :::::::::::::solution
-aaa
+[Here](https://data.d4science.org/shub/E_WW9zZUluVUxmVzJFRlpDcFV3UE5MeHVJNU96d25LWlJDdDhZZlJSQnpjcWptZVowRS9YcGxHWHZUN0RmLzVlSQ==) you can download an image of the possible solution. You will need to zoom into the image to see the exact feature points.
+
 ::::::::::::::::::::
 
  
@@ -89,20 +96,23 @@ different views.
 The goal of this step is to 
 detect (at least some of) 
 correspondence between features in 
-two or more images. 
-
-We want a reliable result.
-
+two or more images.
 
 
 :::::::::::challenge 
 
 ## Try it yourself?
+
+Open this image in Gimp or others photo editing software and try to recognize 6 or more features already found in the previous image.
+
+[Match-2](https://data.d4science.org/shub/E_NXBISUtZTnhDbHVGNHNxUXh0cEQzSGVldFVPMEtWWisyVU8xVmFCWWliTTNEQWIwNGx2VldUQ0xhWUZOMkk2SA==)
+
+
 Do the features below correspond with each other?
 
 :::::::
 :::::::::::::solution
-
+[Here](https://data.d4science.org/shub/E_WFZSR0Z0Y29CTzNMNmVTdWNxelZqdFc2bkxOV3VuWU1nc0ViMVQ2MVU3RmtVMGZYd1NWclU4b24zWjB6R3VTUA==) you can download an image of the solution. You will need to zoom into the image to see the exact feature points.
 ::::::::::::::::::::
 
 ### Structure reconstruction
