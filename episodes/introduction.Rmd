@@ -1,45 +1,57 @@
 ---
-title: 'Basics'
+title: "Basics"
 teaching: 10
 exercises: 2
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using R Markdown and `{sandpaper}`?
+<!-- - How do you write a lesson using R Markdown and `{sandpaper}`?-->
+- How do you cupture images and create 3d models for 3D digital preservation and publication ?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with the new lesson template
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+<!-- - Explain how to use markdown with the new lesson template
+- Demonstrate how to include pieces of code, figures, and nested challenge blocks-->
+- Explain how the Photogrammetry capturing process works.
+- Explain the techniques for creating 3d objects from 2d images positioned at a different interval in space with specialized software.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-Hello
-
-
-
-
-
-
 
 ## Definition
-The art, science, and technology of 
+Photogrammetry is the art, science, and technology of 
 obtaining spatial information 
 about physical objects and environments 
 through processes of capturing, 
-measuring and interpreting photographic images.
+measuring and interpreting photographic 2d images by mean of **triangulation**.
+![https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/TriangulationIdeal.svg/1280px-TriangulationIdeal.svg.png?20070822205517](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/TriangulationIdeal.svg/1280px-TriangulationIdeal.svg.png?20070822205517)*Triangulation meaning in photogrammetry - from wikipedia: https://en.wikipedia.org/wiki/Triangulation_(computer_vision)*
+
+From this process the obtained information can be used to generate [point-clouds](https://en.wikipedia.org/wiki/Point_Cloud) where each point has now three-dimensional coordinates.
+
+![https://data.d4science.org/shub/E_aFlFV0paV3RQaGQwTkJrTGVpd0pVVktJdFpEeXh4b2gySU8yMjJTNGJybFc4Z2JNS2tqWm5raHRXK0U4VHFVRA==](https://data.d4science.org/shub/E_aFlFV0paV3RQaGQwTkJrTGVpd0pVVktJdFpEeXh4b2gySU8yMjJTNGJybFc4Z2JNS2tqWm5raHRXK0U4VHFVRA==)*Dense Point Cloud example of a small object*
 
 
-Underlying technology is more familiar 
+These points can be further use to create a [3d meshes by mean of onother type of triangulation](https://en.wikipedia.org/wiki/Mesh_generation). 
+
+![https://data.d4science.org/shub/E_a0hoL2Y2dmZpREorYjNGTkx3QXBGcnZoQUd5NlhIVHQ0eStLZkVMd0hXN2RhckxRMDM5dG9ralpMaFFlSEs4cg==](https://data.d4science.org/shub/E_a0hoL2Y2dmZpREorYjNGTkx3QXBGcnZoQUd5NlhIVHQ0eStLZkVMd0hXN2RhckxRMDM5dG9ralpMaFFlSEs4cg==)*3d Mesh of a small object*
+
+
+The mesh can then be [texture mapped](https://en.wikipedia.org/wiki/Texture_mapping) for the final realistic appearance of the studied subject.
+
+![https://data.d4science.org/shub/E_ZEp0UkZxbFFvdUVXN29QMmtqWldTdDlBRnBhZUdUcTBPZUhJbG44ZEFLOEsxM2R5dlBZaE1yUG9XVUZzcHZBVg==](https://data.d4science.org/shub/E_ZEp0UkZxbFFvdUVXN29QMmtqWldTdDlBRnBhZUdUcTBPZUhJbG44ZEFLOEsxM2R5dlBZaE1yUG9XVUZzcHZBVg==)*3d Mesh with texture of a small object*
+
+
+
+<!--Underlying technology is more familiar
 that we think! We can happily ignore 
 the concepts and formulas used 
 in the software. 
 
-But it is useful to be aware of what it works.
+But it is useful to be aware of what it works.-->
 
 
 ## Photogrammetry Process
