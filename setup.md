@@ -33,9 +33,12 @@ used during the process.
 options, and the steps
 described will change depending on the software used.
 -->
+
 - **Image processing software**: such as [Raw Therapee](https://www.rawtherapee.com/) for batch converting raw images from camera to use in photogrammetry software, [GIMP](https://www.gimp.org/) which allows to
 manipulate and post-process textures generated during the process. 
 - **Photogrammetry software**: there are various options, and the steps described will vary depending on the software used. [Metashape](https://www.agisoft.com/) - commercial, [Meshroom](https://alicevision.org) - open source.
+
+
 **For this specific tutorial** we will use [3DF ZEPHYR](https://www.3dflow.net) - free basic version.
 
 ## Equipment
