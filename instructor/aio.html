@@ -322,9 +322,10 @@
 <div class="card-body">
 <div class="inner">
 <h3 class="card-title">Questions</h3>
+<!-- - How do you write a lesson using R Markdown and `{sandpaper}`?-->
 <ul>
-<li>How do you write a lesson using R Markdown and
-<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
+<li>How do you cupture images and create 3d models for 3D digital
+preservation and publication ?</li>
 </ul>
 </div>
 </div>
@@ -333,26 +334,45 @@
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
+<!-- - Explain how to use markdown with the new lesson template
+- Demonstrate how to include pieces of code, figures, and nested challenge blocks-->
 <ul>
-<li>Explain how to use markdown with the new lesson template</li>
-<li>Demonstrate how to include pieces of code, figures, and nested
-challenge blocks</li>
+<li>Explain how the Photogrammetry capturing process works.</li>
+<li>Explain the techniques for creating 3d objects from 2d images
+positioned at a different interval in space with specialized
+software.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<p>Hello</p>
 <section id="definition"><h2 class="section-heading">Definition<a class="anchor" aria-label="anchor" href="#definition"></a>
 </h2>
 <hr class="half-width">
-<p>The art, science, and technology of obtaining spatial information
-about physical objects and environments through processes of capturing,
-measuring and interpreting photographic images.</p>
-<p>Underlying technology is more familiar that we think! We can happily
-ignore the concepts and formulas used in the software.</p>
-<p>But it is useful to be aware of what it works.</p>
+<p>Photogrammetry is the art, science, and technology of obtaining
+spatial information about physical objects and environments through
+processes of capturing, measuring and interpreting photographic 2d
+images by mean of <strong>triangulation</strong>. <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/TriangulationIdeal.svg/1280px-TriangulationIdeal.svg.png?20070822205517" alt="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/TriangulationIdeal.svg/1280px-TriangulationIdeal.svg.png?20070822205517" class="figure"><em>Triangulation
+meaning in photogrammetry - from wikipedia: <a href="https://en.wikipedia.org/wiki/Triangulation_(computer_vision)" class="external-link uri">https://en.wikipedia.org/wiki/Triangulation_(computer_vision)</a></em></p>
+<p>From this process the obtained information can be used to generate <a href="https://en.wikipedia.org/wiki/Point_Cloud" class="external-link">point-clouds</a> where
+each point has now three-dimensional coordinates.</p>
+<p><img src="https://data.d4science.org/shub/E_aFlFV0paV3RQaGQwTkJrTGVpd0pVVktJdFpEeXh4b2gySU8yMjJTNGJybFc4Z2JNS2tqWm5raHRXK0U4VHFVRA==" alt="https://data.d4science.org/shub/E_aFlFV0paV3RQaGQwTkJrTGVpd0pVVktJdFpEeXh4b2gySU8yMjJTNGJybFc4Z2JNS2tqWm5raHRXK0U4VHFVRA==" class="figure"><em>Dense
+Point Cloud example of a small object</em></p>
+<p>These points can be further use to create a <a href="https://en.wikipedia.org/wiki/Mesh_generation" class="external-link">3d meshes by mean
+of onother type of triangulation</a>.</p>
+<p><img src="https://data.d4science.org/shub/E_a0hoL2Y2dmZpREorYjNGTkx3QXBGcnZoQUd5NlhIVHQ0eStLZkVMd0hXN2RhckxRMDM5dG9ralpMaFFlSEs4cg==" alt="https://data.d4science.org/shub/E_a0hoL2Y2dmZpREorYjNGTkx3QXBGcnZoQUd5NlhIVHQ0eStLZkVMd0hXN2RhckxRMDM5dG9ralpMaFFlSEs4cg==" class="figure"><em>3d
+Mesh of a small object</em></p>
+<p>The mesh can then be <a href="https://en.wikipedia.org/wiki/Texture_mapping" class="external-link">texture mapped</a>
+for the final realistic appearance of the studied subject.</p>
+<p><img src="https://data.d4science.org/shub/E_ZEp0UkZxbFFvdUVXN29QMmtqWldTdDlBRnBhZUdUcTBPZUhJbG44ZEFLOEsxM2R5dlBZaE1yUG9XVUZzcHZBVg==" alt="https://data.d4science.org/shub/E_ZEp0UkZxbFFvdUVXN29QMmtqWldTdDlBRnBhZUdUcTBPZUhJbG44ZEFLOEsxM2R5dlBZaE1yUG9XVUZzcHZBVg==" class="figure"><em>3d
+Mesh with texture of a small object</em></p>
+<!--Underlying technology is more familiar
+that we think! We can happily ignore 
+the concepts and formulas used 
+in the software. 
+
+But it is useful to be aware of what it works.-->
 </section><section id="photogrammetry-process"><h2 class="section-heading">Photogrammetry Process<a class="anchor" aria-label="anchor" href="#photogrammetry-process"></a>
 </h2>
 <hr class="half-width">
