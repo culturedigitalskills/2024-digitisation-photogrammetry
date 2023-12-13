@@ -31,9 +31,9 @@ Please use the software we downloaded in the setup section [Raw Therapee](https:
 
 Whatever file format you use it must be readable form the software you are about to use for reconstructing the models and you must be sure you choose a format that retains the Exif information within the file.
 if you are not sure if your file has the information needed there are lots of tool online that can provide it such as [ExifInfo.org](https://exifinfo.org/).
-(Raw Therapee can also provide this information on the info panel however you should always check after exporting them.)
+(Raw Therapee can also provide this information on the info panel however you should always check after exporting them.
 
-Each photogrammetry software is quite different and will import different image files formats.
+Every photogrammetry software is quite different and will import different image files formats.
 
 *In this case the images that you have downloaded previously are already converted for you and, although it is better you get use to some software for batch converting images, at this stage you will not need to take further actions.*
 
@@ -74,7 +74,7 @@ Click with the right mouse button on the
 background to select that area.
 
 Go to "save as" and save it in the 
-main project folder (NOT the images folder). -->
+main project folder (NOT the images folder).
 
 ## Photogrammetry Software Workflow
 
@@ -199,7 +199,90 @@ Choose the following options.
 They are suitable for most models. 
 Then click *OK*.
  
+Now you will have a 3D model with the texture. -->
+
+
+## Photogrammetry Software Workflow
+
+The following instructions are specific
+to 3DF Zephir.
+
+Go to the workflow menu and choose **New Project**, you will be presented with a the *"New project wizard window"*.
+
+Choose the first box *Sparse* in order to go trough the all process manually. Click **Next>** you will be presented with the  *"Photos selection page"* .
+ 
+### Import Images 
+
+- Browse to the folder that contains your 
+images and click **Select Folder** or Select a your **Single Images**. Click **Next>**
+
+- you will be presented with the  *"Camera calibration page*". If you have a separate Exif file for calibrating the camera you can add it here, and you can also manually calibrate you camera in the *"Modify Calibration page"* otherwise go on and click **Next>**
+
+
+### Import Masks (optional)
+
+In the *"Photos selection page"* there is an option to import the mask, if selected a new option will be presented in the 
+
+
+
+### Align Photos
+
+The next step is to align the photos. For
+this:
+
+- you will be presented with the *"Camera orientation page"*. Keep the general setting and click **Next>**
+- you will be presented with the  *"Start reconstruction page"*. Click **Run**
+- you will be presented with the *"Reconstruction Successful page*" Click **Finish**
+- Save the project in the same [folder](# Create a folder) created before.
+
+*"Once the camera orientation phase has been completed, the sparse point cloud will appear in the workspace as well as the oriented cameras identified by blue pyramids."* Now you can familiarize with the navigation of the 3d space and the interface. For example go to **Scene-> Bounding Box-> Edit Bounding box** and limit the created sparse cloud within the the bounding box.This will speed-up the process when creating the final mesh. 
+
+
+### Build dense cloud (optional)
+The next step is to create a Dense  Point  Cloud. For
+this:
+
+- Go to *Workflow* in the menu and select *Advance-> Dense Point Cloud Generation*.
+- you will be presented with the  *" Dense Point Cloud Generation wizard"*. **Select All Cameras** and Click **Next>**
+- you will be presented with the  *" Dense Point Cloud Creation page"*. Leave the general settings and click **Next>**
+- you will be presented with the  *"Start Densification page"*. Click **Run**
+
+Save the progress so far. 
+
+### Build mesh
+
+Go to *Workflow* in the menu
+and select *Build Mesh*.
+
+Choose your preferred options. 
+Make sure *Source data* has *Dense cloud*
+selected. 
+Then click OK.
+ 
+
+This process will produce a 3D model. 
+The 3D model can be exported, 
+or edited within the scene. 
+
+### Build Texture
+
+The final, optional step is to re-project 
+the texture onto the 3D surface. 
+This makes the photographic quality much better.
+
+
+Go to *Workflow* in the menu
+and select *Build Texture*.
+
+
+Choose the following options. 
+They are suitable for most models. 
+Then click *OK*.
+ 
 Now you will have a 3D model with the texture.
 
+
+
+https://www.3dflow.net/zephyr-doc/en/Extractingadensepointcloud.html
 
 
