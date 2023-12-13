@@ -63,11 +63,23 @@ shooting movements, depending on the type of
 the object and scene you want to acquire.
 
 
-
- 
 Source: [http://www.agisoft.com/pdf/tips_and_tricks/Image%20Capture%20Tips%20-
 %20Equipment%20and%20Shooting%20Scenarios.pdf](http://www.agisoft.com/pdf/tips_and_tricks/Image%20Capture%20Tips%20-
 %20Equipment%20and%20Shooting%20Scenarios.pdf)
+
+
+## Tips for acquisition
+
+- Capture images with good texture.
+- Avoid completely texture-less, 
+transparent and reflective images. 
+The computer will have difficulty 
+finding and matching features.
+- If the scene does not contain 
+enough texture itself, you could 
+place additional background objects, 
+such as posters, etc.
+
 
 
 

@@ -8,7 +8,18 @@ exercises: 2
 
 
 
-## Definition
+## Definition (what?)
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- What is photogrammetry and how differes from classic photography ?
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- Explains what is photogrammetry
+
+- Explain the techniques how this technique is not classical photography.
+::::::::::::::::::::::::::::::::::::::::::::::::
 Photogrammetry is the art, science, and technology of 
 obtaining spatial information
 about physical objects and environments 
@@ -22,7 +33,7 @@ measuring and interpreting photographic 2d images by mean of **triangulation**.
 
 ![https://upload.wikimedia.org/wikipedia/commons/4/42/Sede_da_Fazenda_do_Pinhal_%28159%29%2C_N.ELAC.jpg](https://upload.wikimedia.org/wikipedia/commons/4/42/Sede_da_Fazenda_do_Pinhal_%28159%29%2C_N.ELAC.jpg)*Sede da Fazenda do Pinhal (159), N.ELAC. NELAC, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons*
 
-## Contextualization
+## Contextualization (Why, where and when?)
 :::::::::::::::::::::::::::::::::::::: questions 
 
 
@@ -34,13 +45,13 @@ measuring and interpreting photographic 2d images by mean of **triangulation**.
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Showing various scenarios where this technique can be applied to capture real world objects and environments.
+- Shows various scenarios where this technique can be applied to capture real world objects and environments.
 
 - Advantages and disadvantages for the use of this techniques which creates 3d objects from 2d images. 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Process overview
+## Process overview (How?)
 :::::::::::::::::::::::::::::::::::::: questions 
 <!-- - How do you write a lesson using R Markdown and `{sandpaper}`?-->
 - How do you capture images and create 3d models for 3D digital preservation and publication ?
@@ -49,9 +60,9 @@ measuring and interpreting photographic 2d images by mean of **triangulation**.
 ::::::::::::::::::::::::::::::::::::: objectives
 <!-- - Explain how to use markdown with the new lesson template
 - Demonstrate how to include pieces of code, figures, and nested challenge blocks-->
-- Explain how the Photogrammetry capturing process works
+- Explains how the Photogrammetry capturing process works
 
-- Explain the techniques for creating 3d objects from 2d images positioned at a different interval in space with specialized software.
+- Explains the techniques for creating 3d objects from 2d images positioned at a different interval in space with specialized software.
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
@@ -169,15 +180,13 @@ We can apply a mask to the whole sets of images so that the algorithm does not h
 ![https://data.d4science.org/shub/E_dUFhdW4vd2x0SVRNOWFjOWVjc1pwU2FyaFJXWlA2VnBzWjI1QnN5L3UvalMxYlVVSFhkMmEwb0FqTlkrdHZaMg==](https://data.d4science.org/shub/E_dUFhdW4vd2x0SVRNOWFjOWVjc1pwU2FyaFJXWlA2VnBzWjI1QnN5L3UvalMxYlVVSFhkMmEwb0FqTlkrdHZaMg==)*Reconstructed model from matching features in multiple images*
  
  
-## Tips for acquisition
 
-- Capture images with good texture.
-- Avoid completely texture-less, 
-transparent and reflective images. 
-The computer will have difficulty 
-finding and matching features.
-- If the scene does not contain 
-enough texture itself, you could 
-place additional background objects, 
-such as posters, etc.
+## Adding real world scale
+
+
+
+
+
+
+
 
