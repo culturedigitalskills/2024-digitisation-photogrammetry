@@ -215,7 +215,6 @@ Choose the first box *Sparse* in order to go trough the all process manually. Cl
 
 - Browse to the folder that contains your 
 images and click **Select Folder** or Select a your **Single Images**. Click **Next>**
-
 - you will be presented with the  *"Camera calibration page*". If you have a separate Exif file for calibrating the camera you can add it here, and you can also manually calibrate you camera in the *"Modify Calibration page"* otherwise go on and click **Next>**
 
 
@@ -270,9 +269,9 @@ this:
 - when finished you will be presented with the *"Mesh Creation successful"* page, click **Finish**. This process will produce a 3D model.
 - Once happy save the project in the same [folder](# Create a folder) created before.
 
-### Build Texture
+### Build the Texture
 
-The final step is to re-project the texture onto the 3D surface.
+The final step is to re-project the texture onto the 3D surface.For this:
 
 - Go to *Workflow* in the menu and select *Textured Mesh Generation*
 - you will be presented with the  *"Textured Mesh Generation wizard"*. **Drop Down** the name of your mesh, **Select All Cameras** and click **Next>**
@@ -284,8 +283,32 @@ The final step is to re-project the texture onto the 3D surface.
 
 
 ### Exporting the mesh with textures for High-Res visualization
+At this point we need to export an high resolution mesh for different purposes. For this:
+
+- Go to *Export* in the menu and select *Export Textured Mesh*. **Drop Down** the name of your mesh, **Drop Down** your preferred format and click **Export**
+- create another folder called *"Exports"* within the same folder of the images and save the model in this folder.
+
 
 ### Exporting the mesh with textures for online publishing
+
+At this point we need to export the model at a lower resolution mesh for online publishing. For this:
+
+- Select your textured mesh in the right window *"Textured Meshes"* **Right Click** on it and select **Clone**. A copy of your mesh will be created.
+- Go to *Tools* in the menu and select *Mesh Filters-> Decimatiom*. You will be presented with the *"Mesh decimation"* small window. **Drop Down** the name of your second mesh, select *preserve boundaries* and *Apply Filter*
+
+At this point we need to regenerate the texture for the lower resolution mesh. To do so we need to repeat the process above:
+
+- Go to *Workflow* in the menu and select *Textured Mesh Generation*
+- you will be presented with the  *"Textured Mesh Generation wizard"*. **Drop Down** the name of your new mesh, **Select All Cameras** and click **Next>**
+- you will be presented with the *"Texturing"* page. Leave the general settings and click **Next>**
+- you will be presented with the  *"Textured Mesh Generation wizard"* page. Click **Run**
+- when finished you will be presented with the *"Textured Mesh Generation wizard result"* page, click **Finish**. Now you will have the new low resolution 3D model with the texture.
+- Save the project in the same [folder](# Create a folder) created before.
+- Go to *Export* in the menu and select *Export Textured Mesh*. **Drop Down** the name of your second mesh, **Drop Down** the format ***.glb*** or ***.gltf*** and click **Export**
+- create another folder called *"Exports"* within the same folder of the images and save the model in this folder.
+
+<iframe src="https://gltf-viewer.donmccurdy.com#kiosk=1&model=https://data.d4science.org/shub/E_azJzMVp6MENORnRUd0FEdElCa3g5WVBIdEQ5cldBUlJwOHkyYjRITHpTYmVUcFdIUDc1VzRhWTFGdWc5SytNVA==" style="width: 100%;" height="400px" frameBorder="0"></iframe>
+
 
 
 
