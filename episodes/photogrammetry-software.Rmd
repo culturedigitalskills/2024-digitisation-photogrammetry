@@ -35,7 +35,7 @@ if you are not sure if your file has the information needed there are lots of to
 
 Every photogrammetry software is quite different and will import different image files formats.
 
-*In this case the images that you have downloaded previously are already converted for you and, although it is better you get use to some software for batch converting images, at this stage you will not need to take further actions.*
+*In this case the images that you have downloaded previously are already converted for you and, although it is better you get use to this software for batch converting images, at this stage you will not need to take further actions.*
 
 
 
@@ -43,7 +43,7 @@ Every photogrammetry software is quite different and will import different image
 
 The steps to use the software are as follows:
 
-### Create a folder 
+### Organizing the workspace
 
 Using a suitable name which reflects your project, transfer all
 images into a folder.
@@ -211,20 +211,28 @@ Go to the workflow menu and choose **New Project**, you will be presented with a
 
 Choose the first box *Sparse* in order to go trough the all process manually. Click **Next>** you will be presented with the  *"Photos selection page"* .
  
-### Import Images 
+### Importing Images 
 
 - Browse to the folder that contains your 
 images and click **Select Folder** or Select a your **Single Images**. Click **Next>**
 - you will be presented with the  *"Camera calibration page*". If you have a separate Exif file for calibrating the camera you can add it here, and you can also manually calibrate you camera in the *"Modify Calibration page"* otherwise go on and click **Next>**
 
 
-### Import Masks (optional)
-
-In the *"Photos selection page"* there is an option to import the mask, if selected a new option will be presented in the 
+![https://data.d4science.org/shub/E_WHBodVMwdUZ5TXU3Z3h3MDhrQjBIMmFybkNGRXN6aEtqMUNuUWY2QlFKVmF5V1hxbzRFaDd6Q0ZIT0NsZ1BaNQ==](https://data.d4science.org/shub/E_WHBodVMwdUZ5TXU3Z3h3MDhrQjBIMmFybkNGRXN6aEtqMUNuUWY2QlFKVmF5V1hxbzRFaDd6Q0ZIT0NsZ1BaNQ==)*Original photo*
 
 
 
-### Align Photos
+### Importing Masks (optional)
+
+In the *"Photos selection page"* there is an option to import the mask, if selected a new option will be presented and a new tool called **Masquerade** will be available before importing the images.
+Within this tool (which is also available from the main interface), it will be possible to generate a Mask to apply to all the images.
+The tools is quite simple to use so that if you want to try to apply a mask you can use a sample image provided in the sets of the downloaded dataset as a first file.
+
+![https://data.d4science.org/shub/E_RFF0RkVickVCSmJCSHFtZm10MEYwNXFCN2xtY2JSVmY5MmxHVlo4a01WRUppcW9GK1Z0UzlXeHJXK1hJR3pwQQ==](https://data.d4science.org/shub/E_RFF0RkVickVCSmJCSHFtZm10MEYwNXFCN2xtY2JSVmY5MmxHVlo4a01WRUppcW9GK1Z0UzlXeHJXK1hJR3pwQQ==)*Original photo Mask*
+
+
+
+### Aligning Photos
 
 The next step is to align the photos. For
 this:
@@ -234,7 +242,9 @@ this:
 - you will be presented with the *"Reconstruction Successful page"*. Click **Finish**
 - Save the project in the same [folder](# Create a folder) created before.
 
-*"Once the camera orientation phase has been completed, the sparse point cloud will appear in the workspace as well as the oriented cameras identified by blue pyramids."* Now you can familiarize with the navigation of the 3d space and the interface. For example go to **Scene-> Bounding Box-> Edit Bounding box** and limit the created sparse cloud within the the bounding box.This will speed-up the process when creating the final mesh. 
+*"Once the camera orientation phase has been completed, the sparse point cloud will appear in the workspace as well as the oriented cameras identified by blue pyramids."* Now you can familiarize with the navigation of the 3d space and the interface. For example go to **Scene-> Bounding Box-> Edit Bounding box** and limit the created sparse cloud within the the bounding box.This will speed-up the process when creating the final mesh.
+
+![https://data.d4science.org/shub/E_dEtEY3RCZFYyVjMxMjNrOEcvYUxyUENieHpZZUdWc0g1TEVVVUtUTFhWTTRXZ0JON21tRkVKN2ZCREVjcFRxcA==](https://data.d4science.org/shub/E_dEtEY3RCZFYyVjMxMjNrOEcvYUxyUENieHpZZUdWc0g1TEVVVUtUTFhWTTRXZ0JON21tRkVKN2ZCREVjcFRxcA==)*Sparse Point Cloud*
 
 
 ### Build dense cloud (optional)
@@ -248,9 +258,11 @@ this:
 - when finished you will be presented with the *"Dense Point Cloud generation successful"* page, click **Finish**
 - Save the project in the same [folder](# Create a folder) created before.
 
+![https://data.d4science.org/shub/E_enEwZ01YYXFVdVlrL3NGbXQrWkoxM2VOYk1sQkY3VVI1L014RUV5UjJsMGwvYWZvcU85endtdXpzU3A1OUpleA==](https://data.d4science.org/shub/E_enEwZ01YYXFVdVlrL3NGbXQrWkoxM2VOYk1sQkY3VVI1L014RUV5UjJsMGwvYWZvcU85endtdXpzU3A1OUpleA==)*Dense Point Cloud*
 
-### Build dense cloud (optional)
-Before trying to create the final mesh we should create all the unwanted point that where generated within the bounding box. We could you the same bounding box to restrict even more the area where the algorithm is going to be appled for the triangulation. However in order to be accustom with the interface we will delete all the unecessary points manually.
+
+### Cleaning the dense cloud (optional)
+Before trying to create the final mesh we should delete all the unwanted points that where generated within the bounding box. We could do that by using the same bounding box to restrict even more the area where the algorithm is going to be applied for the triangulation. However in order to be accustom with the software interface, we will delete all the unecessary points manually.
 
 - Go to the *Editing panel* on your right and choose **By Hand**. Choose **Poly** and  **Remove**.
 - Start selecting the points that you do not need and once selected deleted them  with the del key.
@@ -258,7 +270,7 @@ Before trying to create the final mesh we should create all the unwanted point t
 
 
 
-### Build mesh
+### Building the mesh
 The next step is to create a Dense PointCloud. For
 this:
 
@@ -269,7 +281,9 @@ this:
 - when finished you will be presented with the *"Mesh Creation successful"* page, click **Finish**. This process will produce a 3D model.
 - Once happy save the project in the same [folder](# Create a folder) created before.
 
-### Build the Texture
+![https://data.d4science.org/shub/E_eEIvTkZMYWdoM3pySDdjZUtjU0J1NGFya29vMDVyQ1ErQ0k5eHh1TVlXZkcxaVBUL21ydGlEa1NPeXU0UUhzZQ==](https://data.d4science.org/shub/E_eEIvTkZMYWdoM3pySDdjZUtjU0J1NGFya29vMDVyQ1ErQ0k5eHh1TVlXZkcxaVBUL21ydGlEa1NPeXU0UUhzZQ==)*High Resolution Mesh*
+
+### Building the Texture
 
 The final step is to re-project the texture onto the 3D surface.For this:
 
@@ -281,6 +295,8 @@ The final step is to re-project the texture onto the 3D surface.For this:
 - Save the project in the same [folder](# Create a folder) created before.
 
 
+![https://data.d4science.org/shub/E_R21uT3hnMGRjeGZ0WHVZUkgwTW9FLzFTYzJIaWYvVGY4RWltQ1ZkZmRiZTlndExkMEtPdGRsQll3N0UzZnBVbw==](https://data.d4science.org/shub/E_R21uT3hnMGRjeGZ0WHVZUkgwTW9FLzFTYzJIaWYvVGY4RWltQ1ZkZmRiZTlndExkMEtPdGRsQll3N0UzZnBVbw==)*High Resolution Mesh Texture*
+
 
 ### Exporting the mesh with textures for High-Res visualization
 At this point we need to export an high resolution mesh for different purposes. For this:
@@ -288,6 +304,8 @@ At this point we need to export an high resolution mesh for different purposes. 
 - Go to *Export* in the menu and select *Export Textured Mesh*. **Drop Down** the name of your mesh, **Drop Down** your preferred format and click **Export**
 - create another folder called *"Exports"* within the same folder of the images and save the model in this folder.
 
+
+![https://data.d4science.org/shub/E_Zk92OG5TUEN5ZGx1ais1WS80UWdVVEZORGRDKzl1YjNLR2syMWZYY3JFcTBBVGhQTSs5MjdFZTI4NVR3U2p1ZQ==](https://data.d4science.org/shub/E_Zk92OG5TUEN5ZGx1ais1WS80UWdVVEZORGRDKzl1YjNLR2syMWZYY3JFcTBBVGhQTSs5MjdFZTI4NVR3U2p1ZQ==)*High Resolution Mesh Textured*
 
 ### Exporting the mesh with textures for online publishing
 
@@ -307,7 +325,7 @@ At this point we need to regenerate the texture for the lower resolution mesh. T
 - Go to *Export* in the menu and select *Export Textured Mesh*. **Drop Down** the name of your second mesh, **Drop Down** the format ***.glb*** or ***.gltf*** and click **Export**
 - create another folder called *"Exports"* within the same folder of the images and save the model in this folder.
 
-<iframe src="https://gltf-viewer.donmccurdy.com#kiosk=1&model=https://data.d4science.org/shub/E_azJzMVp6MENORnRUd0FEdElCa3g5WVBIdEQ5cldBUlJwOHkyYjRITHpTYmVUcFdIUDc1VzRhWTFGdWc5SytNVA==" style="width: 100%;" height="400px" frameBorder="0"></iframe>
+<iframe src="https://gltf-viewer.donmccurdy.com#kiosk=1&model=https://data.d4science.org/shub/E_azJzMVp6MENORnRUd0FEdElCa3g5WVBIdEQ5cldBUlJwOHkyYjRITHpTYmVUcFdIUDc1VzRhWTFGdWc5SytNVA==" style="width: 100%;" height="400px" bgColor="#dbdbdb" frameBorder="0"></iframe>
 
 
 
