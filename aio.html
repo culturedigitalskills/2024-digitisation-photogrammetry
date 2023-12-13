@@ -57,7 +57,7 @@
     </div>
   </div>
   <hr></header><nav class="navbar navbar-expand-xl navbar-light bg-white bottom-nav incubator" aria-label="Main Navigation"><div class="container-fluid nav-container">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
       <span class="menu-title">Menu</span>
     </button>
@@ -69,7 +69,7 @@
     </div>
     <div class="search-icon-sm">
       <!-- TODO: do not show until we have search
-      <i role="img" aria-label="search button" data-feather="search"></i>
+        <i role="img" aria-label="search button" data-feather="search"></i>
       -->
     </div>
     <div class="desktop-nav">
@@ -123,7 +123,7 @@
         <!-- START: inst/pkgdown/templates/navbar.html -->
 <div id="sidebar-col" class="col-lg-4">
   <div id="sidebar" class="sidebar">
-      <nav aria-labelledby="flush-headingEleven"><button role="button" aria-label="close menu" alt="close menu" aria-expanded="true" aria-controls="sidebar" class="collapse-toggle">
+      <nav aria-labelledby="flush-headingEleven"><button role="button" aria-label="close menu" alt="close menu" aria-expanded="true" aria-controls="sidebar" class="collapse-toggle" data-collapse="Collapse " data-episodes="Episodes ">
           <i class="search-icon" data-feather="x" role="img"></i>
         </button>
         <div class="sidebar-inner">
@@ -166,15 +166,14 @@
               <div id="flush-collapseEleven" class="accordion-collapse show collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlush11">
 
                 <div class="accordion-body">
-                  <div class="accordion accordion-flush" id="accordionFlush1">
+                  <?xml version="1.0" encoding="UTF-8"?><div class="accordion accordion-flush" id="accordionFlush1">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading1">
-        <a href="index.html">Summary and Setup</a>
+      <a href="index.html">Summary and Setup</a>
     </div>
-<!--/div.accordion-header-->
-        
+    <!--/div.accordion-header-->
   </div>
-<!--/div.accordion-item-->
+  <!--/div.accordion-item-->
 </div>
 <!--/div.accordion-flush-->
 
@@ -294,15 +293,12 @@
         
 <section id="aio-introduction"><p>Content from <a href="introduction.html">Basics</a></p>
 <hr>
-<p> Last updated on 2023-12-13 | 
+<p>Last updated on 2023-12-13 |
         
         <a href="https://github.com/culturedigitalskills/2023-digitisation-photogrammetry/edit/main/episodes/introduction.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
-<section id="definition-what"><h2 class="section-heading">Definition (what?)<a class="anchor" aria-label="anchor" href="#definition-what"></a>
-</h2>
-<hr class="half-width">
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
 <div class="row g-0">
@@ -311,8 +307,12 @@
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>What is photogrammetry and how differes from classic photography
-?</li>
+<li><p>What is photogrammetry and how differes from classic photography
+?</p></li>
+<li><p>Where can we use photogrammetry?</p></li>
+<li><p>why using photogrammetry instead of other techniques</p></li>
+<li><p>How do you capture images and create 3d models for 3D digital
+preservation and publication ?</p></li>
 </ul>
 </div>
 </div>
@@ -323,14 +323,25 @@
 <h3 class="card-title">Objectives</h3>
 <ul>
 <li><p>Explains what is photogrammetry</p></li>
-<li><p>Explain the techniques how this technique is not classical
+<li><p>Explains the techniques how this technique is not classical
 photography.</p></li>
+<li><p>Shows various scenarios where this technique can be applied to
+capture real world objects and environments.</p></li>
+<li><p>Advantages and disadvantages for the use of this techniques which
+creates 3d objects from 2d images</p></li>
+<li><p>Explains how the Photogrammetry capturing process works</p></li>
+<li><p>Explains the techniques for creating 3d objects from 2d images
+positioned at a different interval in space with specialized
+software.</p></li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
+<section id="definition-what"><h2 class="section-heading">Definition (What?)<a class="anchor" aria-label="anchor" href="#definition-what"></a>
+</h2>
+<hr class="half-width">
 <p>Photogrammetry is the art, science, and technology of obtaining
 spatial information about physical objects and environments through
 processes of capturing, measuring and interpreting photographic 2d
@@ -342,131 +353,11 @@ domain, via Wikimedia Commons</em></p>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Sede_da_Fazenda_do_Pinhal_%28159%29%2C_N.ELAC.jpg" alt="https://upload.wikimedia.org/wikipedia/commons/4/42/Sede_da_Fazenda_do_Pinhal_%28159%29%2C_N.ELAC.jpg" class="figure"><em>Sede
 da Fazenda do Pinhal (159), N.ELAC. NELAC, CC BY-SA 4.0 <a href="https://creativecommons.org/licenses/by-sa/4.0" class="external-link uri">https://creativecommons.org/licenses/by-sa/4.0</a>, via
 Wikimedia Commons</em></p>
-</section><section id="contextualization-why-where-and-when"><h2 class="section-heading">Contextualization (Why, where and when?)<a class="anchor" aria-label="anchor" href="#contextualization-why-where-and-when"></a>
+</section><section id="contextualization-why-where-and-when"><h2 class="section-heading">Contextualization (Why, Where and when?)<a class="anchor" aria-label="anchor" href="#contextualization-why-where-and-when"></a>
+</h2>
+<hr class="half-width"></section><section id="process-overview-how"><h2 class="section-heading">Process overview (How?)<a class="anchor" aria-label="anchor" href="#process-overview-how"></a>
 </h2>
 <hr class="half-width">
-<div class="overview card">
-<h2 class="card-header">Overview</h2>
-<div class="row g-0">
-<div class="col-md-4">
-<div class="card-body">
-<div class="inner">
-<h3 class="card-title">Questions</h3>
-<ul>
-<li><p>Where can we use photogrammetry?</p></li>
-<li><p>why dusing photogrammetry instead of other techniques</p></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<div class="inner bordered">
-<h3 class="card-title">Objectives</h3>
-<ul>
-<li><p>Explains what is photogrammetry</p></li>
-<li><p>Explain the techniques how this technique is not classical
-photography.</p></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="overview card">
-<h2 class="card-header">Overview</h2>
-<div class="row g-0">
-<div class="col-md-4">
-<div class="card-body">
-<div class="inner">
-<h3 class="card-title">Questions</h3>
-<ul>
-<li><p>Where can we use photogrammetry?</p></li>
-<li><p>why dusing photogrammetry instead of other techniques</p></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<div class="inner bordered">
-<h3 class="card-title">Objectives</h3>
-<ul>
-<li><p>Shows various scenarios where this technique can be applied to
-capture real world objects and environments.</p></li>
-<li><p>Advantages and disadvantages for the use of this techniques which
-creates 3d objects from 2d images.</p></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section><section id="process-overview-how"><h2 class="section-heading">Process overview (How?)<a class="anchor" aria-label="anchor" href="#process-overview-how"></a>
-</h2>
-<hr class="half-width">
-<div class="overview card">
-<h2 class="card-header">Overview</h2>
-<div class="row g-0">
-<div class="col-md-4">
-<div class="card-body">
-<div class="inner">
-<h3 class="card-title">Questions</h3>
-<!-- - How do you write a lesson using R Markdown and `{sandpaper}`?-->
-<ul>
-<li>How do you capture images and create 3d models for 3D digital
-preservation and publication ?</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<div class="inner bordered">
-<h3 class="card-title">Objectives</h3>
-<ul>
-<li><p>Shows various scenarios where this technique can be applied to
-capture real world objects and environments.</p></li>
-<li><p>Advantages and disadvantages for the use of this techniques which
-creates 3d objects from 2d images.</p></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="overview card">
-<h2 class="card-header">Overview</h2>
-<div class="row g-0">
-<div class="col-md-4">
-<div class="card-body">
-<div class="inner">
-<h3 class="card-title">Questions</h3>
-<!-- - How do you write a lesson using R Markdown and `{sandpaper}`?-->
-<ul>
-<li>How do you capture images and create 3d models for 3D digital
-preservation and publication ?</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<div class="inner bordered">
-<h3 class="card-title">Objectives</h3>
-<!-- - Explain how to use markdown with the new lesson template
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks-->
-<ul>
-<li><p>Explains how the Photogrammetry capturing process works</p></li>
-<li><p>Explains the techniques for creating 3d objects from 2d images
-positioned at a different interval in space with specialized
-software.</p></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
 <p>Multiple 2d photographs can be used to generate <a href="https://en.wikipedia.org/wiki/Point_Cloud" class="external-link">point clouds</a> where
 each point has now three-dimensional coordinates.</p>
 <p><img src="https://data.d4science.org/shub/E_aFlFV0paV3RQaGQwTkJrTGVpd0pVVktJdFpEeXh4b2gySU8yMjJTNGJybFc4Z2JNS2tqWm5raHRXK0U4VHFVRA==" alt="https://data.d4science.org/shub/E_aFlFV0paV3RQaGQwTkJrTGVpd0pVVktJdFpEeXh4b2gySU8yMjJTNGJybFc4Z2JNS2tqWm5raHRXK0U4VHFVRA==" class="figure"><em>Dense
@@ -519,11 +410,9 @@ recognize 6 or more distinctive features.</p>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p><a href="https://data.d4science.org/shub/E_WW9zZUluVUxmVzJFRlpDcFV3UE5MeHVJNU96d25LWlJDdDhZZlJSQnpjcWptZVowRS9YcGxHWHZUN0RmLzVlSQ==" class="external-link">Here</a>
 you can download an image of the possible solution. You will need to
@@ -557,11 +446,9 @@ recognize 6 or more features already found in the previous image.</p>
 <div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p><a href="https://data.d4science.org/shub/E_WFZSR0Z0Y29CTzNMNmVTdWNxelZqdFc2bkxOV3VuWU1nc0ViMVQ2MVU3RmtVMGZYd1NWclU4b24zWjB6R3VTUA==" class="external-link">Here</a>
 you can download an image of the solution. You will need to zoom into
@@ -604,11 +491,11 @@ Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  --></section></section><section id="aio-setting-up-the-environment"><p>Content from <a href="setting-up-the-environment.html">Setting up the environment</a></p>
 <hr>
-<p> Last updated on 2023-12-13 | 
+<p>Last updated on 2023-12-13 |
         
         <a href="https://github.com/culturedigitalskills/2023-digitisation-photogrammetry/edit/main/episodes/setting-up-the-environment.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <section id="setting-up-the-environment-and-photographing"><h2 class="section-heading">Setting up the environment and photographing<a class="anchor" aria-label="anchor" href="#setting-up-the-environment-and-photographing"></a>
 </h2>
@@ -675,11 +562,11 @@ Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  --></section></section><section id="aio-capturing-photographs"><p>Content from <a href="capturing-photographs.html">Capturing Photographs</a></p>
 <hr>
-<p> Last updated on 2023-12-13 | 
+<p>Last updated on 2023-12-13 |
         
         <a href="https://github.com/culturedigitalskills/2023-digitisation-photogrammetry/edit/main/episodes/capturing-photographs.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <section id="capturing-photographs"><h2 class="section-heading">Capturing Photographs<a class="anchor" aria-label="anchor" href="#capturing-photographs"></a>
 </h2>
@@ -801,11 +688,11 @@ any links that you are not going to use.
 </div>
 </section></section><section id="aio-photogrammetry-software"><p>Content from <a href="photogrammetry-software.html">Photogrammetry Software</a></p>
 <hr>
-<p> Last updated on 2023-12-13 | 
+<p>Last updated on 2023-12-13 |
         
         <a href="https://github.com/culturedigitalskills/2023-digitisation-photogrammetry/edit/main/episodes/photogrammetry-software.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <section id="preparing-the-images"><h2 class="section-heading">Preparing the images<a class="anchor" aria-label="anchor" href="#preparing-the-images"></a>
 </h2>
@@ -1237,11 +1124,11 @@ any links that you are not going to use.
 </div>
 </section></section><section id="aio-additional-links"><p>Content from <a href="additional-links.html">Additional Links</a></p>
 <hr>
-<p> Last updated on 2023-12-13 | 
+<p>Last updated on 2023-12-13 |
         
         <a href="https://github.com/culturedigitalskills/2023-digitisation-photogrammetry/edit/main/episodes/additional-links.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="section level3">
 <h3 id="theory">Theory<a class="anchor" aria-label="anchor" href="#theory"></a>
@@ -1321,13 +1208,13 @@ any links that you are not going to use.
 <!--/div.row-->
       		<footer class="row footer mx-md-3"><hr>
 <div class="col-md-6">
-				<p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
+        <p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
         <p>
         
         <a href="https://github.com/culturedigitalskills/2023-digitisation-photogrammetry/edit/main/README.md" class="external-link">Edit on GitHub</a>
         
 	
-        | <a href="https://github.com/culturedigitalskills/2023-digitisation-photogrammetry/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a> 
+        | <a href="https://github.com/culturedigitalskills/2023-digitisation-photogrammetry/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
         | <a href="https://github.com/culturedigitalskills/2023-digitisation-photogrammetry/" class="external-link">Source</a></p>
 				<p><a href="https://github.com/culturedigitalskills/2023-digitisation-photogrammetry/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:K.Rodriguez@brighton.ac.uk">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 			</div>
@@ -1335,16 +1222,14 @@ any links that you are not going to use.
         
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
-        <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.15.0" class="external-link">sandpaper (0.15.0)</a>,
-        <a href="https://github.com/carpentries/pegboard/tree/0.7.3" class="external-link">pegboard (0.7.3)</a>,
-      and <a href="https://github.com/carpentries/varnish/tree/0.4.0" class="external-link">varnish (0.4.0)</a>.</p>
+        <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.0" class="external-link">sandpaper (0.16.0)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.3" class="external-link">pegboard (0.7.3)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.0" class="external-link">varnish (1.0.0)</a></p>
 			</div>
 		</footer>
 </div> <!-- / div.container -->
 	<div id="to-top">
 		<a href="#top">
-			<i class="search-icon" data-feather="arrow-up" role="img" aria-label="Back to top"></i><br><span class="d-none d-sm-none d-md-none d-lg-none d-xl-block">Back</span> To Top
+      <i class="search-icon" data-feather="arrow-up" role="img" aria-label="Back To Top"></i><br><!-- <span class="d-none d-sm-none d-md-none d-lg-none d-xl-block">Back</span> To Top --><span class="d-none d-sm-none d-md-none d-lg-none d-xl-block">Back</span> To Top
 		</a>
 	</div>
   <script type="application/ld+json">
