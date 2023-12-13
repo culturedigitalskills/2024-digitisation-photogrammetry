@@ -463,7 +463,8 @@ Now you will have a 3D model with the texture. -->
 </div>
 </section><section id="photogrammetry-software-workflow"><h2 class="section-heading">Photogrammetry Software Workflow<a class="anchor" aria-label="anchor" href="#photogrammetry-software-workflow"></a>
 </h2>
-<hr class="half-width"><p>The following instructions are specific to 3DF Zephir.</p>
+<hr class="half-width"><p>The following instructions are specific to <a href="https://www.3dflow.net/3df-zephyr-photogrammetry-software/" class="external-link">3DF
+Zephir</a>.</p>
 <p>Go to the workflow menu and choose <strong>New Project</strong>, you
 will be presented with a the <em>“New project wizard window”</em>.</p>
 <p>Choose the first box <em>Sparse</em> in order to go trough the all
@@ -491,11 +492,11 @@ the mask, if selected a new option will be presented in the</p>
 <ul><li>you will be presented with the <em>“Camera orientation page”</em>.
 Keep the general setting and click <strong>Next&gt;</strong>
 </li>
-<li>you will be presented with the <em>“Start reconstruction page”</em>.
+<li>you will be presented with the <em>“Start reconstruction”</em> page.
 Click <strong>Run</strong>
 </li>
 <li>you will be presented with the <em>“Reconstruction Successful
-page</em>” Click <strong>Finish</strong>
+page”</em>. Click <strong>Finish</strong>
 </li>
 <li>Save the project in the same <a href="#id_%20Create%20a%20folder">folder</a> created before.</li>
 </ul><p><em>“Once the camera orientation phase has been completed, the sparse
@@ -508,41 +509,103 @@ speed-up the process when creating the final mesh.</p>
 </div>
 <div class="section level3">
 <h3 id="build-dense-cloud-optional">Build dense cloud (optional)<a class="anchor" aria-label="anchor" href="#build-dense-cloud-optional"></a></h3>
-<p>The next step is to create a Dense Point Cloud. For this:</p>
-<ul><li>Go to <em>Workflow</em> in the menu and select <em>Advance-&gt;
+<p>The next step is to create a Dense PointCloud. For this:</p>
+<ul><li>Go to <em>Workflow</em> in the menu and select <em>Advanced-&gt;
 Dense Point Cloud Generation</em>.</li>
-<li>you will be presented with the <em>” Dense Point Cloud Generation
-wizard”</em>. <strong>Select All Cameras</strong> and Click
+<li>you will be presented with the <em>“Dense Point Cloud Generation
+wizard”</em>. <strong>Select All Cameras</strong> and click
 <strong>Next&gt;</strong>
 </li>
-<li>you will be presented with the <em>” Dense Point Cloud Creation
-page”</em>. Leave the general settings and click
+<li>you will be presented with the <em>“Dense Point Cloud Creation”</em>
+page. Leave the general settings and click
 <strong>Next&gt;</strong>
 </li>
-<li>you will be presented with the <em>“Start Densification page”</em>.
+<li>you will be presented with the <em>“Start Densification”</em> page.
 Click <strong>Run</strong>
 </li>
-</ul><p>Save the progress so far.</p>
-</div>
+<li>when finished you will be presented with the <em>“Dense Point Cloud
+generation successful”</em> page, click <strong>Finish</strong>
+</li>
+<li>Save the project in the same <a href="#id_%20Create%20a%20folder">folder</a> created before.</li>
+</ul></div>
+<div class="section level3">
+<h3 id="build-dense-cloud-optional-1">Build dense cloud (optional)<a class="anchor" aria-label="anchor" href="#build-dense-cloud-optional-1"></a></h3>
+<p>Before trying to create the final mesh we should create all the
+unwanted point that where generated within the bounding box. We could
+you the same bounding box to restrict even more the area where the
+algorithm is going to be appled for the triangulation. However in order
+to be accustom with the interface we will delete all the unecessary
+points manually.</p>
+<ul><li>Go to the <em>Editing panel</em> on your right and choose <strong>By
+Hand</strong>. Choose <strong>Poly</strong> and
+<strong>Remove</strong>.</li>
+<li>Start selecting the points that you do not need and once selected
+deleted them with the del key.</li>
+<li>Once happy save the project in the same <a href="#id_%20Create%20a%20folder">folder</a> created before.</li>
+</ul></div>
 <div class="section level3">
 <h3 id="build-mesh">Build mesh<a class="anchor" aria-label="anchor" href="#build-mesh"></a></h3>
-<p>Go to <em>Workflow</em> in the menu and select <em>Build
-Mesh</em>.</p>
-<p>Choose your preferred options. Make sure <em>Source data</em> has
-<em>Dense cloud</em> selected. Then click OK.</p>
-<p>This process will produce a 3D model. The 3D model can be exported,
-or edited within the scene.</p>
-</div>
+<p>The next step is to create a Dense PointCloud. For this:</p>
+<ul><li>Go to <em>Workflow</em> in the menu and select <em>Advanced-&gt;
+Mesh Extraction</em>
+</li>
+<li>you will be presented with the <em>“Mesh Generation wizard”</em>.
+<strong>Drop Down</strong> the name of your dense point cloud,
+<strong>Select All Cameras</strong> and click
+<strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>“Surface Reconstruction”</em>
+page. Leave the general settings and click
+<strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>“Start Mesh Creation”</em> page.
+Click <strong>Run</strong>
+</li>
+<li>when finished you will be presented with the <em>“Mesh Creation
+successful”</em> page, click <strong>Finish</strong>. This process will
+produce a 3D model.</li>
+<li>Once happy save the project in the same <a href="#id_%20Create%20a%20folder">folder</a> created before.</li>
+</ul></div>
 <div class="section level3">
 <h3 id="build-texture">Build Texture<a class="anchor" aria-label="anchor" href="#build-texture"></a></h3>
-<p>The final, optional step is to re-project the texture onto the 3D
-surface. This makes the photographic quality much better.</p>
-<p>Go to <em>Workflow</em> in the menu and select <em>Build
-Texture</em>.</p>
-<p>Choose the following options. They are suitable for most models. Then
-click <em>OK</em>.</p>
-<p>Now you will have a 3D model with the texture.</p>
-<p><a href="https://www.3dflow.net/zephyr-doc/en/Extractingadensepointcloud.html" class="external-link uri">https://www.3dflow.net/zephyr-doc/en/Extractingadensepointcloud.html</a></p>
+<p>The final step is to re-project the texture onto the 3D surface.</p>
+<ul><li>Go to <em>Workflow</em> in the menu and select <em>Textured Mesh
+Generation</em>
+</li>
+<li>you will be presented with the <em>“Textured Mesh Generation
+wizard”</em>. <strong>Drop Down</strong> the name of your mesh,
+<strong>Select All Cameras</strong> and click
+<strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>“Texturing”</em> page. Leave the
+general settings and click <strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>“Textured Mesh Generation
+wizard”</em> page. Click <strong>Run</strong>
+</li>
+<li>when finished you will be presented with the <em>“Textured Mesh
+Generation wizard result”</em> page, click <strong>Finish</strong>. Now
+you will have a 3D model with the texture.</li>
+<li>Save the project in the same <a href="#id_%20Create%20a%20folder">folder</a> created before.</li>
+</ul></div>
+<div class="section level3">
+<h3 id="exporting-the-mesh-with-textures-for-high-res-visualization">Exporting the mesh with textures for High-Res visualization<a class="anchor" aria-label="anchor" href="#exporting-the-mesh-with-textures-for-high-res-visualization"></a></h3>
+</div>
+<div class="section level3">
+<h3 id="exporting-the-mesh-with-textures-for-online-publishing">Exporting the mesh with textures for online publishing<a class="anchor" aria-label="anchor" href="#exporting-the-mesh-with-textures-for-online-publishing"></a></h3>
+</div>
+<div class="section level3">
+<h3 id="final-remarks">Final Remarks<a class="anchor" aria-label="anchor" href="#final-remarks"></a></h3>
+<p>During the whole process you will encounter more options and setting
+then the once described above. You can find a more complete and
+technical advice in <a href="https://www.3dflow.net/zephyr-doc/en/Extractingadensepointcloud.html" class="external-link">this
+document</a>.</p>
+<p>Or if you prefer it as a PDF file you can find it <a href="https://3df-eu.fra1.digitaloceanspaces.com/zephyr-doc/3DF%20Zephyr%20Manual%207.500%20English.pdf" class="external-link">here</a></p>
+<p>As well as a series of video tutorials on <a href="https://www.3dflow.net/technology/documents/3df-zephyr-tutorials/" class="external-link">this
+page</a>.</p>
+<p>You can also find advice and specific topic help in the official <a href="https://www.3dflow.net/forums/" class="external-link">forum</a> of the software.</p>
+<p>Finally you can also join the <a href="https://discord.com/invite/3HMUKff" class="external-link">Discord Channel</a> if you
+prefer.</p>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
