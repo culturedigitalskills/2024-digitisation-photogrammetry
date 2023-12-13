@@ -3,23 +3,35 @@ title: "Basics"
 teaching: 10
 exercises: 2
 ---
-
-
-
-
-
-## Definition (what?)
 :::::::::::::::::::::::::::::::::::::: questions 
-
 - What is photogrammetry and how differes from classic photography ?
+
+- Where can we use photogrammetry?
+
+- why using photogrammetry instead of other techniques
+
+- How do you capture images and create 3d models for 3D digital preservation and publication ?
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
 - Explains what is photogrammetry
 
-- Explain the techniques how this technique is not classical photography.
+- Explains the techniques how this technique is not classical photography.
+
+- Shows various scenarios where this technique can be applied to capture real world objects and environments.
+
+- Advantages and disadvantages for the use of this techniques which creates 3d objects from 2d images
+
+- Explains how the Photogrammetry capturing process works
+
+- Explains the techniques for creating 3d objects from 2d images positioned at a different interval in space with specialized software.
 ::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+## Definition (What?)
 Photogrammetry is the art, science, and technology of 
 obtaining spatial information
 about physical objects and environments 
@@ -33,37 +45,12 @@ measuring and interpreting photographic 2d images by mean of **triangulation**.
 
 ![https://upload.wikimedia.org/wikipedia/commons/4/42/Sede_da_Fazenda_do_Pinhal_%28159%29%2C_N.ELAC.jpg](https://upload.wikimedia.org/wikipedia/commons/4/42/Sede_da_Fazenda_do_Pinhal_%28159%29%2C_N.ELAC.jpg)*Sede da Fazenda do Pinhal (159), N.ELAC. NELAC, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons*
 
-## Contextualization (Why, where and when?)
-:::::::::::::::::::::::::::::::::::::: questions 
+## Contextualization (Why, Where and when?)
 
-
-- Where can we use photogrammetry?
-
-- why dusing photogrammetry instead of other techniques
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::: objectives
-
-- Shows various scenarios where this technique can be applied to capture real world objects and environments.
-
-- Advantages and disadvantages for the use of this techniques which creates 3d objects from 2d images. 
-::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 ## Process overview (How?)
-:::::::::::::::::::::::::::::::::::::: questions 
-<!-- - How do you write a lesson using R Markdown and `{sandpaper}`?-->
-- How do you capture images and create 3d models for 3D digital preservation and publication ?
-::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::::::::::::::::::: objectives
-<!-- - Explain how to use markdown with the new lesson template
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks-->
-- Explains how the Photogrammetry capturing process works
-
-- Explains the techniques for creating 3d objects from 2d images positioned at a different interval in space with specialized software.
-::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 Multiple 2d photographs can be used to generate [point clouds](https://en.wikipedia.org/wiki/Point_Cloud) where each point has now three-dimensional coordinates.
