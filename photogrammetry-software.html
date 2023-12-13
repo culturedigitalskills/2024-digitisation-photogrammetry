@@ -472,14 +472,16 @@ process manually. Click <strong>Next&gt;</strong> you will be presented
 with the <em>“Photos selection page”</em> .</p>
 <div class="section level3">
 <h3 id="import-images">Import Images<a class="anchor" aria-label="anchor" href="#import-images"></a></h3>
-<ul><li><p>Browse to the folder that contains your images and click
+<ul><li>Browse to the folder that contains your images and click
 <strong>Select Folder</strong> or Select a your <strong>Single
-Images</strong>. Click <strong>Next&gt;</strong></p></li>
-<li><p>you will be presented with the <em>“Camera calibration page<em>”.
-If you have a separate Exif file for calibrating the camera you can add
-it here, and you can also manually calibrate you camera in the
-</em>”Modify Calibration page”</em> otherwise go on and click
-<strong>Next&gt;</strong></p></li>
+Images</strong>. Click <strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>“Camera calibration page<em>”. If
+you have a separate Exif file for calibrating the camera you can add it
+here, and you can also manually calibrate you camera in the </em>”Modify
+Calibration page”</em> otherwise go on and click
+<strong>Next&gt;</strong>
+</li>
 </ul></div>
 <div class="section level3">
 <h3 id="import-masks-optional">Import Masks (optional)<a class="anchor" aria-label="anchor" href="#import-masks-optional"></a></h3>
@@ -567,8 +569,9 @@ produce a 3D model.</li>
 <li>Once happy save the project in the same <a href="#id_%20Create%20a%20folder">folder</a> created before.</li>
 </ul></div>
 <div class="section level3">
-<h3 id="build-texture">Build Texture<a class="anchor" aria-label="anchor" href="#build-texture"></a></h3>
-<p>The final step is to re-project the texture onto the 3D surface.</p>
+<h3 id="build-the-texture">Build the Texture<a class="anchor" aria-label="anchor" href="#build-the-texture"></a></h3>
+<p>The final step is to re-project the texture onto the 3D surface.For
+this:</p>
 <ul><li>Go to <em>Workflow</em> in the menu and select <em>Textured Mesh
 Generation</em>
 </li>
@@ -590,9 +593,58 @@ you will have a 3D model with the texture.</li>
 </ul></div>
 <div class="section level3">
 <h3 id="exporting-the-mesh-with-textures-for-high-res-visualization">Exporting the mesh with textures for High-Res visualization<a class="anchor" aria-label="anchor" href="#exporting-the-mesh-with-textures-for-high-res-visualization"></a></h3>
-</div>
+<p>At this point we need to export an high resolution mesh for different
+purposes. For this:</p>
+<ul><li>Go to <em>Export</em> in the menu and select <em>Export Textured
+Mesh</em>. <strong>Drop Down</strong> the name of your mesh,
+<strong>Drop Down</strong> your preferred format and click
+<strong>Export</strong>
+</li>
+<li>create another folder called <em>“Exports”</em> within the same
+folder of the images and save the model in this folder.</li>
+</ul></div>
 <div class="section level3">
 <h3 id="exporting-the-mesh-with-textures-for-online-publishing">Exporting the mesh with textures for online publishing<a class="anchor" aria-label="anchor" href="#exporting-the-mesh-with-textures-for-online-publishing"></a></h3>
+<p>At this point we need to export the model at a lower resolution mesh
+for online publishing. For this:</p>
+<ul><li>Select your textured mesh in the right window <em>“Textured
+Meshes”</em> <strong>Right Click</strong> on it and select
+<strong>Clone</strong>. A copy of your mesh will be created.</li>
+<li>Go to <em>Tools</em> in the menu and select <em>Mesh Filters-&gt;
+Decimatiom</em>. You will be presented with the <em>“Mesh
+decimation”</em> small window. <strong>Drop Down</strong> the name of
+your second mesh, select <em>preserve boundaries</em> and <em>Apply
+Filter</em>
+</li>
+</ul><p>At this point we need to regenerate the texture for the lower
+resolution mesh. To do so we need to repeat the process above:</p>
+<ul><li>Go to <em>Workflow</em> in the menu and select <em>Textured Mesh
+Generation</em>
+</li>
+<li>you will be presented with the <em>“Textured Mesh Generation
+wizard”</em>. <strong>Drop Down</strong> the name of your new mesh,
+<strong>Select All Cameras</strong> and click
+<strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>“Texturing”</em> page. Leave the
+general settings and click <strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>“Textured Mesh Generation
+wizard”</em> page. Click <strong>Run</strong>
+</li>
+<li>when finished you will be presented with the <em>“Textured Mesh
+Generation wizard result”</em> page, click <strong>Finish</strong>. Now
+you will have the new low resolution 3D model with the texture.</li>
+<li>Save the project in the same <a href="#id_%20Create%20a%20folder">folder</a> created before.</li>
+<li>Go to <em>Export</em> in the menu and select <em>Export Textured
+Mesh</em>. <strong>Drop Down</strong> the name of your second mesh,
+<strong>Drop Down</strong> the format <strong><em>.glb</em></strong> or
+<strong><em>.gltf</em></strong> and click <strong>Export</strong>
+</li>
+<li>create another folder called <em>“Exports”</em> within the same
+folder of the images and save the model in this folder.</li>
+</ul><iframe src="https://gltf-viewer.donmccurdy.com#kiosk=1&amp;model=https://data.d4science.org/shub/E_azJzMVp6MENORnRUd0FEdElCa3g5WVBIdEQ5cldBUlJwOHkyYjRITHpTYmVUcFdIUDc1VzRhWTFGdWc5SytNVA==" style="width: 100%;" height="400px" frameborder="0">
+</iframe>
 </div>
 <div class="section level3">
 <h3 id="final-remarks">Final Remarks<a class="anchor" aria-label="anchor" href="#final-remarks"></a></h3>
