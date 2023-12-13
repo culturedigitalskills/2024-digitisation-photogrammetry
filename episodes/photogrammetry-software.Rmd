@@ -205,7 +205,7 @@ Now you will have a 3D model with the texture. -->
 ## Photogrammetry Software Workflow
 
 The following instructions are specific
-to 3DF Zephir.
+to [3DF Zephir](https://www.3dflow.net/3df-zephyr-photogrammetry-software/).
 
 Go to the workflow menu and choose **New Project**, you will be presented with a the *"New project wizard window"*.
 
@@ -231,58 +231,74 @@ The next step is to align the photos. For
 this:
 
 - you will be presented with the *"Camera orientation page"*. Keep the general setting and click **Next>**
-- you will be presented with the  *"Start reconstruction page"*. Click **Run**
-- you will be presented with the *"Reconstruction Successful page*" Click **Finish**
+- you will be presented with the  *"Start reconstruction"* page. Click **Run**
+- you will be presented with the *"Reconstruction Successful page"*. Click **Finish**
 - Save the project in the same [folder](# Create a folder) created before.
 
 *"Once the camera orientation phase has been completed, the sparse point cloud will appear in the workspace as well as the oriented cameras identified by blue pyramids."* Now you can familiarize with the navigation of the 3d space and the interface. For example go to **Scene-> Bounding Box-> Edit Bounding box** and limit the created sparse cloud within the the bounding box.This will speed-up the process when creating the final mesh. 
 
 
 ### Build dense cloud (optional)
-The next step is to create a Dense  Point  Cloud. For
+The next step is to create a Dense PointCloud. For
 this:
 
-- Go to *Workflow* in the menu and select *Advance-> Dense Point Cloud Generation*.
-- you will be presented with the  *" Dense Point Cloud Generation wizard"*. **Select All Cameras** and Click **Next>**
-- you will be presented with the  *" Dense Point Cloud Creation page"*. Leave the general settings and click **Next>**
-- you will be presented with the  *"Start Densification page"*. Click **Run**
+- Go to *Workflow* in the menu and select *Advanced-> Dense Point Cloud Generation*.
+- you will be presented with the  *"Dense Point Cloud Generation wizard"*. **Select All Cameras** and click **Next>**
+- you will be presented with the  *"Dense Point Cloud Creation"* page. Leave the general settings and click **Next>**
+- you will be presented with the  *"Start Densification"* page. Click **Run**
+- when finished you will be presented with the *"Dense Point Cloud generation successful"* page, click **Finish**
+- Save the project in the same [folder](# Create a folder) created before.
 
-Save the progress so far. 
+
+### Build dense cloud (optional)
+Before trying to create the final mesh we should create all the unwanted point that where generated within the bounding box. We could you the same bounding box to restrict even more the area where the algorithm is going to be appled for the triangulation. However in order to be accustom with the interface we will delete all the unecessary points manually.
+
+- Go to the *Editing panel* on your right and choose **By Hand**. Choose **Poly** and  **Remove**.
+- Start selecting the points that you do not need and once selected deleted them  with the del key.
+- Once happy save the project in the same [folder](# Create a folder) created before.
+
+
 
 ### Build mesh
+The next step is to create a Dense PointCloud. For
+this:
 
-Go to *Workflow* in the menu
-and select *Build Mesh*.
-
-Choose your preferred options. 
-Make sure *Source data* has *Dense cloud*
-selected. 
-Then click OK.
- 
-
-This process will produce a 3D model. 
-The 3D model can be exported, 
-or edited within the scene. 
+- Go to *Workflow* in the menu and select *Advanced-> Mesh Extraction*
+- you will be presented with the  *"Mesh Generation wizard"*. **Drop Down** the name of your dense point cloud, **Select All Cameras** and click **Next>**
+- you will be presented with the *"Surface Reconstruction"* page. Leave the general settings and click **Next>**
+- you will be presented with the  *"Start Mesh Creation"* page. Click **Run**
+- when finished you will be presented with the *"Mesh Creation successful"* page, click **Finish**. This process will produce a 3D model.
+- Once happy save the project in the same [folder](# Create a folder) created before.
 
 ### Build Texture
 
-The final, optional step is to re-project 
-the texture onto the 3D surface. 
-This makes the photographic quality much better.
+The final step is to re-project the texture onto the 3D surface.
 
-
-Go to *Workflow* in the menu
-and select *Build Texture*.
-
-
-Choose the following options. 
-They are suitable for most models. 
-Then click *OK*.
- 
-Now you will have a 3D model with the texture.
+- Go to *Workflow* in the menu and select *Textured Mesh Generation*
+- you will be presented with the  *"Textured Mesh Generation wizard"*. **Drop Down** the name of your mesh, **Select All Cameras** and click **Next>**
+- you will be presented with the *"Texturing"* page. Leave the general settings and click **Next>**
+- you will be presented with the  *"Textured Mesh Generation wizard"* page. Click **Run**
+- when finished you will be presented with the *"Textured Mesh Generation wizard result"* page, click **Finish**. Now you will have a 3D model with the texture.
+- Save the project in the same [folder](# Create a folder) created before.
 
 
 
-https://www.3dflow.net/zephyr-doc/en/Extractingadensepointcloud.html
+### Exporting the mesh with textures for High-Res visualization
+
+### Exporting the mesh with textures for online publishing
+
+
+
+### Final Remarks
+
+During the whole process you will encounter more options and setting then the once described above. You can find a more complete and technical advice in [this document](https://www.3dflow.net/zephyr-doc/en/Extractingadensepointcloud.html).
+
+Or if you prefer it as a PDF file you can find it [here](https://3df-eu.fra1.digitaloceanspaces.com/zephyr-doc/3DF%20Zephyr%20Manual%207.500%20English.pdf)
+
+As well as a series of video tutorials on [this page](https://www.3dflow.net/technology/documents/3df-zephyr-tutorials/).
+
+You can also find advice and specific topic help in the official [forum](https://www.3dflow.net/forums/) of the software.
+
+Finally you can also join the [Discord Channel](https://discord.com/invite/3HMUKff) if you prefer.
 
 
