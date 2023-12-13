@@ -15,7 +15,8 @@ exercises: 2
 
 <!-- - Explain how to use markdown with the new lesson template
 - Demonstrate how to include pieces of code, figures, and nested challenge blocks-->
-- Explain how the Photogrammetry capturing process works.
+- Explain how the Photogrammetry capturing process works
+
 - Explain the techniques for creating 3d objects from 2d images positioned at a different interval in space with specialized software.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
@@ -24,7 +25,7 @@ exercises: 2
 
 ## Definition
 Photogrammetry is the art, science, and technology of 
-obtaining spatial information 
+obtaining spatial information
 about physical objects and environments 
 through processes of capturing, 
 measuring and interpreting photographic 2d images by mean of **triangulation**.
