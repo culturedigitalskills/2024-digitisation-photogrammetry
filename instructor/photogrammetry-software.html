@@ -306,14 +306,14 @@ check after exporting them.</p>
 <p>Every photogrammetry software is quite different and will import
 different image files formats.</p>
 <p><em>In this case the images that you have downloaded previously are
-already converted for you and, although it is better you get use to some
+already converted for you and, although it is better you get use to this
 software for batch converting images, at this stage you will not need to
 take further actions.</em></p>
 </section><section id="using-the-photogrammetry-software"><h2 class="section-heading">Using the photogrammetry software<a class="anchor" aria-label="anchor" href="#using-the-photogrammetry-software"></a>
 </h2>
 <hr class="half-width"><p>The steps to use the software are as follows:</p>
 <div class="section level3">
-<h3 id="create-a-folder">Create a folder<a class="anchor" aria-label="anchor" href="#create-a-folder"></a></h3>
+<h3 id="organizing-the-workspace">Organizing the workspace<a class="anchor" aria-label="anchor" href="#organizing-the-workspace"></a></h3>
 <p>Using a suitable name which reflects your project, transfer all
 images into a folder.</p>
 <p>Good practice includes:</p>
@@ -473,7 +473,7 @@ will be presented with a the <em>“New project wizard window”</em>.</p>
 process manually. Click <strong>Next&gt;</strong> you will be presented
 with the <em>“Photos selection page”</em> .</p>
 <div class="section level3">
-<h3 id="import-images">Import Images<a class="anchor" aria-label="anchor" href="#import-images"></a></h3>
+<h3 id="importing-images">Importing Images<a class="anchor" aria-label="anchor" href="#importing-images"></a></h3>
 <ul><li>Browse to the folder that contains your images and click
 <strong>Select Folder</strong> or Select a your <strong>Single
 Images</strong>. Click <strong>Next&gt;</strong>
@@ -484,14 +484,24 @@ here, and you can also manually calibrate you camera in the </em>”Modify
 Calibration page”</em> otherwise go on and click
 <strong>Next&gt;</strong>
 </li>
-</ul></div>
-<div class="section level3">
-<h3 id="import-masks-optional">Import Masks (optional)<a class="anchor" aria-label="anchor" href="#import-masks-optional"></a></h3>
-<p>In the <em>“Photos selection page”</em> there is an option to import
-the mask, if selected a new option will be presented in the</p>
+</ul><p><img src="https://data.d4science.org/shub/E_WHBodVMwdUZ5TXU3Z3h3MDhrQjBIMmFybkNGRXN6aEtqMUNuUWY2QlFKVmF5V1hxbzRFaDd6Q0ZIT0NsZ1BaNQ==" alt="https://data.d4science.org/shub/E_WHBodVMwdUZ5TXU3Z3h3MDhrQjBIMmFybkNGRXN6aEtqMUNuUWY2QlFKVmF5V1hxbzRFaDd6Q0ZIT0NsZ1BaNQ==" class="figure"><em>Original
+photo</em></p>
 </div>
 <div class="section level3">
-<h3 id="align-photos">Align Photos<a class="anchor" aria-label="anchor" href="#align-photos"></a></h3>
+<h3 id="importing-masks-optional">Importing Masks (optional)<a class="anchor" aria-label="anchor" href="#importing-masks-optional"></a></h3>
+<p>In the <em>“Photos selection page”</em> there is an option to import
+the mask, if selected a new option will be presented and a new tool
+called <strong>Masquerade</strong> will be available before importing
+the images. Within this tool (which is also available from the main
+interface), it will be possible to generate a Mask to apply to all the
+images. The tools is quite simple to use so that if you want to try to
+apply a mask you can use a sample image provided in the sets of the
+downloaded dataset as a first file.</p>
+<p><img src="https://data.d4science.org/shub/E_RFF0RkVickVCSmJCSHFtZm10MEYwNXFCN2xtY2JSVmY5MmxHVlo4a01WRUppcW9GK1Z0UzlXeHJXK1hJR3pwQQ==" alt="https://data.d4science.org/shub/E_RFF0RkVickVCSmJCSHFtZm10MEYwNXFCN2xtY2JSVmY5MmxHVlo4a01WRUppcW9GK1Z0UzlXeHJXK1hJR3pwQQ==" class="figure"><em>Original
+photo Mask</em></p>
+</div>
+<div class="section level3">
+<h3 id="aligning-photos">Aligning Photos<a class="anchor" aria-label="anchor" href="#aligning-photos"></a></h3>
 <p>The next step is to align the photos. For this:</p>
 <ul><li>you will be presented with the <em>“Camera orientation page”</em>.
 Keep the general setting and click <strong>Next&gt;</strong>
@@ -510,6 +520,8 @@ navigation of the 3d space and the interface. For example go to
 <strong>Scene-&gt; Bounding Box-&gt; Edit Bounding box</strong> and
 limit the created sparse cloud within the the bounding box.This will
 speed-up the process when creating the final mesh.</p>
+<p><img src="https://data.d4science.org/shub/E_dEtEY3RCZFYyVjMxMjNrOEcvYUxyUENieHpZZUdWc0g1TEVVVUtUTFhWTTRXZ0JON21tRkVKN2ZCREVjcFRxcA==" alt="https://data.d4science.org/shub/E_dEtEY3RCZFYyVjMxMjNrOEcvYUxyUENieHpZZUdWc0g1TEVVVUtUTFhWTTRXZ0JON21tRkVKN2ZCREVjcFRxcA==" class="figure"><em>Sparse
+Point Cloud</em></p>
 </div>
 <div class="section level3">
 <h3 id="build-dense-cloud-optional">Build dense cloud (optional)<a class="anchor" aria-label="anchor" href="#build-dense-cloud-optional"></a></h3>
@@ -531,15 +543,17 @@ Click <strong>Run</strong>
 generation successful”</em> page, click <strong>Finish</strong>
 </li>
 <li>Save the project in the same <a href="#id_%20Create%20a%20folder">folder</a> created before.</li>
-</ul></div>
+</ul><p><img src="https://data.d4science.org/shub/E_enEwZ01YYXFVdVlrL3NGbXQrWkoxM2VOYk1sQkY3VVI1L014RUV5UjJsMGwvYWZvcU85endtdXpzU3A1OUpleA==" alt="https://data.d4science.org/shub/E_enEwZ01YYXFVdVlrL3NGbXQrWkoxM2VOYk1sQkY3VVI1L014RUV5UjJsMGwvYWZvcU85endtdXpzU3A1OUpleA==" class="figure"><em>Dense
+Point Cloud</em></p>
+</div>
 <div class="section level3">
-<h3 id="build-dense-cloud-optional-1">Build dense cloud (optional)<a class="anchor" aria-label="anchor" href="#build-dense-cloud-optional-1"></a></h3>
-<p>Before trying to create the final mesh we should create all the
-unwanted point that where generated within the bounding box. We could
-you the same bounding box to restrict even more the area where the
-algorithm is going to be appled for the triangulation. However in order
-to be accustom with the interface we will delete all the unecessary
-points manually.</p>
+<h3 id="cleaning-the-dense-cloud-optional">Cleaning the dense cloud (optional)<a class="anchor" aria-label="anchor" href="#cleaning-the-dense-cloud-optional"></a></h3>
+<p>Before trying to create the final mesh we should delete all the
+unwanted points that where generated within the bounding box. We could
+do that by using the same bounding box to restrict even more the area
+where the algorithm is going to be applied for the triangulation.
+However in order to be accustom with the software interface, we will
+delete all the unecessary points manually.</p>
 <ul><li>Go to the <em>Editing panel</em> on your right and choose <strong>By
 Hand</strong>. Choose <strong>Poly</strong> and
 <strong>Remove</strong>.</li>
@@ -548,7 +562,7 @@ deleted them with the del key.</li>
 <li>Once happy save the project in the same <a href="#id_%20Create%20a%20folder">folder</a> created before.</li>
 </ul></div>
 <div class="section level3">
-<h3 id="build-mesh">Build mesh<a class="anchor" aria-label="anchor" href="#build-mesh"></a></h3>
+<h3 id="building-the-mesh">Building the mesh<a class="anchor" aria-label="anchor" href="#building-the-mesh"></a></h3>
 <p>The next step is to create a Dense PointCloud. For this:</p>
 <ul><li>Go to <em>Workflow</em> in the menu and select <em>Advanced-&gt;
 Mesh Extraction</em>
@@ -569,9 +583,11 @@ Click <strong>Run</strong>
 successful”</em> page, click <strong>Finish</strong>. This process will
 produce a 3D model.</li>
 <li>Once happy save the project in the same <a href="#id_%20Create%20a%20folder">folder</a> created before.</li>
-</ul></div>
+</ul><p><img src="https://data.d4science.org/shub/E_eEIvTkZMYWdoM3pySDdjZUtjU0J1NGFya29vMDVyQ1ErQ0k5eHh1TVlXZkcxaVBUL21ydGlEa1NPeXU0UUhzZQ==" alt="https://data.d4science.org/shub/E_eEIvTkZMYWdoM3pySDdjZUtjU0J1NGFya29vMDVyQ1ErQ0k5eHh1TVlXZkcxaVBUL21ydGlEa1NPeXU0UUhzZQ==" class="figure"><em>High
+Resolution Mesh</em></p>
+</div>
 <div class="section level3">
-<h3 id="build-the-texture">Build the Texture<a class="anchor" aria-label="anchor" href="#build-the-texture"></a></h3>
+<h3 id="building-the-texture">Building the Texture<a class="anchor" aria-label="anchor" href="#building-the-texture"></a></h3>
 <p>The final step is to re-project the texture onto the 3D surface.For
 this:</p>
 <ul><li>Go to <em>Workflow</em> in the menu and select <em>Textured Mesh
@@ -592,7 +608,9 @@ wizard”</em> page. Click <strong>Run</strong>
 Generation wizard result”</em> page, click <strong>Finish</strong>. Now
 you will have a 3D model with the texture.</li>
 <li>Save the project in the same <a href="#id_%20Create%20a%20folder">folder</a> created before.</li>
-</ul></div>
+</ul><p><img src="https://data.d4science.org/shub/E_R21uT3hnMGRjeGZ0WHVZUkgwTW9FLzFTYzJIaWYvVGY4RWltQ1ZkZmRiZTlndExkMEtPdGRsQll3N0UzZnBVbw==" alt="https://data.d4science.org/shub/E_R21uT3hnMGRjeGZ0WHVZUkgwTW9FLzFTYzJIaWYvVGY4RWltQ1ZkZmRiZTlndExkMEtPdGRsQll3N0UzZnBVbw==" class="figure"><em>High
+Resolution Mesh Texture</em></p>
+</div>
 <div class="section level3">
 <h3 id="exporting-the-mesh-with-textures-for-high-res-visualization">Exporting the mesh with textures for High-Res visualization<a class="anchor" aria-label="anchor" href="#exporting-the-mesh-with-textures-for-high-res-visualization"></a></h3>
 <p>At this point we need to export an high resolution mesh for different
@@ -604,7 +622,9 @@ Mesh</em>. <strong>Drop Down</strong> the name of your mesh,
 </li>
 <li>create another folder called <em>“Exports”</em> within the same
 folder of the images and save the model in this folder.</li>
-</ul></div>
+</ul><p><img src="https://data.d4science.org/shub/E_Zk92OG5TUEN5ZGx1ais1WS80UWdVVEZORGRDKzl1YjNLR2syMWZYY3JFcTBBVGhQTSs5MjdFZTI4NVR3U2p1ZQ==" alt="https://data.d4science.org/shub/E_Zk92OG5TUEN5ZGx1ais1WS80UWdVVEZORGRDKzl1YjNLR2syMWZYY3JFcTBBVGhQTSs5MjdFZTI4NVR3U2p1ZQ==" class="figure"><em>High
+Resolution Mesh Textured</em></p>
+</div>
 <div class="section level3">
 <h3 id="exporting-the-mesh-with-textures-for-online-publishing">Exporting the mesh with textures for online publishing<a class="anchor" aria-label="anchor" href="#exporting-the-mesh-with-textures-for-online-publishing"></a></h3>
 <p>At this point we need to export the model at a lower resolution mesh
@@ -645,7 +665,7 @@ Mesh</em>. <strong>Drop Down</strong> the name of your second mesh,
 </li>
 <li>create another folder called <em>“Exports”</em> within the same
 folder of the images and save the model in this folder.</li>
-</ul><iframe src="https://gltf-viewer.donmccurdy.com#kiosk=1&amp;model=https://data.d4science.org/shub/E_azJzMVp6MENORnRUd0FEdElCa3g5WVBIdEQ5cldBUlJwOHkyYjRITHpTYmVUcFdIUDc1VzRhWTFGdWc5SytNVA==" style="width: 100%;" height="400px" frameborder="0">
+</ul><iframe src="https://gltf-viewer.donmccurdy.com#kiosk=1&amp;model=https://data.d4science.org/shub/E_azJzMVp6MENORnRUd0FEdElCa3g5WVBIdEQ5cldBUlJwOHkyYjRITHpTYmVUcFdIUDc1VzRhWTFGdWc5SytNVA==" style="width: 100%;" height="400px" bgcolor="#dbdbdb" frameborder="0">
 </iframe>
 </div>
 <div class="section level3">
