@@ -296,7 +296,7 @@
         
 <section id="aio-introduction"><p>Content from <a href="introduction.html">Basics</a></p>
 <hr>
-<p> Last updated on 2023-12-12 | 
+<p> Last updated on 2023-12-13 | 
         
         <a href="https://github.com/culturedigitalskills/2023-digitisation-photogrammetry/edit/main/episodes/introduction.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 12 minutes </p>
@@ -402,7 +402,7 @@ recognize 6 or more distinctive features.</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p><a href="https://data.d4science.org/shub/E_WW9zZUluVUxmVzJFRlpDcFV3UE5MeHVJNU96d25LWlJDdDhZZlJSQnpjcWptZVowRS9YcGxHWHZUN0RmLzVlSQ==" class="external-link">Here</a>
 you can download an image of the possible solution. You will need to
@@ -440,7 +440,7 @@ recognize 6 or more features already found in the previous image.</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p><a href="https://data.d4science.org/shub/E_WFZSR0Z0Y29CTzNMNmVTdWNxelZqdFc2bkxOV3VuWU1nc0ViMVQ2MVU3RmtVMGZYd1NWclU4b24zWjB6R3VTUA==" class="external-link">Here</a>
 you can download an image of the solution. You will need to zoom into
@@ -490,7 +490,7 @@ Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  --></section></section><section id="aio-setting-up-the-environment"><p>Content from <a href="setting-up-the-environment.html">Setting up the environment</a></p>
 <hr>
-<p> Last updated on 2023-12-12 | 
+<p> Last updated on 2023-12-13 | 
         
         <a href="https://github.com/culturedigitalskills/2023-digitisation-photogrammetry/edit/main/episodes/setting-up-the-environment.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 12 minutes </p>
@@ -553,7 +553,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-capturing-photographs"><p>Content from <a href="capturing-photographs.html">Capturing Photographs</a></p>
 <hr>
-<p> Last updated on 2023-12-12 | 
+<p> Last updated on 2023-12-13 | 
         
         <a href="https://github.com/culturedigitalskills/2023-digitisation-photogrammetry/edit/main/episodes/capturing-photographs.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 12 minutes </p>
@@ -680,7 +680,7 @@ any links that you are not going to use.
 </div>
 </section></section><section id="aio-photogrammetry-software"><p>Content from <a href="photogrammetry-software.html">Photogrammetry Software</a></p>
 <hr>
-<p> Last updated on 2023-12-12 | 
+<p> Last updated on 2023-12-13 | 
         
         <a href="https://github.com/culturedigitalskills/2023-digitisation-photogrammetry/edit/main/episodes/photogrammetry-software.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 12 minutes </p>
@@ -701,8 +701,8 @@ you choose a format that retains the Exif information within the file.
 if you are not sure if your file has the information needed there are
 lots of tool online that can provide it such as <a href="https://exifinfo.org/" class="external-link">ExifInfo.org</a>. (Raw Therapee can also
 provide this information on the info panel however you should always
-check after exporting them.)</p>
-<p>Each photogrammetry software is quite different and will import
+check after exporting them.</p>
+<p>Every photogrammetry software is quite different and will import
 different image files formats.</p>
 <p><em>In this case the images that you have downloaded previously are
 already converted for you and, although it is better you get use to some
@@ -737,69 +737,205 @@ Click with the right mouse button on the
 background to select that area.
 
 Go to "save as" and save it in the 
-main project folder (NOT the images folder). -->
+main project folder (NOT the images folder).
+
+## Photogrammetry Software Workflow
+
+The following instructions are specific
+to 3DF Zephir.
+
+Go to the workflow menu and choose *New Project*
+ 
+### Import Images 
+
+Browse to the folder that contains your 
+images and click *Select Folder*.
+
+Click *Create camera from each file*. 
+The number of cameras that appear 
+in the menu will depend on how
+many images you have taken. 
+
+
+Save the project in the project root folder. 
+
+### Import Masks
+
+Select the tools menu, 
+go to import and select *Import Masks*.
+ 
+ 
+Select *From background* in the Method drop down box.
+
+Select *Replacement* in the *Operation* drop down box. 
+
+In the *Filename template* select type in the 
+name that you saved earlier in paint. 
+
+Under tolerance, select a number from 30 to 50. 
+The idea is that for each point in the image, 
+it will compare it to the colour in our background 
+mask image at the same point. If it is the same, 
+it will not be included in the 3D model. 
+
+The tolerance number is the amount that you 
+expect the colour to vary to the background image. 
+The larger the number, the larger it will allow 
+a deviation from the colour to be masked out. 
+
+Click *OK*. Then select the folder that contains the image.
+ 
+
+Browse to the appropriate folder and 
+click *Select Folder*.
+
+Wait for the masks to be processed. 
+The time to complete will depend on the number 
+of images that you have taken.
+ 
+ 
+Double click each image and look for any areas that 
+have been masked out that shouldn’t have been. 
+In this example, it has masked out the back of 
+the model. 
+Use either the rectangle or the loop tool 
+(circled in red) to select the area.
+
+ 
+Right click and choose *Subtract Selection*. 
+This will remove the selection from the mask. 
+Repeat this for all images.
+
+Save the project so far.
+
+
+### Align Photos
+
+The next step is to align the photos. For
+this, go to *Workflow* in the menu
+and select *Align Photos*.
+ 
+Select the options you want, 
+but make sure the *Constrain features by mask* 
+is selected. Then click *OK*.
+ 
+ 
+Save the project so far. 
+
+### Build dense cloud
+
+Go to *Workflow* in the menu
+and select *Build Dense Cloud*.
+
+
+Choose the options you want and click *OK*.
+
+Save the progress so far. 
+
+### Build mesh
+
+Go to *Workflow* in the menu
+and select *Build Mesh*.
+
+Choose your preferred options. 
+Make sure *Source data* has *Dense cloud*
+selected. 
+Then click OK.
+ 
+
+This process will produce a 3D model. 
+The 3D model can be exported, 
+or edited within the scene. 
+
+### Build Texture
+
+The final, optional step is to re-project 
+the texture onto the 3D surface. 
+This makes the photographic quality much better.
+
+
+Go to *Workflow* in the menu
+and select *Build Texture*.
+
+
+Choose the following options. 
+They are suitable for most models. 
+Then click *OK*.
+ 
+Now you will have a 3D model with the texture. -->
 </div>
 </section><section id="photogrammetry-software-workflow"><h2 class="section-heading">Photogrammetry Software Workflow<a class="anchor" aria-label="anchor" href="#photogrammetry-software-workflow"></a>
 </h2>
 <hr class="half-width">
 <p>The following instructions are specific to 3DF Zephir.</p>
-<p>Go to the workflow menu and choose <em>New Project</em></p>
+<p>Go to the workflow menu and choose <strong>New Project</strong>, you
+will be presented with a the <em>“New project wizard window”</em>.</p>
+<p>Choose the first box <em>Sparse</em> in order to go trough the all
+process manually. Click <strong>Next&gt;</strong> you will be presented
+with the <em>“Photos selection page”</em> .</p>
 <div class="section level3">
 <h3 id="import-images">Import Images<a class="anchor" aria-label="anchor" href="#import-images"></a>
 </h3>
-<p>Browse to the folder that contains your images and click <em>Select
-Folder</em>.</p>
-<p>Click <em>Create camera from each file</em>. The number of cameras
-that appear in the menu will depend on how many images you have
-taken.</p>
-<p>Save the project in the project root folder.</p>
+<ul>
+<li><p>Browse to the folder that contains your images and click
+<strong>Select Folder</strong> or Select a your <strong>Single
+Images</strong>. Click <strong>Next&gt;</strong></p></li>
+<li><p>you will be presented with the <em>“Camera calibration page<em>”.
+If you have a separate Exif file for calibrating the camera you can add
+it here, and you can also manually calibrate you camera in the
+</em>”Modify Calibration page”</em> otherwise go on and click
+<strong>Next&gt;</strong></p></li>
+</ul>
 </div>
 <div class="section level3">
-<h3 id="import-masks">Import Masks<a class="anchor" aria-label="anchor" href="#import-masks"></a>
+<h3 id="import-masks-optional">Import Masks (optional)<a class="anchor" aria-label="anchor" href="#import-masks-optional"></a>
 </h3>
-<p>Select the tools menu, go to import and select <em>Import
-Masks</em>.</p>
-<p>Select <em>From background</em> in the Method drop down box.</p>
-<p>Select <em>Replacement</em> in the <em>Operation</em> drop down
-box.</p>
-<p>In the <em>Filename template</em> select type in the name that you
-saved earlier in paint.</p>
-<p>Under tolerance, select a number from 30 to 50. The idea is that for
-each point in the image, it will compare it to the colour in our
-background mask image at the same point. If it is the same, it will not
-be included in the 3D model.</p>
-<p>The tolerance number is the amount that you expect the colour to vary
-to the background image. The larger the number, the larger it will allow
-a deviation from the colour to be masked out.</p>
-<p>Click <em>OK</em>. Then select the folder that contains the
-image.</p>
-<p>Browse to the appropriate folder and click <em>Select
-Folder</em>.</p>
-<p>Wait for the masks to be processed. The time to complete will depend
-on the number of images that you have taken.</p>
-<p>Double click each image and look for any areas that have been masked
-out that shouldn’t have been. In this example, it has masked out the
-back of the model. Use either the rectangle or the loop tool (circled in
-red) to select the area.</p>
-<p>Right click and choose <em>Subtract Selection</em>. This will remove
-the selection from the mask. Repeat this for all images.</p>
-<p>Save the project so far.</p>
+<p>In the <em>“Photos selection page”</em> there is an option to import
+the mask, if selected a new option will be presented in the</p>
 </div>
 <div class="section level3">
 <h3 id="align-photos">Align Photos<a class="anchor" aria-label="anchor" href="#align-photos"></a>
 </h3>
-<p>The next step is to align the photos. For this, go to
-<em>Workflow</em> in the menu and select <em>Align Photos</em>.</p>
-<p>Select the options you want, but make sure the <em>Constrain features
-by mask</em> is selected. Then click <em>OK</em>.</p>
-<p>Save the project so far.</p>
+<p>The next step is to align the photos. For this:</p>
+<ul>
+<li>you will be presented with the <em>“Camera orientation page”</em>.
+Keep the general setting and click <strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>“Start reconstruction page”</em>.
+Click <strong>Run</strong>
+</li>
+<li>you will be presented with the <em>“Reconstruction Successful
+page</em>” Click <strong>Finish</strong>
+</li>
+<li>Save the project in the same <a href="#id_%20Create%20a%20folder">folder</a> created before.</li>
+</ul>
+<p><em>“Once the camera orientation phase has been completed, the sparse
+point cloud will appear in the workspace as well as the oriented cameras
+identified by blue pyramids.”</em> Now you can familiarize with the
+navigation of the 3d space and the interface. For example go to
+<strong>Scene-&gt; Bounding Box-&gt; Edit Bounding box</strong> and
+limit the created sparse cloud within the the bounding box.This will
+speed-up the process when creating the final mesh.</p>
 </div>
 <div class="section level3">
-<h3 id="build-dense-cloud">Build dense cloud<a class="anchor" aria-label="anchor" href="#build-dense-cloud"></a>
+<h3 id="build-dense-cloud-optional">Build dense cloud (optional)<a class="anchor" aria-label="anchor" href="#build-dense-cloud-optional"></a>
 </h3>
-<p>Go to <em>Workflow</em> in the menu and select <em>Build Dense
-Cloud</em>.</p>
-<p>Choose the options you want and click <em>OK</em>.</p>
+<p>The next step is to create a Dense Point Cloud. For this:</p>
+<ul>
+<li>Go to <em>Workflow</em> in the menu and select <em>Advance-&gt;
+Dense Point Cloud Generation</em>.</li>
+<li>you will be presented with the <em>” Dense Point Cloud Generation
+wizard”</em>. <strong>Select All Cameras</strong> and Click
+<strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>” Dense Point Cloud Creation
+page”</em>. Leave the general settings and click
+<strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>“Start Densification page”</em>.
+Click <strong>Run</strong>
+</li>
+</ul>
 <p>Save the progress so far.</p>
 </div>
 <div class="section level3">
@@ -822,6 +958,7 @@ Texture</em>.</p>
 <p>Choose the following options. They are suitable for most models. Then
 click <em>OK</em>.</p>
 <p>Now you will have a 3D model with the texture.</p>
+<p><a href="https://www.3dflow.net/zephyr-doc/en/Extractingadensepointcloud.html" class="external-link uri">https://www.3dflow.net/zephyr-doc/en/Extractingadensepointcloud.html</a></p>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
@@ -829,7 +966,7 @@ any links that you are not going to use.
 </div>
 </section></section><section id="aio-additional-links"><p>Content from <a href="additional-links.html">Additional Links</a></p>
 <hr>
-<p> Last updated on 2023-12-12 | 
+<p> Last updated on 2023-12-13 | 
         
         <a href="https://github.com/culturedigitalskills/2023-digitisation-photogrammetry/edit/main/episodes/additional-links.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 12 minutes </p>
@@ -922,8 +1059,8 @@ any links that you are not going to use.
   "url": "https://culturedigitalskills.github.io/2023-digitisation-photogrammetry/instructor/aio.html",
   "identifier": "https://culturedigitalskills.github.io/2023-digitisation-photogrammetry/instructor/aio.html",
   "dateCreated": "2023-11-29",
-  "dateModified": "2023-12-12",
-  "datePublished": "2023-12-12"
+  "dateModified": "2023-12-13",
+  "datePublished": "2023-12-13"
 }
 
   </script><script>
