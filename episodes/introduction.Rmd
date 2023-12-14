@@ -31,7 +31,7 @@ measuring and interpreting photographic 2d images by mean of [**triangulation**]
 
 |   |   |
 |---|---|
-| ![https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/TriangulationIdeal.svg/1280px-TriangulationIdeal.svg.png?20070822205517](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/TriangulationIdeal.svg/1280px-TriangulationIdeal.svg.png?20070822205517) | ![https://upload.wikimedia.org/wikipedia/commons/c/c2/Fotogrammetria_digitale.jpg](https://upload.wikimedia.org/wikipedia/commons/c/c2/Fotogrammetria_digitale.jpg) |
+| ![Triangulation Ideal](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/TriangulationIdeal.svg/1280px-TriangulationIdeal.svg.png?20070822205517) | ![Comparison between analogue and digital](https://upload.wikimedia.org/wikipedia/commons/c/c2/Fotogrammetria_digitale.jpg) |
 |Triangulation Ideal, Public domain, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TriangulationIdeal.svg) | Comparison between analogue and digital stereometric cameras - DaddabboA, Public domain, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Confronto_analogic0_digital.jpg) |
 
 
