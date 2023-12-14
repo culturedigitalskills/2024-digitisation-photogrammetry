@@ -3,7 +3,15 @@ title: 'Using the photogrammetry software'
 teaching: 10
 exercises: 2
 ---
+:::::::::::::::::::::::::::::::::::::: questions 
 
+- What software is available to create 3d models after image acquisition?
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- Explains the techniques for using specific software for processing the images and for creating 3d models.
+::::::::::::::::::::::::::::::::::::::::::::::::
 <!--
 ## Processing the images
 
@@ -323,6 +331,9 @@ At this point we need to regenerate the texture for the lower resolution mesh. T
 - create another folder called *"Exports"* within the same folder of the images and save the model in this folder.
 
 <iframe src="https://gltf-viewer.donmccurdy.com#kiosk=1&model=https://data.d4science.org/shub/E_azJzMVp6MENORnRUd0FEdElCa3g5WVBIdEQ5cldBUlJwOHkyYjRITHpTYmVUcFdIUDc1VzRhWTFGdWc5SytNVA==" style="width: 100%;" height="400px" bgColor="#dbdbdb" frameBorder="0"></iframe>
+
+
+
 
 ### Adding real world scale
 

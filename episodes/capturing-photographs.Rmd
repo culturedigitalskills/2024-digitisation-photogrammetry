@@ -1,11 +1,23 @@
 ---
-title: 'Capturing'
+title: 'Capturing images'
 teaching: 10
 exercises: 2
 ---
+:::::::::::::::::::::::::::::::::::::: questions
+- What are the premises before a shooting session?
+
+- How do we capture images ?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- Shows various scenarios of image capturing adn shooting environments.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Camera Setup
+## Camera setup
 
 Please [refer to the equipment][setup] that you will need
 access to.

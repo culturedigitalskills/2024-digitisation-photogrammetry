@@ -57,7 +57,8 @@ FIXME: place any data you want learners to use in `episodes/data` and then use
        link to it, replacing the example.com link.
 -->
 For this lesson there are different types of data sets that you can choose for building different 3d models, ranging from a small object to an entire building.
-Firstly try to experiment with a [small wooden case](https://data.d4science.org/shub/E_RkNCMkpSdzg1ckNkbUJ0eUV0ZTVsNmM5SzlIOUF0dkVKQXZHVC80cVg0RlEvVzVxcXhVWEY1MUpHQnEyaWlFTA==) and then continue [with a small wooden horse](https://data.d4science.org/shub/E_cUd5dVh5d0VDUEg5enNSZXF4RFY4R1hBaG4yaXRaMGdMbE1adU5XZFRHYW1DMWZoWVdvVitIVy9EVDduYjJ3Qg==). These two type of models are almost of the same size however they differentiate in their topology and you will need to use different approches to get to the final result.For the horse you would need also a [second part](https://data.d4science.org/shub/E_RjFkYTBvTUFiZnpLNnAreFhvSWJpWTVORm51ZGJrTXpKWkNkZWVQZkF6QXRQY1I3dnA4elpWdzY1cU1qVUxnMQ==) because shape you will learn how to merge different chunks of the same model.
+
+At first try to experiment with a [small wooden case](https://data.d4science.org/shub/E_RkNCMkpSdzg1ckNkbUJ0eUV0ZTVsNmM5SzlIOUF0dkVKQXZHVC80cVg0RlEvVzVxcXhVWEY1MUpHQnEyaWlFTA==) and then continue [with a small wooden horse](https://data.d4science.org/shub/E_cUd5dVh5d0VDUEg5enNSZXF4RFY4R1hBaG4yaXRaMGdMbE1adU5XZFRHYW1DMWZoWVdvVitIVy9EVDduYjJ3Qg==). These two type of models are almost of the same size however they differentiate in their topology and you will need to use different approches to get to the final result.For the horse you would need also a [second part](https://data.d4science.org/shub/E_RjFkYTBvTUFiZnpLNnAreFhvSWJpWTVORm51ZGJrTXpKWkNkZWVQZkF6QXRQY1I3dnA4elpWdzY1cU1qVUxnMQ==) because shape you will learn how to merge different chunks of the same model.
 
 Later you can also experiment with a larger model of a [small sculpture](https://data.d4science.org/shub/E_Y2xqazRYR3BBOE5DODVXNksxd2Q5ZnJvZElDTDR5TjZqdC9ETnUydjJoeEVQT0o2NkRrajhZenNsVmhtVUFXNA==) which reside in Brighton (UK) and even with a [larger one of Queen Victoria](https://data.d4science.org/shub/E_S1Z0U2srVkVqRHI5RVBETFZsVVhFcTh0U2xvc1p2MUM1T1d0d2Y4Y2VXNzZTVytsQnRDTjlxWXJMNm1FVkpEWQ==) also situated in the center Brighton (UK)
 
@@ -66,6 +67,8 @@ Later you can also experiment with a larger model of a [small sculpture](https:/
 
 
 The tutorial is built with [The Carpentries Workbench](https://carpentries.github.io/sandpaper-docs/), as part of the training activities of the [AHRC-funded network service on Digital Skills in Visual and Material Culture](https://www.culturedigitalskills.org).
+
+
 
 ::::::::::::::::::::::::::::::::::::::: discussion
 
