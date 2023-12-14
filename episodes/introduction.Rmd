@@ -32,7 +32,7 @@ measuring and interpreting photographic 2d images by mean of [**triangulation**]
 |   |   |
 |---|---|
 | ![https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/TriangulationIdeal.svg/1280px-TriangulationIdeal.svg.png?20070822205517](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/TriangulationIdeal.svg/1280px-TriangulationIdeal.svg.png?20070822205517) | ![https://upload.wikimedia.org/wikipedia/commons/c/c2/Fotogrammetria_digitale.jpg](https://upload.wikimedia.org/wikipedia/commons/c/c2/Fotogrammetria_digitale.jpg) |
-|*Triangulation meaning in photogrammetry - from wikipedia: https://en.wikipedia.org/wiki/Triangulation_(computer_vision)* | Comparison between analogue and digital stereometric cameras - DaddabboA, Public domain, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Confronto_analogic0_digital.jpg) |
+|Triangulation Ideal, Public domain, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TriangulationIdeal.svg) | Comparison between analogue and digital stereometric cameras - DaddabboA, Public domain, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Confronto_analogic0_digital.jpg) |
 
 
 
@@ -43,7 +43,7 @@ There are different therms to be aware when referring to photogrammetry. This th
 
 |   |   |   |
 |---|---|---|
-| ![Albrecht Meydenbauer](https://upload.wikimedia.org/wikipedia/commons/f/f3/Albrecht_Meydenbauer_%281834-1921%29.jpg){width="70%"} | ![Meydenbauer’s](https://upload.wikimedia.org/wikipedia/commons/b/b3/Nakres_fotogrammetricke_kamery.jpg){width="70%"} | ![Holztor und der Johanniterhof](https://upload.wikimedia.org/wikipedia/commons/7/7d/Gelnhausen_Johanniterhof_81-015.jpg){width="70%"} |
+| ![Albrecht Meydenbauer](https://upload.wikimedia.org/wikipedia/commons/f/f3/Albrecht_Meydenbauer_%281834-1921%29.jpg){width="78%"} | ![Meydenbauer’s](https://upload.wikimedia.org/wikipedia/commons/b/b3/Nakres_fotogrammetricke_kamery.jpg){width="83%"} | ![Holztor und der Johanniterhof](https://upload.wikimedia.org/wikipedia/commons/7/7d/Gelnhausen_Johanniterhof_81-015.jpg) |
 | Albrecht Meydenbauer (1834-1921) inconnu, photopile avant 1921, Public domain, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Albrecht_Meydenbauer_(1834-1921).jpg) | Meydenbauer’s camera developed in 1872, um 1900, Albrecht Meydenbauer, Public domain, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nakres_fotogrammetricke_kamery.jpg) | Holztor und der Johanniterhof in Gelnhausen, um 1900, Albrecht Meydenbauer, Public domain, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gelnhausen_Johanniterhof_81-015.jpg) | 
 |  |
 
