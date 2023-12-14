@@ -4,7 +4,7 @@ teaching: 10
 exercises: 2
 ---
 :::::::::::::::::::::::::::::::::::::: questions 
-- What is photogrammetry and how differs from classic photography ?
+- What is photogrammetry?
 
 - Where and when can we use photogrammetry?
 
@@ -44,7 +44,7 @@ There are different therms to be aware when referring to photogrammetry. This th
 ![https://upload.wikimedia.org/wikipedia/commons/b/b3/Nakres_fotogrammetricke_kamery.jpg](https://upload.wikimedia.org/wikipedia/commons/b/b3/Nakres_fotogrammetricke_kamery.jpg){width="264px" height="349px"}*Meydenbauer’s camera developed in 1872, um 1900, Albrecht Meydenbauer, Public domain, via Wikimedia Commons*
 
 
-In reality the reconstruction of the 3d scene is often referred as [**SfM(Structure from Motion)**](https://en.wikipedia.org/wiki/Structure_from_motion). For the single purpose of simplicity in this workshop we are going to use them interchangeably and we will use the therm "photogrammetry to describe the whole process for capturing and analysing the images and reconstructing the 3d object or environment. 
+In reality the reconstruction of the 3d scene is often referred as [**SfM(Structure from Motion)**](https://en.wikipedia.org/wiki/Structure_from_motion). For semplicity pourposes in this workshop we are going to use them interchangeably and we will use the therm "photogrammetry to describe the whole process for capturing and analysing the images and reconstructing the 3d object or environment. 
 
 
 ![https://upload.wikimedia.org/wikipedia/commons/4/42/Sede_da_Fazenda_do_Pinhal_%28159%29%2C_N.ELAC.jpg](https://upload.wikimedia.org/wikipedia/commons/4/42/Sede_da_Fazenda_do_Pinhal_%28159%29%2C_N.ELAC.jpg)*Sede da Fazenda do Pinhal (159), N.ELAC. NELAC, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons*
