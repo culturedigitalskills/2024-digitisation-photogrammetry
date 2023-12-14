@@ -1,5 +1,5 @@
 ---
-title: 'Additional Links'
+title: 'Links'
 teaching: 10
 exercises: 2
 ---

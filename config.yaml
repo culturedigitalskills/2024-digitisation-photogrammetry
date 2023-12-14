@@ -60,8 +60,8 @@ contact: 'K.Rodriguez@brighton.ac.uk'
 # Order of episodes in your lesson
 episodes:
 - introduction.Rmd
-- setting-up-the-environment.Rmd
 - capturing-photographs.Rmd
+- setting-up-the-environment.Rmd
 - photogrammetry-software.Rmd
 - additional-links.Rmd
 #- links.Rmd

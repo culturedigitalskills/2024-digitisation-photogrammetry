@@ -1,5 +1,5 @@
 ---
-title: 'Photogrammetry Software'
+title: 'Using the photogrammetry software'
 teaching: 10
 exercises: 2
 ---
@@ -21,6 +21,7 @@ Resizing, rotating and transforming the
 geometry of the images should not be applied.
 -->
 
+
 ## Preparing the images
 
 Once the photographs have been acquired, 
@@ -35,15 +36,11 @@ if you are not sure if your file has the information needed there are lots of to
 
 Every photogrammetry software is quite different and will import different image files formats.
 
-*In this case the images that you have downloaded previously are already converted for you and, although it is better you get use to this software for batch converting images, at this stage you will not need to take further actions.*
+*In this case the images that you have downloaded from the [examples data sets](setup) are already converted for you and, although it is better you get use to this software for batch converting images, at this stage you will not need to take further actions.*
 
 
 
-## Using the photogrammetry software
-
-The steps to use the software are as follows:
-
-### Organizing the workspace
+## Organizing the workspace
 
 Using a suitable name which reflects your project, transfer all
 images into a folder.
@@ -327,12 +324,12 @@ At this point we need to regenerate the texture for the lower resolution mesh. T
 
 <iframe src="https://gltf-viewer.donmccurdy.com#kiosk=1&model=https://data.d4science.org/shub/E_azJzMVp6MENORnRUd0FEdElCa3g5WVBIdEQ5cldBUlJwOHkyYjRITHpTYmVUcFdIUDc1VzRhWTFGdWc5SytNVA==" style="width: 100%;" height="400px" bgColor="#dbdbdb" frameBorder="0"></iframe>
 
-
+### Adding real world scale
 
 
 ### Final Remarks
 
-During the whole process you will encounter more options and setting then the once described above. You can find a more complete and technical advice in [this document](https://www.3dflow.net/zephyr-doc/en/Extractingadensepointcloud.html).
+During the whole process you will encounter more options and setting then the ones described above. You can find a more complete and technical advice in [this document](https://www.3dflow.net/zephyr-doc/en/Extractingadensepointcloud.html).
 
 Or if you prefer it as a PDF file you can find it [here](https://3df-eu.fra1.digitaloceanspaces.com/zephyr-doc/3DF%20Zephyr%20Manual%207.500%20English.pdf)
 
