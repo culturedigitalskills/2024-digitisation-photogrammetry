@@ -47,7 +47,7 @@ There are different therms to be aware when referring to photogrammetry. This th
 In reality the reconstruction of the 3d scene is often referred as [**SfM(Structure from Motion)**](https://en.wikipedia.org/wiki/Structure_from_motion). For semplicity pourposes in this workshop we are going to use them interchangeably and we will use the therm "photogrammetry to describe the whole process for capturing and analysing the images and reconstructing the 3d object or environment. 
 
 
-![https://upload.wikimedia.org/wikipedia/commons/4/42/Sede_da_Fazenda_do_Pinhal_%28159%29%2C_N.ELAC.jpg](https://upload.wikimedia.org/wikipedia/commons/4/42/Sede_da_Fazenda_do_Pinhal_%28159%29%2C_N.ELAC.jpg)*Sede da Fazenda do Pinhal (159), N.ELAC. NELAC, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons*
+![Sede da Fazenda do Pinhal (159) &copy; NELAC under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://en.wikipedia.org/wiki/File:Sede_da_Fazenda_do_Pinhal_(163),_N.ELAC.jpg)](https://upload.wikimedia.org/wikipedia/commons/4/42/Sede_da_Fazenda_do_Pinhal_%28159%29%2C_N.ELAC.jpg)
 
 ## Contextualization (Where and When)
 There are multiple scenarios for the use of photogrammetry, we will refer to only the ones apted to reconstruct 3d object and environments in Cultural Heritage.
