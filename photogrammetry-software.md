@@ -223,7 +223,7 @@ images and click **Select Folder** or Select a your **Single Images**. Click **N
 - you will be presented with the  *"Camera calibration page*". If you have a separate Exif file for calibrating the camera you can add it here, and you can also manually calibrate you camera in the *"Modify Calibration page"* otherwise go on and click **Next>**
 
 
-![https://data.d4science.org/shub/E_WHBodVMwdUZ5TXU3Z3h3MDhrQjBIMmFybkNGRXN6aEtqMUNuUWY2QlFKVmF5V1hxbzRFaDd6Q0ZIT0NsZ1BaNQ==](https://data.d4science.org/shub/E_WHBodVMwdUZ5TXU3Z3h3MDhrQjBIMmFybkNGRXN6aEtqMUNuUWY2QlFKVmF5V1hxbzRFaDd6Q0ZIT0NsZ1BaNQ==)*Original photo*
+![*Original photo*](https://data.d4science.org/shub/E_WHBodVMwdUZ5TXU3Z3h3MDhrQjBIMmFybkNGRXN6aEtqMUNuUWY2QlFKVmF5V1hxbzRFaDd6Q0ZIT0NsZ1BaNQ==)
 
 
 
@@ -233,8 +233,7 @@ In the *"Photos selection page"* there is an option to import the mask, if selec
 Within this tool (which is also available from the main interface), it will be possible to generate a Mask to apply to all the images.
 The tools is quite simple to use so that if you want to try to apply a mask you can use a sample image provided in the sets of the downloaded dataset as a first file.
 
-![https://data.d4science.org/shub/E_RFF0RkVickVCSmJCSHFtZm10MEYwNXFCN2xtY2JSVmY5MmxHVlo4a01WRUppcW9GK1Z0UzlXeHJXK1hJR3pwQQ==](https://data.d4science.org/shub/E_RFF0RkVickVCSmJCSHFtZm10MEYwNXFCN2xtY2JSVmY5MmxHVlo4a01WRUppcW9GK1Z0UzlXeHJXK1hJR3pwQQ==)*Original photo Mask*
-
+![*Original photo of the mask*](https://data.d4science.org/shub/E_RFF0RkVickVCSmJCSHFtZm10MEYwNXFCN2xtY2JSVmY5MmxHVlo4a01WRUppcW9GK1Z0UzlXeHJXK1hJR3pwQQ==)
 
 
 ### Aligning Photos
@@ -249,7 +248,7 @@ this:
 
 *"Once the camera orientation phase has been completed, the sparse point cloud will appear in the workspace as well as the oriented cameras identified by blue pyramids."* Now you can familiarize with the navigation of the 3d space and the interface. For example go to **Scene-> Bounding Box-> Edit Bounding box** and limit the created sparse cloud within the the bounding box.This will speed-up the process when creating the final mesh.
 
-![https://data.d4science.org/shub/E_dEtEY3RCZFYyVjMxMjNrOEcvYUxyUENieHpZZUdWc0g1TEVVVUtUTFhWTTRXZ0JON21tRkVKN2ZCREVjcFRxcA==](https://data.d4science.org/shub/E_dEtEY3RCZFYyVjMxMjNrOEcvYUxyUENieHpZZUdWc0g1TEVVVUtUTFhWTTRXZ0JON21tRkVKN2ZCREVjcFRxcA==)*Sparse Point Cloud*
+![*Sparse Point Cloud*](https://data.d4science.org/shub/E_dEtEY3RCZFYyVjMxMjNrOEcvYUxyUENieHpZZUdWc0g1TEVVVUtUTFhWTTRXZ0JON21tRkVKN2ZCREVjcFRxcA==)
 
 
 ### Build dense cloud (optional)
@@ -263,7 +262,7 @@ this:
 - when finished you will be presented with the *"Dense Point Cloud generation successful"* page, click **Finish**
 - Save the project in the same [folder](# Create a folder) created before.
 
-![https://data.d4science.org/shub/E_enEwZ01YYXFVdVlrL3NGbXQrWkoxM2VOYk1sQkY3VVI1L014RUV5UjJsMGwvYWZvcU85endtdXpzU3A1OUpleA==](https://data.d4science.org/shub/E_enEwZ01YYXFVdVlrL3NGbXQrWkoxM2VOYk1sQkY3VVI1L014RUV5UjJsMGwvYWZvcU85endtdXpzU3A1OUpleA==)*Dense Point Cloud*
+![*Dense Point Cloud*](https://data.d4science.org/shub/E_enEwZ01YYXFVdVlrL3NGbXQrWkoxM2VOYk1sQkY3VVI1L014RUV5UjJsMGwvYWZvcU85endtdXpzU3A1OUpleA==)
 
 
 ### Cleaning the dense cloud (optional)
@@ -286,7 +285,7 @@ this:
 - when finished you will be presented with the *"Mesh Creation successful"* page, click **Finish**. This process will produce a 3D model.
 - Once happy save the project in the same [folder](# Create a folder) created before.
 
-![https://data.d4science.org/shub/E_eEIvTkZMYWdoM3pySDdjZUtjU0J1NGFya29vMDVyQ1ErQ0k5eHh1TVlXZkcxaVBUL21ydGlEa1NPeXU0UUhzZQ==](https://data.d4science.org/shub/E_eEIvTkZMYWdoM3pySDdjZUtjU0J1NGFya29vMDVyQ1ErQ0k5eHh1TVlXZkcxaVBUL21ydGlEa1NPeXU0UUhzZQ==)*High Resolution Mesh*
+![*High Resolution Mesh*](https://data.d4science.org/shub/E_eEIvTkZMYWdoM3pySDdjZUtjU0J1NGFya29vMDVyQ1ErQ0k5eHh1TVlXZkcxaVBUL21ydGlEa1NPeXU0UUhzZQ==)
 
 ### Building the Texture
 
@@ -300,7 +299,7 @@ The final step is to re-project the texture onto the 3D surface.For this:
 - Save the project in the same [folder](# Create a folder) created before.
 
 
-![https://data.d4science.org/shub/E_R21uT3hnMGRjeGZ0WHVZUkgwTW9FLzFTYzJIaWYvVGY4RWltQ1ZkZmRiZTlndExkMEtPdGRsQll3N0UzZnBVbw==](https://data.d4science.org/shub/E_R21uT3hnMGRjeGZ0WHVZUkgwTW9FLzFTYzJIaWYvVGY4RWltQ1ZkZmRiZTlndExkMEtPdGRsQll3N0UzZnBVbw==)*High Resolution Mesh Texture*
+![*High Resolution Mesh Texture*](https://data.d4science.org/shub/E_R21uT3hnMGRjeGZ0WHVZUkgwTW9FLzFTYzJIaWYvVGY4RWltQ1ZkZmRiZTlndExkMEtPdGRsQll3N0UzZnBVbw==)
 
 
 ### Exporting the mesh with textures for High-Res visualization
