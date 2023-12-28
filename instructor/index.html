@@ -169,7 +169,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="setting-up-the-environment.html">3. Processing overview</a>
+        <a href="setting-up-the-environment.html">3. Process overview</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -277,7 +277,7 @@ capture images ?
 <span class="visually-hidden">Duration: </span>00h 24m
 </td>
 <td>
- 3. <a href="setting-up-the-environment.html">Processing overview</a>
+ 3. <a href="setting-up-the-environment.html">Process overview</a>
 </td>
 <td>
 How do you capture images and create 3d models for 3D digital
@@ -322,7 +322,8 @@ FIXME: Setup instructions live in this document. Please specify the tools and
 the data sets the Learner needs to have installed.
 --><section id="equipment"><h2 class="section-heading">Equipment<a class="anchor" aria-label="anchor" href="#equipment"></a>
 </h2>
-<hr class="half-width"><p>For this lesson you will need to following equipment:</p>
+<hr class="half-width"><p>For photogrammetry capture and processing you will need the following
+equipment:</p>
 <ul><li>
 <strong>Digital camera</strong>: a compact or a digital single lens
 reflex (DSLR) camera can be used. Preferably you should use a camera
@@ -335,12 +336,13 @@ quality).</li>
 variable lens, do not use the zoom and define one fixed focal length
 <!--(to its maximum or 
 minimal value right from the start)-->. A focal length of 50mm (as
-roughly our eyes) or higher would generally work well (generally it is
-preferable not to go below 35mm). For small objects a lens between 60mm
-and 80mm would be optimal<!-- or a macro lens could be used too-->.</li>
+roughly our eyes are) or higher would generally work well (generally it
+is preferable not to go below 35mm). For small objects a lens between
+60mm and 80mm would be
+optimal<!-- or a macro lens could be used too-->.</li>
 <li>
 <strong>Tripod</strong> can be used if using a turntable for stable
-camera placement or for shooting when light conditions do not permit to
+camera placement or for shooting when light conditions do not allow to
 maintain an aperture speed above 1/60 of a second when holding it by
 hand.</li>
 <li>
@@ -349,7 +351,7 @@ rotated manually or the camera is placed away form the
 photographer.</li>
 <li>
 <strong>Turntable</strong> manual or automatic (which can be
-syncronized with the time of the camera shooting).</li>
+synchronized with the time of the camera shooting).</li>
 <li>
 <strong>Diffused artificial light</strong> to eliminate shadows as
 much as possible.</li>
@@ -370,33 +372,42 @@ options, and the steps
 described will change depending on the software used.
 --></p>
 <ul><li>
-<strong>Image processing software</strong>: such as <a href="https://www.rawtherapee.com/" class="external-link">Raw Therapee</a> for batch
+<strong>Image processing software</strong>: <a href="https://www.rawtherapee.com/" class="external-link">Raw Therapee</a> for batch
 converting raw images from camera to use in photogrammetry software, <a href="https://www.gimp.org/" class="external-link">GIMP</a> which allows to manipulate and
-post-process textures generated during the process.</li>
+post-process textures generated after the model has been created.</li>
 <li>
 <strong>Photogrammetry software</strong>: there are various options,
-and the steps described will vary depending on the software used. <a href="https://www.agisoft.com/" class="external-link">Metashape</a> - commercial, <a href="https://alicevision.org" class="external-link">Meshroom</a> - open source.</li>
-</ul><p><strong>For this specific tutorial</strong> we will use <a href="https://www.3dflow.net" class="external-link">3DF ZEPHYR</a> - free basic version.</p>
+and the steps described will vary depending on the software used. The
+most popular one are: <a href="https://www.agisoft.com/" class="external-link">Metashape</a> -
+commercial and <a href="https://alicevision.org" class="external-link">Meshroom</a> - open
+source.</li>
+</ul><p><strong>For this specific tutorial</strong> we will use <a href="https://www.3dflow.net" class="external-link">3DF ZEPHYR</a>. Which as the advantages to
+be user friendly(as Metashape) and provides variousb types of licences
+such as the free educational version.</p>
 </section><section id="examples-data-sets"><h2 class="section-heading">Examples Data Sets<a class="anchor" aria-label="anchor" href="#examples-data-sets"></a>
 </h2>
 <hr class="half-width"><!--
 FIXME: place any data you want learners to use in `episodes/data` and then use
        a relative link ( [data zip file](data/lesson-data.zip) ) to provide a
        link to it, replacing the example.com link.
---><p>For this lesson there are different types of data sets that you can
-choose for building different 3d models, ranging from a small object to
-an entire building.</p>
+--><p>For this lesson there are variuos types of data sets, which you can
+use for building different types of 3d models, ranging from a small
+object to an entire building.</p>
 <p>At first try to experiment with a <a href="https://data.d4science.org/shub/E_RkNCMkpSdzg1ckNkbUJ0eUV0ZTVsNmM5SzlIOUF0dkVKQXZHVC80cVg0RlEvVzVxcXhVWEY1MUpHQnEyaWlFTA==" class="external-link">small
 wooden case</a> and then continue <a href="https://data.d4science.org/shub/E_cUd5dVh5d0VDUEg5enNSZXF4RFY4R1hBaG4yaXRaMGdMbE1adU5XZFRHYW1DMWZoWVdvVitIVy9EVDduYjJ3Qg==" class="external-link">with
-a small wooden horse</a>. These two type of models are almost of the
-same size however they differentiate in their topology and you will need
-to use different approches to get to the final result.For the horse you
-would need also a <a href="https://data.d4science.org/shub/E_RjFkYTBvTUFiZnpLNnAreFhvSWJpWTVORm51ZGJrTXpKWkNkZWVQZkF6QXRQY1I3dnA4elpWdzY1cU1qVUxnMQ==" class="external-link">second
-part</a> because shape you will learn how to merge different chunks of
-the same model.</p>
+a small wooden horse sculpture</a>. These two types of models are almost
+of the same size however they differs significantly in their topology.
+You will need to use different approaches to achieve to the final
+result. For the horse you would need also a <a href="https://data.d4science.org/shub/E_RjFkYTBvTUFiZnpLNnAreFhvSWJpWTVORm51ZGJrTXpKWkNkZWVQZkF6QXRQY1I3dnA4elpWdzY1cU1qVUxnMQ==" class="external-link">second
+sets of images</a> because you will learn how to merge different chunks
+of the same model.</p>
 <p>Later you can also experiment with a larger model of a <a href="https://data.d4science.org/shub/E_Y2xqazRYR3BBOE5DODVXNksxd2Q5ZnJvZElDTDR5TjZqdC9ETnUydjJoeEVQT0o2NkRrajhZenNsVmhtVUFXNA==" class="external-link">small
-sculpture</a> which reside in Brighton (UK) and even with a <a href="https://data.d4science.org/shub/E_S1Z0U2srVkVqRHI5RVBETFZsVVhFcTh0U2xvc1p2MUM1T1d0d2Y4Y2VXNzZTVytsQnRDTjlxWXJMNm1FVkpEWQ==" class="external-link">larger
-one of Queen Victoria</a> also situated in the center Brighton (UK)</p>
+sculpture</a> which reside in Preston Park in Brighton (UK) and even
+with a <a href="https://data.d4science.org/shub/E_S1Z0U2srVkVqRHI5RVBETFZsVVhFcTh0U2xvc1p2MUM1T1d0d2Y4Y2VXNzZTVytsQnRDTjlxWXJMNm1FVkpEWQ==" class="external-link">larger
+one of Queen Victoria</a> which is also situated in the center df
+Brighton (UK). Do not be afraid to experiment with different setting of
+the software, which we are going to explore in the 4th chapter<a href="photogrammetry-software">4th chapter</a>.With small objects you
+can always go back one step and try again.</p>
 <!--Download the [data zip file](https://example.com/FIXME) and unzip it to your Desktop-->
 <p>The tutorial is built with <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">The Carpentries
 Workbench</a>, as part of the training activities of the <a href="https://www.culturedigitalskills.org" class="external-link">AHRC-funded network service
@@ -409,13 +420,15 @@ on Digital Skills in Visual and Material Culture</a>.</p>
 <h3 class="callout-title">Details<a class="anchor" aria-label="anchor" href="#details"></a>
 </h3>
 <div class="callout-content">
-<p>For this lesson, you will need access to some paper and pen.</p>
-<p>Access to the <a href="https://services.d4science.org/group/culturedigitalskills" class="external-link">Culture
+<p>For this lesson, you will need:</p>
+<ul><li><p>Access to some paper and pen.</p></li>
+<li><p>Install the software mentioned above on this page.</p></li>
+<li><p>Download the data sets iincluded above.</p></li>
+<li><p>Access to the <a href="https://services.d4science.org/group/culturedigitalskills" class="external-link">Culture
 Digital Skills Virtual Research Environment D4Science</a> is also
-required.</p>
-<p>If you have not registered, it would be useful to do this before the
-lesson. For more information, see <a href="https://universityofbrighton.github.io/2023-fair-multidimensional-media/virtual-research-environment.html#virtual-research-environments-vre" class="external-link">instructions</a></p>
-</div>
+required. If you have not registered, it would be useful to do this
+before the lesson. For more information, see <a href="https://universityofbrighton.github.io/2023-fair-multidimensional-media/virtual-research-environment.html#virtual-research-environments-vre" class="external-link">instructions</a></p></li>
+</ul></div>
 </div>
 </div>
 <p>The tutorial is built with <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">The Carpentries
@@ -473,8 +486,8 @@ any links that you are not going to use.
   "url": "https://culturedigitalskills.github.io/2023-digitisation-photogrammetry/instructor/index.html",
   "identifier": "https://culturedigitalskills.github.io/2023-digitisation-photogrammetry/instructor/index.html",
   "dateCreated": "2023-11-29",
-  "dateModified": "2023-12-26",
-  "datePublished": "2023-12-26"
+  "dateModified": "2023-12-28",
+  "datePublished": "2023-12-28"
 }
 
   </script><script>
