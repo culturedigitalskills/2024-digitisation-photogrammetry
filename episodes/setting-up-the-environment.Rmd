@@ -1,5 +1,5 @@
 ---
-title: 'Processing overview'
+title: 'Process overview'
 teaching: 10
 exercises: 2
 ---
@@ -11,7 +11,7 @@ exercises: 2
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explains the techniques for creating 3d objects from 2d images positioned at a different interval in space with specialized software.
+- To explains the techniques for creating 3d objects from 2d images positioned at a different interval in space with specialized software.
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 Multiple 2d photographs can be used to generate [point clouds](https://en.wikipedia.org/wiki/Point_Cloud) where each point has now three-dimensional coordinates.
