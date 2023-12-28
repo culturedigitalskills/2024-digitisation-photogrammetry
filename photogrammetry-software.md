@@ -36,15 +36,13 @@ Once the photographs have been acquired,
 the next step is to transfer the images 
 to a PC (refer to [setup][setup] for specifications).
 
-Please use the software we downloaded in the setup section [Raw Therapee](https://www.3dflow.net) when you need to convert the images from raw file format to various other formats.
+Please use the software we downloaded in the setup section [Raw Therapee](https://www.3dflow.net). With this free software you can convert the images from the raw file format to various other formats. The raw file format of different cameras is probably already the best file format you can use during the processing of the images in the photogrammetry software, because it retains the exif data, the most accurate color range and the best resolution. However not all the photogrammetry software are able to read the different type of raw formats of the different camera types. In this case you will need to use software such as Raw therapy (which you can  also use to re-organize your files) to convert them in a more readable format. Usually the uncompressed Tiff or Tif file format is a good choice, because many photogrammetry software can read it and it will retain good quality information, including all the ones of the camera at the moment of shooting.
 
 Whatever file format you use it must be readable form the software you are about to use for reconstructing the models and you must be sure you choose a format that retains the Exif information within the file.
-if you are not sure if your file has the information needed there are lots of tool online that can provide it such as [ExifInfo.org](https://exifinfo.org/).
-(Raw Therapee can also provide this information on the info panel however you should always check after exporting them.
+if you are not sure if your file has the information needed there are lots of online tools that can provide such information. One example is [ExifInfo.org](https://exifinfo.org/).
+(Raw Therapee can also provide this information on the info panel however you should always check at least one of the image after exporting them from Raw therapy.
 
-Every photogrammetry software is quite different and will import different image files formats.
-
-*In this case the images that you have downloaded from the [examples data sets](setup) are already converted for you and, although it is better you get use to this software for batch converting images, at this stage you will not need to take further actions.*
+*For this lessons the images that you have downloaded from the [examples data sets](setup) are already converted for you and, although it is better  for you to get use to software for batch converting images, at this stage you will not need to take further actions after downloading them*
 
 
 
