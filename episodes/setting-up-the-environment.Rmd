@@ -1,12 +1,12 @@
 ---
-title: 'Process overview'
+title: 'Processing overview'
 teaching: 10
 exercises: 2
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you capture images and create 3d models for 3D digital preservation and publication ?
+- How do you create 3d models for 3D digital preservation and publication ?
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
