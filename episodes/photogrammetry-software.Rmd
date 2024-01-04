@@ -42,7 +42,7 @@ Whatever file format you use it must be readable form the software you are about
 if you are not sure if your file has the information needed there are lots of online tools that can provide such information. One example is [ExifInfo.org](https://exifinfo.org/).
 (Raw Therapee can also provide this information on the info panel however you should always check at least one of the image after exporting them from Raw therapy.
 
-*For this lessons the images that you have downloaded from the [examples data sets](setup) are already converted for you and, although it is better  for you to get use to software for batch converting images, at this stage you will not need to take further actions after downloading them*
+> For this lessons the images that you have downloaded from the [examples data sets](setup) are already converted for you and, although it is better  for you to get use to software for batch converting images, at this stage you will not need to take further actions after downloading them*
 
 
 
