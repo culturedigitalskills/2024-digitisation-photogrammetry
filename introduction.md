@@ -23,30 +23,30 @@ exercises: 2
 
 
 ## Definition (What)
-Photogrammetry is the art, science, and technology of 
-obtaining spatial information
-about physical objects and environments 
-through processes of capturing, 
-measuring and interpreting photographic 2d images [(Salma, 1980)](../learners/references)by mean of [**triangulation in computer vision**](https://en.wikipedia.org/wiki/Triangulation_(computer_vision)). This process uses different algorithms such as the [**Bundle Adjustment**](https://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Triggs00.pdf) *"which refines simultaneously 3d coordinates describing the geometry of the scene, the parameters of the relative motion, and the optical characteristics of the camera(s) employed to acquire the images, given a set of images depicting a number of 3D points from different viewpoints"*
+There are different therms to be aware when referring to photogrammetry. This therm was coined the first time by Prussian architect **Albrecht Meydenbauer** and it refers to the act of measuring the images to understand the 3d position of the represented object or environment. You can read more about the history [**in this article**](http://www.theulegium.de/fileadmin/user_upload/Texte/Meydenb.pdf) by Jörg Albertz. You can also find more in depth about the use of photogrammetry at the [**International Society of Photogrammetry and Remote Sensing**](https://www.isprs.org/)
+
+|   |   |   |
+|---|---|---|
+| ![Albrecht Meydenbauer](https://upload.wikimedia.org/wikipedia/commons/f/f3/Albrecht_Meydenbauer_%281834-1921%29.jpg){width="78%"} | ![Meydenbauer’s](https://upload.wikimedia.org/wikipedia/commons/b/b3/Nakres_fotogrammetricke_kamery.jpg){width="83%"} | ![Holztor und der Johanniterhof](https://upload.wikimedia.org/wikipedia/commons/7/7d/Gelnhausen_Johanniterhof_81-015.jpg) |
+| Albrecht Meydenbauer (1834-1921) inconnu, photopile avant 1921, Public domain, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Albrecht_Meydenbauer_(1834-1921).jpg) | Meydenbauer’s camera developed in 1872, um 1900, Albrecht Meydenbauer, Public domain, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nakres_fotogrammetricke_kamery.jpg) | Holztor und der Johanniterhof in Gelnhausen, um 1900, Albrecht Meydenbauer, Public domain, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gelnhausen_Johanniterhof_81-015.jpg) | 
+
+
+
+Photogrammetry is the art, science, and technology of obtaining spatial information
+about physical objects and environments through processes of capturing, measuring and interpreting photographic 2d images [(Salma, 1980)](../learners/references)by mean of [**triangulation in computer vision**](https://en.wikipedia.org/wiki/Triangulation_(computer_vision)). This process uses different algorithms such as the [**Bundle Adjustment**](https://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Triggs00.pdf) *"which refines simultaneously 3d coordinates describing the geometry of the scene, the parameters of the relative motion, and the optical characteristics of the camera(s) employed to acquire the images, given a set of images depicting a number of 3D points from different viewpoints"*
 
 |   |   |
 |---|---|
 | ![Triangulation Ideal](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/TriangulationIdeal.svg/1280px-TriangulationIdeal.svg.png?20070822205517) | ![Comparison between analogue and digital](https://upload.wikimedia.org/wikipedia/commons/c/c2/Fotogrammetria_digitale.jpg) |
 |Triangulation Ideal, Public domain, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TriangulationIdeal.svg) | Comparison between analogue and digital stereometric cameras - DaddabboA, Public domain, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Confronto_analogic0_digital.jpg) |
 
+\
+\
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fbRFU3eKGoM?si=AM60aNOivlbLvv1F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-There are different therms to be aware when referring to photogrammetry. This therm was coined the first time by   and it refers only to the act of measuring the images to understand the 3d position of the represented object or environment. You can read more about the history [**in this article**](http://www.theulegium.de/fileadmin/user_upload/Texte/Meydenb.pdf) by Jörg Albertz. You can also find more in depth about the use of photogrammetry at the [**International Society of Photogrammetry and Remote Sensing**](https://www.isprs.org/)
-
-
-
-
-|   |   |   |
-|---|---|---|
-| ![Albrecht Meydenbauer](https://upload.wikimedia.org/wikipedia/commons/f/f3/Albrecht_Meydenbauer_%281834-1921%29.jpg){width="78%"} | ![Meydenbauer’s](https://upload.wikimedia.org/wikipedia/commons/b/b3/Nakres_fotogrammetricke_kamery.jpg){width="83%"} | ![Holztor und der Johanniterhof](https://upload.wikimedia.org/wikipedia/commons/7/7d/Gelnhausen_Johanniterhof_81-015.jpg) |
-| Albrecht Meydenbauer (1834-1921) inconnu, photopile avant 1921, Public domain, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Albrecht_Meydenbauer_(1834-1921).jpg) | Meydenbauer’s camera developed in 1872, um 1900, Albrecht Meydenbauer, Public domain, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nakres_fotogrammetricke_kamery.jpg) | Holztor und der Johanniterhof in Gelnhausen, um 1900, Albrecht Meydenbauer, Public domain, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gelnhausen_Johanniterhof_81-015.jpg) | 
-|  |
-
+\
+\
 
 In reality the reconstruction of the 3d scene is often referred as [**SfM(Structure from Motion)**](https://www.mathworks.com/help/vision/ug/structure-from-motion.html). For simplicity pourposes in this workshop we are going to use the therm "photogrammetry" to describe the whole process for capturing and analyzing the images and reconstructing the 3d object or environment. 
 
@@ -59,7 +59,7 @@ In reality the reconstruction of the 3d scene is often referred as [**SfM(Struct
 <!--| Sede da Fazenda do Pinhal (159) &copy; NELAC under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons 
 | Sede da Fazenda do Pinhal (159) &copy; NELAC under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons |-->
 
-> In order to record 3d data with the use of photogrammetry there are typical step to follow, these step are highlighted on on the [**ADS website**](https://archaeologydataservice.ac.uk/help-guidance/guides-to-good-practice/data-collection-and-fieldwork/close-range-photogrammetry/data-collection-and-documentation/typical-steps-for-a-crp-project/) and can be easily followed during this workshop. 
+> In order to record 3d data with the use of photogrammetry there are typical step to follow, which we will explore below, however a more extensive workflow and more guidelines can be found on the [**ADS website**](https://archaeologydataservice.ac.uk/help-guidance/guides-to-good-practice/data-collection-and-fieldwork/close-range-photogrammetry/data-collection-and-documentation/typical-steps-for-a-crp-project/) and also at the [**Geodeditic System Website**](https://www.geodetic.com/basics-of-photogrammetry/). 
 
 
 
@@ -102,9 +102,9 @@ Photogrammetry in geoscience is mostly used to produce [**DEM (Digital elevetion
 - **Archaeology and Cultural Heritage**
 
 Photogrammetry in Archeology and Cultural Heritage is used for many different purposes.
-Basically all the time when the recording of a 3 dimensional shape or surface is required for scientific research, archiving and publication.
+It can be used every time a recording of a three dimensional shape or surface is required for scientific research, archiving and publication.
 
-> Although we have listed this as a sperate discipline, archaeology itself can be considered multidisciplinary. Therefore photogrammetry in this area has many different uses. [**This paper**](https://www.mdpi.com/2071-1050/13/9/5319) and [**this guideline**](https://historicengland.org.uk/images-books/publications/photogrammetric-applications-for-cultural-heritage/heag066-photogrammetric-applications-cultural-heritage/) from **Historic England** can help you to understand this tool under this domain.
+> Although we have listed this as a sperate discipline, archaeology itself can be considered multidisciplinary. Therefore photogrammetry in this area has many different uses. [**This paper**](https://www.mdpi.com/2071-1050/13/9/5319) and [**this guideline**](https://historicengland.org.uk/images-books/publications/photogrammetric-applications-for-cultural-heritage/heag066-photogrammetric-applications-cultural-heritage/) from **Historic England** can help you to understand this tool under this domain. [**Here**](https://www.researchgate.net/profile/Predrag-Novakovic-2/publication/322096576_3D_Digital_Recording_of_Archaeological_Architectural_and_Artistic_Heritage/links/5a44bce80f7e9ba868a7d110/3D-Digital-Recording-of-Archaeological-Architectural-and-Artistic-Heritage.pdf?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6Il9kaXJlY3QiLCJwYWdlIjoicHVibGljYXRpb24iLCJwcmV2aW91c1BhZ2UiOiJfZGlyZWN0In19) yo can find also a very good guide that explains the process and the tools for 3d recording of Archaeological, Architectural and Artistic Heritage.
 
 
 

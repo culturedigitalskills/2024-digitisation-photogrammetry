@@ -39,12 +39,17 @@ options, and the steps
 described will change depending on the software used.
 -->
 
-- **Image processing software**: [Raw Therapee](https://www.rawtherapee.com/) for batch converting raw images from camera to use in photogrammetry software, [GIMP](https://www.gimp.org/) which allows to
-manipulate and post-process textures generated after the model has been created. 
-- **Photogrammetry software**: there are various options, and the steps described will vary depending on the software used. The most popular one are: [Metashape](https://www.agisoft.com/) - commercial and [Meshroom](https://alicevision.org) - open source.
+- **Image processing software**: [Raw Therapee](https://www.rawtherapee.com/) for batch converting raw images from camera to use in photogrammetry software, [GIMP](https://www.gimp.org/) which allows to manipulate and post-process textures generated after the model has been created. 
 
+- **Photogrammetry software**: there are various options, and the steps described will vary depending on the software used. The most popular one are: [Metashape](https://www.agisoft.com/) - commercial, [Meshroom](https://alicevision.org) - open source. [3DF ZEPHYR](https://www.3dflow.net), commercial and free edition and [Reality Capture](https://www.capturingreality.com/realitycapture?utm_source=GoogleSearch&utm_medium=Performance&utm_campaign=19966050707&utm_id=147751700599&utm_term=reality%20capture&utm_content=656580961657&gclid=Cj0KCQiAhc-sBhCEARIsAOVwHuTxtGzuCRqLQ2zAmOeNAiSPbmgSiZ9tvYaUt2ZFLQSY-2VZ62Mjh-EaAmTUEALw_wcB) -commercial.
 
-**For this specific tutorial** we will use [3DF ZEPHYR](https://www.3dflow.net). Which as the advantages to be user friendly(as Metashape) and provides variousb types of licences such as the free educational version.
+Here is a video comparison between all fo the above:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/udXQHys50aA?si=74-eQznTwZI5h-hX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+\
+
+> [Here](https://formlabs.com/blog/photogrammetry-guide-and-software-comparison/) is an extended list for comaprison between more photogrammetry software.**For this specific workshop** we will use [**3DF ZEPHYR**](https://www.3dflow.net), which has the advantages to be user friendly(as Metashape) and provides various types of licences such as the free educational one.
 
 ## Examples Data Sets
 
