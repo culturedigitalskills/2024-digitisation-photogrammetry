@@ -8,7 +8,7 @@ exercises: 2
 
 - Where and when can we use photogrammetry?
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 - Explains what is photogrammetry
