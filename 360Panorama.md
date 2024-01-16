@@ -1,5 +1,5 @@
 ---
-title: '360 Panorama'
+title: '360 Panoramas'
 teaching: 10
 exercises: 2
 ---
@@ -30,6 +30,16 @@ exercises: 2
 ## Processing and Stitching
 
 ## Publishing
+
+
+### Digital Acquisition trough 3d software
+Another recent interesting techniques comes from the blending of photogrammetry and 360 footage.
+In the video below we can it is explained how from 360 footgae we can extract 3d information of the content of the footage.
+
+|   | 
+|---|
+| <iframe width="560" height="315" src="https://www.youtube.com/embed/sPAC81BY_Q0?si=Ukk8fpSSBvNdlhSR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  |
+| Using 360 Video for Photogrammetry (Blender Tutorial, ShaggyMummy, under [ShaggyMummy](https://www.newamsterdamphotovideo.com/), via [YouTube](https://www.youtube.com/watch?v=sPAC81BY_Q0) |
 
 
 

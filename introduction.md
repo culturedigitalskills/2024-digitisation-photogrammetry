@@ -66,7 +66,7 @@ In reality the reconstruction of the 3d scene is often referred as [**SfM(Struct
 
 
 ## Contextualization (Where and When)
-> As we saw in the previous chapter There are multiple methods for the acquisition of 3d data, one of them is photogrammetry. Within this method there are different scenarios for its usage, later on in this workshop we will concentrate on large, medium and small objects for Cultural Heritage.
+> There are multiple methods for the acquisition of 3d ojects and environments, one of them is photogrammetry. Within this method there are different scenarios for its usage, later on in this workshop we will practice with medium-small objects and different environments.
 
 \
 \
@@ -349,7 +349,7 @@ This should be kept simple and plain. There should be high contrast between the 
 |  Balkan Heritage Field School (photogrammetry course) at Stobi, Republic of Macedonia, Ivan.giogio, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Balkan_Heritage_Field_School-5.jpg) 
 
 
-## Different types of setups (indoor)
+## Different types of acquisition scenarios (objects and evironments)
 
 ### Object on turntable and camera on tripod
 The object is placed on a turntable and the camera on a tripod. 
@@ -391,21 +391,26 @@ Here a **video** of an interesting DIY rig with camera moving around, maintainin
 
 \
 
-### Digital Acquisition trough 3d software
-Another interesting techniques comes btween the blending of photogrammetry and 360 footage.
-In the video below we can it is explained how from 360 footgae we can extract 3d information of the content of the footage.
+### Environment of closed space (room)
 
-|   | 
-|---|
-| <iframe width="560" height="315" src="https://www.youtube.com/embed/sPAC81BY_Q0?si=Ukk8fpSSBvNdlhSR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  |
-| Using 360 Video for Photogrammetry (Blender Tutorial, ShaggyMummy, under [ShaggyMummy](https://www.newamsterdamphotovideo.com/), via [YouTube](https://www.youtube.com/watch?v=sPAC81BY_Q0) |
+
+\
+
+
+
+### Environment of open space (facades)
+
+
+\
+
+
 
 
 ## Tips for acquisition
 Good acquisition of images is important in order to have a successful result. 
 Please have in mind that the right/optimal setup will provide you with the correct dataset that will work properly with the software and will provide you with a good 3D model.
 
-- Try overalpping of at least 60% of each image
+- Try overlapping of at least 60% of each image
 - Avoid shooting agianst the sun when you are outside
 - Capture images with good texture.
 - Avoid completely texture-less, transparent and reflective images. The software will have difficulty finding and matching features. If the scene does not contain enough texture itself, you could place additional background objects, such as posters, etc.
