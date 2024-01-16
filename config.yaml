@@ -61,10 +61,10 @@ contact: 'K.Rodriguez@brighton.ac.uk'
 episodes:
 - CHDigitization.Rmd
 - introduction.Rmd
-- capturing-photographs.Rmd
-- setting-up-the-environment.Rmd
-- photogrammetry-software.Rmd
-- additional-links.Rmd
+#- capturing-photographs.Rmd
+#- setting-up-the-environment.Rmd
+#- photogrammetry-software.Rmd
+#- additional-links.Rmd
 - 360Panorama.Rmd
 
 #- links.Rmd
