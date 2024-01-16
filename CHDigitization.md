@@ -1,5 +1,5 @@
 ---
-title: 'Cultural Heritage Digitization'
+title: 'Introduction to Methods'
 teaching: 10
 exercises: 2
 ---
@@ -19,8 +19,17 @@ exercises: 2
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+> Many methods exist that aim to capture 3d data in Cultural Heritage. All have their own advantages and disadvantages compared to photogrammetry. 
+Although it would be quite interesting to explore more in depth the differences between these methods and when appropriately choose them depending on the working scenario, this is out of the scope of this workshop. Nevertheless here you can find a list of some of other methods that can be used to produce 3 dimensional data from real world objects and environments.
 
+\
+\
 
+### **Introduction** ###
+Cultural Heritage Digitisation is the art and science of...
+
+\
+\
 
 ### **Laser based scanners (long, medium, short range)** ###
 
@@ -87,10 +96,10 @@ This method uses Xray in order to cupture volumetric data trough slides the soft
 | 3d CT scan animation, Public domain, under [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:3d_CT_scan_animation.gif) |Schematic representation of the operating principle of 3D computed tomography, Public domain, Astatine211 translation of original work by Torsten Brandmüller, under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:3D_Computed_Tomography_PL.png) |
 \
 \
-
+<!--
 ### **(3d)Ultrasound** ###
 This method is used in medicine to record vessels or human fetus. When recorded over time it is referred as 4d ultrasound with three spatial dimension and one time dimension.
-<!--
+
 |   |   |
 |---|---|
 | ![3dultrasound 20 weeks](https://upload.wikimedia.org/wikipedia/commons/b/bf/3dultrasound_20_weeks.jpg) | ![CRL Crown rump length 12 weeks ecografia Dr. Wolfgang Moroder](https://upload.wikimedia.org/wikipedia/commons/c/c7/CRL_Crown_rump_length_12_weeks_ecografia_Dr._Wolfgang_Moroder.jpg){width="80%"} | 

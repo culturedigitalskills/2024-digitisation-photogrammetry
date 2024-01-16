@@ -15,7 +15,24 @@ exercises: 2
 
 - Shows various scenarios where this technique can be applied to capture 360 environments.
 
+- Showa how to process and stitch 360 photo shooting.
+
+- Shows How to publish 360 mono panorama
+
 <!-- - Advantages and disadvantages for the use of this techniques.-->
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Definition (What)
+
+## Capturing  Images
+
+## Processing and Stitching
+
+## Publishing
+
+
+
+
+
 

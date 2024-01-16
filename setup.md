@@ -7,7 +7,7 @@ the data sets the Learner needs to have installed.
 -->
 
 
-## Equipment
+## Photogrammetry Equipment
 
 
 For photogrammetry capture and processing you will need the following equipment:
@@ -26,7 +26,7 @@ higher would generally work well (generally it is preferable not to go below 35m
 - **Circular polarizing filter** for reflective artefacts.
 - **Laptop or PC** with at least 16GB RAM.
 
-## Software Setup
+## Photogrammetry Software Setup
 
 For this tutorial you will need access to:
 <!--
@@ -52,7 +52,7 @@ Here is a video comparison between all fo the above:
 > [Here](https://formlabs.com/blog/photogrammetry-guide-and-software-comparison/) is an extended list for comaprison between more photogrammetry software.
 **For this specific workshop** we will use [**3DF ZEPHYR**](https://www.3dflow.net), which has the advantages to be user friendly(as Metashape) and provides various types of licences such as the free educational one.
 
-## Examples Data Sets
+## Photogrammetry Examples Data Sets
 
 <!--
 FIXME: place any data you want learners to use in `episodes/data` and then use
