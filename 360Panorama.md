@@ -25,21 +25,61 @@ exercises: 2
 
 ## Definition (What)
 
-## Capturing  Images
+## Capturing Images
 
 ## Processing and Stitching
 
 ## Publishing
 
 
-### Digital Acquisition trough 3d software
-Another recent interesting techniques comes from the blending of photogrammetry and 360 footage.
-In the video below we can it is explained how from 360 footgae we can extract 3d information of the content of the footage.
+## Additional Links
 
-|   | 
-|---|
-| <iframe width="560" height="315" src="https://www.youtube.com/embed/sPAC81BY_Q0?si=Ukk8fpSSBvNdlhSR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  |
-| Using 360 Video for Photogrammetry (Blender Tutorial, ShaggyMummy, under [ShaggyMummy](https://www.newamsterdamphotovideo.com/), via [YouTube](https://www.youtube.com/watch?v=sPAC81BY_Q0) |
+
+### Theory
+
+Image theory
+
+- [Cambridge in Color](https://www.cambridgeincolour.com/)
+-	[Images and content from James Hays, Computer Vision module @ Brown University](http://cs.brown.edu/courses/cs143/)
+<!--
+-	[Comparison of methods](http://www.stporter.com/wp- content/uploads/2016/04/A_Comparison_of_Methods_for_Creating_3D.pdf)
+-	[Tips and Tricks](http://www.agisoft.com/support/tips-tricks/)-->
+
+360 Panoramas
+
+\
+\
+
+### Principles and Guidelines
+
+\
+\
+
+### Other tutorials
+
+\
+\
+
+### Tools and software
+
+- [Exif checker](https://exifinfo.org/)
+
+\
+\
+ 
+<!--
+
+### Additional Links
+
+-	[Images and content from James Hays, Computer Vision module @ Brown University](http://cs.brown.edu/courses/cs143/)
+-	[Comparison of methods](http://www.stporter.com/wp- content/uploads/2016/04/A_Comparison_of_Methods_for_Creating_3D.pdf)
+-	[Tips and Tricks](http://www.agisoft.com/support/tips-tricks/)
+-	[Tips for setup](https://blog.sketchfab.com/how-to-set-up-a-successful-photogrammetry-project/)
+-	[Tips for taking photos](http://www.tested.com/art/makers/460142-art-photogrammetry-how-take-your- photos/)
+
+-->
+
+
 
 
 

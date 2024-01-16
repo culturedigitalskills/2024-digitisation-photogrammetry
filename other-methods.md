@@ -1,17 +1,15 @@
 ---
-title: 'Other to Methods'
+title: 'Other Methods'
 teaching: 10
 exercises: 2
 ---
 :::::::::::::::::::::::::::::::::::::: questions 
-- What is Cultural Heritage digitization?
 
 - What are the different techniques for digitizing cultural objects?
 
 :::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
-- Explains what is Cultural Heritage digitization
 
 - Shows various techniques that can be applied to capture real world objects and environments.
 
@@ -25,13 +23,7 @@ Although it would be quite interesting to explore more in depth the differences 
 \
 \
 
-### **Introduction** ###
-Cultural Heritage Digitization is the art and science of...
-
-\
-\
-
-### **Laser based scanners (long, medium, short range)** ###
+## Laser based scanners (long, medium, short range)
 
 There are various methods used in laser scanning (Time of flight, Phase shift, Triangulation). All of them are applied in different situations depending on the distance of an object to record and also depending on the condition of the environment. The most common method when recording long and medium range is called LIDAR (Light Detection and Ranging) which is applied usually when recording large landscapes or buildings. In this case the sensor on the laser calculates the time that it takes for the light of the laser to return to the sensor thus providing 3d coordinates of each recorded point.  When recording individual objects instead, short range scanners are more used applying triangulation techniques which return to the sensor in a specific location. 
 
@@ -57,7 +49,7 @@ There are various methods used in laser scanning (Time of flight, Phase shift, T
 \
 \
 
-### **Structured light scanners** ###
+## Structured light scanners 
 This method uses a more affordable way of recording 3d object by projecting a pattern onto the object. The canera(S) will record the distorted pattern on a non-flat surface thus determing the 3d shape of the oject.
 
 |   |   |
@@ -67,7 +59,7 @@ This method uses a more affordable way of recording 3d object by projecting a pa
 \
 \
 
-### **Arm-based scanners** ###
+## Arm-based scanners
 This types of scanner are manually operated by tracing the object for digitization. They are quite time consuming and deployed when a very precise digitization is required, such as small fragments of pottery and other small objects.
 
 |   |
@@ -77,7 +69,7 @@ This types of scanner are manually operated by tracing the object for digitizati
 \
 \
 
-### **MRI (Magnetic Resonance Imaging)**
+## MRI (Magnetic Resonance Imaging)
 This type of scanning records the exterior and the interior of an object and is used mostly in medicine to record  or full body or body parts, however it can also be used to record pottery if volumetric data are required.
 
 |   |   |
@@ -87,7 +79,7 @@ This type of scanning records the exterior and the interior of an object and is 
 \
 \
 
-### **(3d)CT (3d Computed Tomography)** ###
+## (3d)CT (3d Computed Tomography) 
 This method uses Xray in order to cupture volumetric data trough slides the software then reconstruct the 3d model by assembling all the slides together.
 
 |   |   |
@@ -98,7 +90,7 @@ This method uses Xray in order to cupture volumetric data trough slides the soft
 \
 \
 
-### Digital Acquisition trough 3d software
+## Digital Acquisition trough 3d software
 Another recent interesting techniques comes from the blending of photogrammetry and 360 footage.
 In the video below we can it is explained how from 360 footgae we can extract 3d information of the content of the footage.
 
@@ -108,11 +100,49 @@ In the video below we can it is explained how from 360 footgae we can extract 3d
 | Using 360 Video for Photogrammetry (Blender Tutorial, ShaggyMummy, under [ShaggyMummy](https://www.newamsterdamphotovideo.com/), via [YouTube](https://www.youtube.com/watch?v=sPAC81BY_Q0) |
 
 
-<!--
-### **(3d)Ultrasound** ###
+
+## (3d)Ultrasound 
 This method is used in medicine to record vessels or human fetus. When recorded over time it is referred as 4d ultrasound with three spatial dimension and one time dimension.
 
 |   |   |
 |---|---|
 | ![3dultrasound 20 weeks](https://upload.wikimedia.org/wikipedia/commons/b/bf/3dultrasound_20_weeks.jpg) | ![CRL Crown rump length 12 weeks ecografia Dr. Wolfgang Moroder](https://upload.wikimedia.org/wikipedia/commons/c/c7/CRL_Crown_rump_length_12_weeks_ecografia_Dr._Wolfgang_Moroder.jpg){width="80%"} | 
-| A 3D ultrasound taken of a fetus at 20 weeks, Public domain, Staecker, under [CC BY 3.0](https://creativecommons.org/licenses/by-sa/3.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:3dultrasound_20_weeks.jpg) |Ultrasound image of the foetus a 30 weeks of pregnancy in a sagittal scan. Measurements of fetal Crown Rump Lenght (CRL), Public domain, Wolfgang Moroder, under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:CRL_Crown_rump_length_12_weeks_ecografia_Dr._Wolfgang_Moroder.jpg) |-->
+| A 3D ultrasound taken of a fetus at 20 weeks, Public domain, Staecker, under [CC BY 3.0](https://creativecommons.org/licenses/by-sa/3.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:3dultrasound_20_weeks.jpg) |Ultrasound image of the foetus a 30 weeks of pregnancy in a sagittal scan. Measurements of fetal Crown Rump Lenght (CRL), Public domain, Wolfgang Moroder, under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:CRL_Crown_rump_length_12_weeks_ecografia_Dr._Wolfgang_Moroder.jpg) |
+
+
+
+## Additional Links
+
+
+### Theory
+
+\
+\
+
+### Principles and Guidelines
+
+\
+\
+
+### Other tutorials
+
+\
+\
+
+### Tools and software
+
+\
+\
+ 
+<!--
+
+### Additional Links
+
+-	[Images and content from James Hays, Computer Vision module @ Brown University](http://cs.brown.edu/courses/cs143/)
+-	[Comparison of methods](http://www.stporter.com/wp- content/uploads/2016/04/A_Comparison_of_Methods_for_Creating_3D.pdf)
+-	[Tips and Tricks](http://www.agisoft.com/support/tips-tricks/)
+-	[Tips for setup](https://blog.sketchfab.com/how-to-set-up-a-successful-photogrammetry-project/)
+-	[Tips for taking photos](http://www.tested.com/art/makers/460142-art-photogrammetry-how-take-your- photos/)
+
+-->
+
