@@ -11,7 +11,7 @@
 carpentry: 'incubator'
 
 # Overall title for pages.
-title: 'Photogrammetry Digitisation'
+title: 'Cultural Heritage Digitization'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: '2023-11-29'
@@ -59,13 +59,15 @@ contact: 'K.Rodriguez@brighton.ac.uk'
 
 # Order of episodes in your lesson
 episodes:
-- CHDigitization.Rmd
+
+
 - introduction.Rmd
 #- capturing-photographs.Rmd
 #- setting-up-the-environment.Rmd
 #- photogrammetry-software.Rmd
 #- additional-links.Rmd
 - 360Panorama.Rmd
+- CHDigitization.Rmd
 
 #- links.Rmd
 

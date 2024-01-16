@@ -6,8 +6,15 @@ FIXME: Setup instructions live in this document. Please specify the tools and
 the data sets the Learner needs to have installed.
 -->
 
+\
+\
 
-## Photogrammetry Equipment
+## Photogrammetry
+
+\
+\
+
+### Equipment
 
 
 For photogrammetry capture and processing you will need the following equipment:
@@ -26,7 +33,10 @@ higher would generally work well (generally it is preferable not to go below 35m
 - **Circular polarizing filter** for reflective artefacts.
 - **Laptop or PC** with at least 16GB RAM.
 
-## Photogrammetry Software Setup
+\
+\
+
+### Software Setup
 
 For this tutorial you will need access to:
 <!--
@@ -52,7 +62,10 @@ Here is a video comparison between all fo the above:
 > [Here](https://formlabs.com/blog/photogrammetry-guide-and-software-comparison/) is an extended list for comaprison between more photogrammetry software.
 **For this specific workshop** we will use [**3DF ZEPHYR**](https://www.3dflow.net), which has the advantages to be user friendly(as Metashape) and provides various types of licences such as the free educational one.
 
-## Photogrammetry Examples Data Sets
+\
+\
+
+### Examples Data Sets
 
 <!--
 FIXME: place any data you want learners to use in `episodes/data` and then use
@@ -69,9 +82,31 @@ Do not be afraid to experiment with different setting of the software, which we 
 
 <!--Download the [data zip file](https://example.com/FIXME) and unzip it to your Desktop-->
 
+\
+\
+
+## 360 Panorama
+
+\
+\
+
+### Equipment
+
+\
+\
+
+### Software Setup
+
+\
+\
+
+### Examples Data Sets
+
+
+\
+\
 
 The tutorial is built with [The Carpentries Workbench](https://carpentries.github.io/sandpaper-docs/), as part of the training activities of the [AHRC-funded network service on Digital Skills in Visual and Material Culture](https://www.culturedigitalskills.org).
-
 
 
 ::::::::::::::::::::::::::::::::::::::: discussion

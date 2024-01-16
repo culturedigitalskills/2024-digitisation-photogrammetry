@@ -1,5 +1,5 @@
 ---
-title: 'Introduction to Methods'
+title: 'Other to Methods'
 teaching: 10
 exercises: 2
 ---
@@ -19,14 +19,14 @@ exercises: 2
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-> Many methods exist that aim to capture 3d data in Cultural Heritage. All have their own advantages and disadvantages compared to photogrammetry. 
-Although it would be quite interesting to explore more in depth the differences between these methods and when appropriately choose them depending on the working scenario, this is out of the scope of this workshop. Nevertheless here you can find a list of some of other methods that can be used to produce 3 dimensional data from real world objects and environments.
+> Many other methods exist that aim to capture 3d data in Cultural Heritage. All have their own advantages and disadvantages compared to photogrammetry. 
+Although it would be quite interesting to explore more in depth the differences between all these methods and when appropriately choose them depending on the working scenario, is out of the scope of this workshop. Nevertheless here you can find a list of some of other methods that can be used to produce 3 dimensional data from real world objects and environments.
 
 \
 \
 
 ### **Introduction** ###
-Cultural Heritage Digitisation is the art and science of...
+Cultural Heritage Digitization is the art and science of...
 
 \
 \
@@ -94,8 +94,20 @@ This method uses Xray in order to cupture volumetric data trough slides the soft
 |---|---|
 | ![3d CT scan animation](https://upload.wikimedia.org/wikipedia/commons/6/68/3d_CT_scan_animation.gif) | ![3D Computed Tomography PL](https://upload.wikimedia.org/wikipedia/commons/8/86/3D_Computed_Tomography_PL.png){width="80%"} | 
 | 3d CT scan animation, Public domain, under [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:3d_CT_scan_animation.gif) |Schematic representation of the operating principle of 3D computed tomography, Public domain, Astatine211 translation of original work by Torsten Brandmüller, under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:3D_Computed_Tomography_PL.png) |
+
 \
 \
+
+### Digital Acquisition trough 3d software
+Another recent interesting techniques comes from the blending of photogrammetry and 360 footage.
+In the video below we can it is explained how from 360 footgae we can extract 3d information of the content of the footage.
+
+|   | 
+|---|
+| <iframe width="560" height="315" src="https://www.youtube.com/embed/sPAC81BY_Q0?si=Ukk8fpSSBvNdlhSR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  |
+| Using 360 Video for Photogrammetry (Blender Tutorial, ShaggyMummy, under [ShaggyMummy](https://www.newamsterdamphotovideo.com/), via [YouTube](https://www.youtube.com/watch?v=sPAC81BY_Q0) |
+
+
 <!--
 ### **(3d)Ultrasound** ###
 This method is used in medicine to record vessels or human fetus. When recorded over time it is referred as 4d ultrasound with three spatial dimension and one time dimension.
