@@ -325,6 +325,9 @@ much as possible.</li>
 artefacts.</li>
 <li>
 <strong>Laptop or PC</strong> with at least 16GB RAM.</li>
+<li>
+<strong>Specialized photogrammetry software</strong> to process data
+and exporting models (see below)</li>
 </ul><p><br><br></p>
 </div>
 <div class="section level3">
@@ -367,7 +370,7 @@ FIXME: place any data you want learners to use in `episodes/data` and then use
        a relative link ( [data zip file](data/lesson-data.zip) ) to provide a
        link to it, replacing the example.com link.
 -->
-<p>For this lesson there are variuos types of data sets, which you can
+<p>For this lesson there are various types of data sets, which you can
 use for building different types of 3d models, ranging from a small
 object to an entire building.</p>
 <p>At first try to experiment with a <a href="https://data.d4science.org/shub/E_RkNCMkpSdzg1ckNkbUJ0eUV0ZTVsNmM5SzlIOUF0dkVKQXZHVC80cVg0RlEvVzVxcXhVWEY1MUpHQnEyaWlFTA==" class="external-link">small
@@ -393,15 +396,156 @@ can always go back one step and try again.</p>
 <hr class="half-width"><p><br><br></p>
 <div class="section level3">
 <h3 id="equipment-1">Equipment<a class="anchor" aria-label="anchor" href="#equipment-1"></a></h3>
-<p><br><br></p>
+<p>For 360 panorama capturing and processing you will need the following
+equipment:</p>
+<ul><li>
+<p><strong>Digital specialized 360 camera</strong>: There are
+different commercial cameras for 360 capture however it is preferable to
+use a well established brand that specialice on 360 camera for high
+resolution imaging. some of the brands that offers professinal products
+are:</p>
+<p>Professional (stereo and mono):</p>
+<ul><li>Insta360 <a href="https://www.insta360.com/product/insta360-pro/" class="external-link">Pro</a>, <a href="https://www.insta360.com/product/insta360-pro2/" class="external-link">Pro2</a>, <a href="https://www.insta360.com/product/insta360-titan/" class="external-link">Titan</a>
+</li>
+<li><a href="https://meta-camera.io/" class="external-link">Meta Camera System</a></li>
+<li>Kandao <a href="https://www.kandaovr.com/Obsidian-Pro/" class="external-link">Obsidian
+Pro</a>, <a href="https://www.kandaovr.com/obsidian-s-r/" class="external-link">Obsidian
+R</a>, <a href="https://www.kandaovr.com/obsidian-s-r/" class="external-link">Obisdian
+S</a>,<a href="https://www.kandaovr.com/obsidian-go/" class="external-link">Obsidian
+GO</a>
+</li>
+<li>Matterport <a href="https://matterport.com/en-gb/pro3" class="external-link">Pro3</a>, <a href="https://matterport.com/en-gb/pro2" class="external-link">Pro2</a>
+</li>
+</ul><p>Commercial (stereo and mono):</p>
+<ul><li>The list of commercial cameras that capture 360 photos and video
+(stereo and mono) is quite extesens. Comprehensible <a href="https://matterport.com/cameras/360-cameras" class="external-link">list</a> can be found
+at the <a href="https://matterport.com/en-gb" class="external-link">Matterport</a> website
+which also offer a range of other solutions and software.</li>
+</ul></li>
+</ul><p><br></p>
+<ul><li><p><strong>Tripod</strong> must be used because 360 photo shooting
+needs to be stable otherwise stitching errors my occur.</p></li>
+<li>
+<p><strong>Stitching Software</strong></p>
+<p>Every camera has its own software for processing and stitching
+images. Some of them are proprietary and works only with its own
+cameras, others are more open and can import different formats used from
+a various range of camera. FOr this workshop we will use the <a href="https://www.insta360.com/download/insta360-pro2" class="external-link">Insta360 Pro 2
+Control App and Stitcher</a>.</p>
+</li>
+</ul><p><br></p>
+<ul><li>
+<p><strong>Viewing software online or self-hosted</strong></p>
+<ul><li>
+<a href="https://www.google.com/streetview/" class="external-link">Google Streetview</a>
+online.</li>
+<li>Pannellum <a href="https://pannellum.org/documentation/overview/tutorial/" class="external-link">Online</a>
+or <a href="https://pannellum.org/download/" class="external-link">self- hosted</a>.</li>
+<li>Virtual Tours: <a href="https://www.marzipano.net/" class="external-link">Marzipano</a>,
+<a href="https://www.asteroom.com/en/photographers" class="external-link">Asteroom</a>, <a href="https://matterport.com/en-gb" class="external-link">Matterport</a>
+</li>
+</ul></li>
+</ul><p><br></p>
 </div>
 <div class="section level3">
 <h3 id="software-setup-1">Software Setup<a class="anchor" aria-label="anchor" href="#software-setup-1"></a></h3>
-<p><br><br></p>
+<p>For this tutorial you will need access to:</p>
+<ul><li><p><strong>Image processing software</strong>: <a href="https://www.rawtherapee.com/" class="external-link">Raw Therapee</a> for batch
+converting raw images from camera to use in photogrammetry software, <a href="https://www.gimp.org/" class="external-link">GIMP</a> which allows to manipulate and
+post-process textures generated after the model has been
+created.</p></li>
+<li><p><strong>Stitching software</strong>: <a href="https://www.insta360.com/download/insta360-pro2" class="external-link">Insta360 Pro 2
+Control App and Stitcher</a>.</p></li>
+</ul><p><br><br></p>
 </div>
 <div class="section level3">
 <h3 id="examples-data-sets-1">Examples Data Sets<a class="anchor" aria-label="anchor" href="#examples-data-sets-1"></a></h3>
-<p><br><br></p>
+<p>For this workshop we are going to use captured 360 data hosted on our
+<a href="https://services.d4science.org/" class="external-link">D4Science</a> repository You
+can download the full set here and you can have a preview of the final
+result by copy the link of each image onto the <a href="https://pannellum.org/documentation/overview/tutorial/" class="external-link">Pannellum
+360 viewer</a> like the example below.</p>
+<p><strong>To experiment Right click on each image and copy the address
+into the URL box of the <a href="https://pannellum.org/documentation/overview/tutorial/" class="external-link">viewer</a></strong></p>
+<table style="width:100%;" class="table"><colgroup><col width="16%"><col width="16%"><col width="16%"><col width="16%"><col width="16%"><col width="16%"></colgroup><tbody><tr class="odd"><td><img src="https://data.d4science.org/shub/E_dUl6d3g0ajlLZ01uUW5PMzVLQkF2N3h6dUlBdDgxcXliVUZHeTF5ZTdzNTIxTFRZNzVPRVZRNUU3L1dLdWJNMw==" alt="St Mary’s Roman Catholic Church Photo 1" class="figure"></td>
+<td><img src="https://data.d4science.org/shub/E_QVloZGdYcGdQUE02TSs0dXIvY2ROS01oay9VcWRoem0xdElVRkJhc1BNQ09LOVNOaVN0aWEwK0g1T1BBZWxUWA==" alt="St Mary’s Roman Catholic Church Photo 2" class="figure"></td>
+<td><img src="https://data.d4science.org/shub/E_WStiaGJIM1lIa0VodFR5OTV2OU5OencyUGRvNzVFY3plaTRha1YzdWlXTkNrQ2hYSys2Y2pzWHJuUU9GLytxag==" alt="St Mary’s Roman Catholic Church Photo 3" class="figure"></td>
+<td><img src="https://data.d4science.org/shub/E_TXNJam1LdGlKdDREVHIrYXRudHJwMjVWV0NpSTBPMTFuaW0xQ2pSRWtuMW9ua3YwaEoxNi9DNXpjNVkyUGdMSw==" alt="St Mary’s Roman Catholic Church Photo 4" class="figure"></td>
+<td><img src="https://data.d4science.org/shub/E_cDk0WWN1d0xGYnZmRDZRN0lxNjMvUThpVzRzUGNzVGNEMVNqM3h3akZjQW02NFYra2JmMEpUUytsR25FN3U1Ug==" alt="St Mary’s Roman Catholic Church Photo 5" class="figure"></td>
+<td><img src="https://data.d4science.org/shub/E_WTVUOXczWC9aRFhKUTVKSVJKQ3F1bjVDM3BiWjROMFMwTnJBemtneXJVckl1ZTJHRjB6S29xWWtBOFFDWlNDTQ==" alt="St Mary’s Roman Catholic Church Photo 6" class="figure"></td>
+</tr><tr class="even"><td>
+<strong>Photo 1</strong> of <a href="https://maps.app.goo.gl/giyXNK7kP4z5ohUK8" class="external-link">St Mary’s Roman
+Catholic Church</a> Brighton (UK), DSVMC University of Brighton, under
+<a href="https://culturedigitalskills.org/" class="external-link">DSVMC</a>, via <a href="https://services.d4science.org/" class="external-link">D4Science</a>
+</td>
+<td>
+<strong>Photo 2</strong> of <a href="https://maps.app.goo.gl/giyXNK7kP4z5ohUK8" class="external-link">St Mary’s Roman
+Catholic Church</a> Brighton (UK), DSVMC University of Brighton, under
+<a href="https://culturedigitalskills.org/" class="external-link">DSVMC</a>, via <a href="https://services.d4science.org/" class="external-link">D4Science</a>
+</td>
+<td>
+<strong>Photo 3</strong> of <a href="https://maps.app.goo.gl/giyXNK7kP4z5ohUK8" class="external-link">St Mary’s Roman
+Catholic Church</a> Brighton (UK), DSVMC University of Brighton, under
+<a href="https://culturedigitalskills.org/" class="external-link">DSVMC</a>, via <a href="https://services.d4science.org/" class="external-link">D4Science</a>
+</td>
+<td>
+<strong>Photo 4</strong> of <a href="https://maps.app.goo.gl/giyXNK7kP4z5ohUK8" class="external-link">St Mary’s Roman
+Catholic Church</a> Brighton (UK), DSVMC University of Brighton, under
+<a href="https://culturedigitalskills.org/" class="external-link">DSVMC</a>, via <a href="https://services.d4science.org/" class="external-link">D4Science</a>
+</td>
+<td>
+<strong>Photo 5</strong> of <a href="https://maps.app.goo.gl/giyXNK7kP4z5ohUK8" class="external-link">St Mary’s Roman
+Catholic Church</a> Brighton (UK), DSVMC University of Brighton, under
+<a href="https://culturedigitalskills.org/" class="external-link">DSVMC</a>, via <a href="https://services.d4science.org/" class="external-link">D4Science</a>
+</td>
+<td>
+<strong>Photo 6</strong> of <a href="https://maps.app.goo.gl/giyXNK7kP4z5ohUK8" class="external-link">St Mary’s Roman
+Catholic Church</a> Brighton (UK), DSVMC University of Brighton, under
+<a href="https://culturedigitalskills.org/" class="external-link">DSVMC</a>, via <a href="https://services.d4science.org/" class="external-link">D4Science</a>
+</td>
+</tr></tbody></table><table style="width:100%;" class="table"><colgroup><col width="16%"><col width="16%"><col width="16%"><col width="16%"><col width="16%"><col width="16%"></colgroup><tbody><tr class="odd"><td><img src="https://data.d4science.org/shub/E_ejF3SjUzSEVnWk9CR3NVWUQvVkNPaHJjSG8vUWpGaVlnc2tKTm1kQ3M0YklRenJUQ2VHZlcyNW5PTmdteEhxQQ==" alt="St Mary’s Roman Catholic Church Photo 7" class="figure"></td>
+<td><img src="https://data.d4science.org/shub/E_NUVmaUdWSmF2VWQzSUp2VnFmVHNKNXV1SjBBUXBtNUZGOTNLNDJSTUMyM2t2QTM5UXhINTZpcE50Tmx2aDV4cg==" alt="St Mary’s Roman Catholic Church Photo 8" class="figure"></td>
+<td><img src="https://data.d4science.org/shub/E_ZVJmWVlZS2tPckJuOXpGS043WjMzL2V6MVdjb2lIWk14VUd4VFBzcnJ5eDJBdnEya21UNm5oSytydXVkcmRwNA==" alt="St Mary’s Roman Catholic Church Photo 9" class="figure"></td>
+<td><img src="https://data.d4science.org/shub/E_ckVhMElvZ01RdmYzYVpwUXNteHZ2cVljeHJlY282cUkwSVFXT2NHdWI2T1RGcE5NZE9XTnhCRWxIU2FoOW1abg==" alt="St Mary’s Roman Catholic Church Photo 10" class="figure"></td>
+<td><img src="https://data.d4science.org/shub/E_SUJGaVBPcXE1Ukxnby9ickEyK2MxOCtsOEZ3bFpPL0lSaDBCZi9QbGpRaUdzV05SbURJZnJPMFY3N1JPS0FUdQ==" alt="St Mary’s Roman Catholic Church Photo 11" class="figure"></td>
+<td><img src="https://data.d4science.org/shub/E_VmwvTjhRNEkwaUd5UzdkV21wZWFqZ2Y2eFBjUXI1TXcxVnNRcy9mMFVaYW9ibzVRUTFJMWhGdlRMUE9heHZxNw==" alt="St Mary’s Roman Catholic Church Photo 12" class="figure"></td>
+</tr><tr class="even"><td>
+<strong>Photo 7</strong> of <a href="https://maps.app.goo.gl/giyXNK7kP4z5ohUK8" class="external-link">St Mary’s Roman
+Catholic Church</a> Brighton (UK), DSVMC University of Brighton, under
+<a href="https://culturedigitalskills.org/" class="external-link">DSVMC</a>, via <a href="https://services.d4science.org/" class="external-link">D4Science</a>
+</td>
+<td>
+<strong>Photo 8</strong> of <a href="https://maps.app.goo.gl/giyXNK7kP4z5ohUK8" class="external-link">St Mary’s Roman
+Catholic Church</a> Brighton (UK), DSVMC University of Brighton, under
+<a href="https://culturedigitalskills.org/" class="external-link">DSVMC</a>, via <a href="https://services.d4science.org/" class="external-link">D4Science</a>
+</td>
+<td>
+<strong>Photo 9</strong> of <a href="https://maps.app.goo.gl/giyXNK7kP4z5ohUK8" class="external-link">St Mary’s Roman
+Catholic Church</a> Brighton (UK), DSVMC University of Brighton, under
+<a href="https://culturedigitalskills.org/" class="external-link">DSVMC</a>, via <a href="https://services.d4science.org/" class="external-link">D4Science</a>
+</td>
+<td>
+<strong>Photo 10</strong> of <a href="https://maps.app.goo.gl/giyXNK7kP4z5ohUK8" class="external-link">St Mary’s Roman
+Catholic Church</a> Brighton (UK), DSVMC University of Brighton, under
+<a href="https://culturedigitalskills.org/" class="external-link">DSVMC</a>, via <a href="https://services.d4science.org/" class="external-link">D4Science</a>
+</td>
+<td>
+<strong>Photo 11</strong> of <a href="https://maps.app.goo.gl/giyXNK7kP4z5ohUK8" class="external-link">St Mary’s Roman
+Catholic Church</a> Brighton (UK), DSVMC University of Brighton, under
+<a href="https://culturedigitalskills.org/" class="external-link">DSVMC</a>, via <a href="https://services.d4science.org/" class="external-link">D4Science</a>
+</td>
+<td>
+<strong>Photo 12</strong> of <a href="https://maps.app.goo.gl/giyXNK7kP4z5ohUK8" class="external-link">St Mary’s Roman
+Catholic Church</a> Brighton (UK), DSVMC University of Brighton, under
+<a href="https://culturedigitalskills.org/" class="external-link">DSVMC</a>, via <a href="https://services.d4science.org/" class="external-link">D4Science</a>
+</td>
+</tr></tbody></table><table class="table"><colgroup><col width="100%"></colgroup><tbody><tr class="odd"><td><embed src="https://cdn.pannellum.org/2.5/pannellum.htm#panorama=https%3A//data.d4science.org/shub/E_dUl6d3g0ajlLZ01uUW5PMzVLQkF2N3h6dUlBdDgxcXliVUZHeTF5ZTdzNTIxTFRZNzVPRVZRNUU3L1dLdWJNMw%3D%3D" style="width:100.0%;height:100.0%"></embed></td>
+</tr><tr class="even"><td>
+<strong>360 Panorama</strong> of <a href="https://maps.app.goo.gl/giyXNK7kP4z5ohUK8" class="external-link">St Mary’s Roman
+Catholic Church</a> Brighton (UK), DSVMC University of Brighton, under
+<a href="https://culturedigitalskills.org/" class="external-link">DSVMC</a>, via <a href="https://services.d4science.org/" class="external-link">D4Science</a>
+</td>
+</tr></tbody></table><p><br><br></p>
 <p>The tutorial is built with <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">The Carpentries
 Workbench</a>, as part of the training activities of the <a href="https://www.culturedigitalskills.org" class="external-link">AHRC-funded network service
 on Digital Skills in Visual and Material Culture</a>.</p>
@@ -480,8 +624,8 @@ any links that you are not going to use.
   "url": "https://culturedigitalskills.github.io/2023-digitisation-photogrammetry/instructor/index.html",
   "identifier": "https://culturedigitalskills.github.io/2023-digitisation-photogrammetry/instructor/index.html",
   "dateCreated": "2023-11-29",
-  "dateModified": "2024-01-16",
-  "datePublished": "2024-01-16"
+  "dateModified": "2024-01-17",
+  "datePublished": "2024-01-17"
 }
 
   </script><script>
