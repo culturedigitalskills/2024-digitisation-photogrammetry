@@ -24,6 +24,15 @@ exercises: 2
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Definition (What)
+Panoramic photographs are special photoraphs with the
+
+|   |
+|---|
+| ![360 degree view of Giza pyramid complex.](https://upload.wikimedia.org/wikipedia/commons/3/32/Giza_pyramid_complex_-_360.jpg) |
+ 360 degree view of Giza pyramid complex, kallerna, under [ CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Giza_pyramid_complex_-_360.jpg) |
+
+
+Here you can view some examples of the [UNESCO World Heritage Sites](https://www.p4panorama.com/gallery-categories/unesco-360-virtual-tours/)
 
 ## Capturing Images
 
