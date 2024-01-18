@@ -61,12 +61,12 @@ contact: 'K.Rodriguez@brighton.ac.uk'
 episodes:
 
 
+# other-methods.Rmd
 - photogrammetry.Rmd
 #- capturing-photographs.Rmd
 #- setting-up-the-environment.Rmd
 #- photogrammetry-software.Rmd
-- 360Panorama.Rmd
-- other-methods.Rmd
+#- 360Panorama.Rmd
 
 
 # Information for Learners
