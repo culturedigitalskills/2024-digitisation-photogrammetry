@@ -121,7 +121,7 @@ For 360 panorama capturing and processing you will need the following equipment:
 
   * [Google Streetview](https://www.google.com/streetview/) online.
   * Pannellum [Online](https://pannellum.org/documentation/overview/tutorial/) or [self- hosted](https://pannellum.org/download/).
-  * Virtual Tours: [Marzipano](https://www.marzipano.net/), [Asteroom](https://www.asteroom.com/en/photographers), [Matterport](https://matterport.com/en-gb)
+  * Virtual Tours: [Pannellum](https://pannellum.org/), [Marzipano](https://www.marzipano.net/), [Asteroom](https://www.asteroom.com/en/photographers), [Matterport](https://matterport.com/en-gb).
     
 \
 
@@ -139,9 +139,9 @@ For this tutorial you will need access to:
 ### Examples Data Sets
 
 For this workshop we are going to use captured 360 data hosted on our [D4Science](https://services.d4science.org/) repository
-You can download the full set here and you can have a preview of the final result by copy the link of each image onto the [Pannellum 360 viewer](https://pannellum.org/documentation/overview/tutorial/) like the example below.
+You can download the full data set [here](https://data.d4science.org/shub/E_KzdpRzNsanZFN1BQbElNdXVEaTMvZEVueW5xalA2cHBvcEx3WnJXYy91Z1Mwd1ozRm5TNzVZNUZyVGg2NHY4Ng==) and you can also have quick preview of the final result by copy the link of each image onto the [Pannellum 360 viewer](https://pannellum.org/documentation/overview/tutorial/) like the example below.
 
-**To experiment Right click on each image and copy the address into the URL box of the [viewer](https://pannellum.org/documentation/overview/tutorial/)**
+**Experiment by Right clicking on one of the image and copy the image address into the URL box of the [viewer](https://pannellum.org/documentation/overview/tutorial/)**
 
 
 |   |   |   |   |   |   |
