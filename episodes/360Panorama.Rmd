@@ -1,5 +1,0 @@
----
-title: '360 Panoramas'
-teaching: 10
-exercises: 2
----
