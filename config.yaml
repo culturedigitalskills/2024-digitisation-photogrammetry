@@ -63,7 +63,7 @@ episodes:
 
 # other-methods.Rmd
 - photogrammetry.Rmd
-- capturing-photographs.Rmd
+#- capturing-photographs.Rmd
 # - setting-up-the-environment.Rmd
 # - photogrammetry-software.Rmd
 
