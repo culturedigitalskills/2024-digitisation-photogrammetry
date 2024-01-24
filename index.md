@@ -2,8 +2,6 @@
 site: sandpaper::sandpaper_site
 ---
 
-This is a new lesson built with [The Carpentries Workbench][workbench]. 
+# Photogrammetry 3D Digitisation 
 
-
-[workbench]: https://carpentries.github.io/sandpaper-docs
-
+![&copy; Minerva Studio AdobeStock](episodes/fig/AdobeStock_101026418.jpeg){alt="3D media"}
