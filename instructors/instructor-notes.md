@@ -7,7 +7,7 @@ title: Instructor Notes
 To learn about the photogrammetry technique to create 3D models.
 
 The lesson presents basic background on this technique,
-as well as practical excercises to acquire a
+as well as practical exercises to acquire a
 dataset for photogrammetry.
 
 ## Learning outcome(s)
