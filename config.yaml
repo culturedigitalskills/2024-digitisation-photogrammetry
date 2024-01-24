@@ -11,7 +11,7 @@
 carpentry: 'incubator'
 
 # Overall title for pages.
-title: 'Cultural Heritage Digitization'
+title: 'Photogrammetry 3D Digitisation'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: '2023-11-29'
@@ -27,7 +27,7 @@ life_cycle: 'beta'
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/culturedigitalskills/2023-digitisation-photogrammetry'
+source: 'https://github.com/culturedigitalskills/2024-digitisation-photogrammetry'
 
 # Default branch of your lesson
 branch: 'main'
