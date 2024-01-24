@@ -2,8 +2,7 @@
 site: sandpaper::sandpaper_site
 ---
 
-This is a new lesson built with [The Carpentries Workbench][workbench]. 
+![&copy; Digital abstract background AdobeStock](episodes/fig/AdobeStock_669719813.jpeg){alt="3D media"}
 
 
-[workbench]: https://carpentries.github.io/sandpaper-docs
-
+Welcome to Digitisation Methods for Material Culture
