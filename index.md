@@ -2,7 +2,6 @@
 site: sandpaper::sandpaper_site
 ---
 
-![&copy; Digital abstract background AdobeStock](episodes/fig/AdobeStock_669719813.jpeg){alt="3D media"}
+# Photogrammetry 3D Digitisation 
 
-
-Welcome to Digitisation Methods for Material Culture
+![&copy; Minerva Studio AdobeStock](episodes/fig/AdobeStock_101026418.jpeg){alt="3D media"}
