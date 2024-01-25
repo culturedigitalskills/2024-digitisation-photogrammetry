@@ -1,7 +1,7 @@
 ---
 title: 'Photogrammetry'
-teaching: 10
-exercises: 2
+teaching: 60
+exercises: 40
 ---
 :::::::::::::::::::::::::::::::::::::: questions 
 - What is photogrammetry?
@@ -165,7 +165,9 @@ We can distinguish two main categories of photogrammetry in this field, however 
 - **Surveying and construction**
 
 Photogrammetry in construction, civil survey and architecture is very well established. Because of the large amount of data that are usually produced in this field are heavy on the process so that a **Point Cloud** in different format is used. This permits the visualization of millions of points at the same time. All the points have Cartesian coordinates in space and they can also contain RGB values for color representation.
+
 In this area of application in fact the final 3d mesh it is only produced if strictly necessary while the point cloud model is usally used as a backdrop to reconstruct the more precise CAD model in a [BIM environment](https://constructible.trimble.com/construction-industry/what-is-bim-building-information-modeling).
+
 The most used software to visualize point clouds before importing them into a more specific CAD software are [**Meshalb**](https://www.meshlab.net/) and [**CloudCompare**](https://www.danielgm.net/cc/).
 
 |   |
