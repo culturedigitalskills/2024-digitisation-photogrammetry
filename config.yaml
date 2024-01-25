@@ -61,12 +61,12 @@ contact: 'K.Rodriguez@brighton.ac.uk'
 episodes:
 
 
-# other-methods.Rmd
 - introduction.Rmd
-- capturing-photographs.Rmd
-- processing-overview.Rmd
-- photogrammetry-software.Rmd
-- additional-links.Rmd
+
+#- capturing-photographs.Rmd
+#- processing-overview.Rmd
+#- photogrammetry-software.Rmd
+#- additional-links.Rmd
 
 
 # Information for Learners
