@@ -62,11 +62,10 @@ episodes:
 
 
 - introduction.Rmd
-
-#- capturing-photographs.Rmd
-#- processing-overview.Rmd
-#- photogrammetry-software.Rmd
-#- additional-links.Rmd
+#- capturing-images.Rmd
+- processing-overview.Rmd
+- photogrammetry-software.Rmd
+- additional-links.Rmd
 
 
 # Information for Learners
