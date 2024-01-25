@@ -182,7 +182,43 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="introduction.html">1. introduction</a>
+        <a href="introduction.html">1. Introduction</a>
+    </div>
+<!--/div.accordion-header-->
+        
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush3">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading3">
+        <a href="processing-overview.html">2. Processing overview</a>
+    </div>
+<!--/div.accordion-header-->
+        
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush4">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading4">
+        <a href="photogrammetry-software.html">3. Using photogrammetry software</a>
+    </div>
+<!--/div.accordion-header-->
+        
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush5">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading5">
+        <a href="additional-links.html">4. Additional Links</a>
     </div>
 <!--/div.accordion-header-->
         
@@ -246,7 +282,7 @@
     <main id="main-content" class="main-content"><div class="container lesson-content">
         
         
-<section id="aio-introduction"><p>Content from <a href="introduction.html">introduction</a></p>
+<section id="aio-introduction"><p>Content from <a href="introduction.html">Introduction</a></p>
 <hr>
 <p>Last updated on 2024-01-25 |
         
@@ -728,6 +764,725 @@ technique to achieve it and there are <a href="https://archaeologydataservice.ac
 sources of 3d data</a>.</p>
 </blockquote>
 <!-- 
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use. 
+ -->
+</div>
+</section></section><section id="aio-processing-overview"><p>Content from <a href="processing-overview.html">Processing overview</a></p>
+<hr>
+<p>Last updated on 2024-01-25 |
+        
+        <a href="https://github.com/culturedigitalskills/2024-digitisation-photogrammetry/edit/main/episodes/processing-overview.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 12 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How do you create 3d models for 3D digital preservation and
+publication ?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>To explains the techniques for creating 3d objects from 2d images
+positioned at a different interval in space with specialized
+software.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section id="processing-overview"><h2 class="section-heading">Processing overview<a class="anchor" aria-label="anchor" href="#processing-overview"></a>
+</h2>
+<hr class="half-width">
+<p>Multiple 2d photographs can be used to generate <a href="https://en.wikipedia.org/wiki/Point_Cloud" class="external-link">point clouds</a> where
+each point has now three-dimensional coordinates.</p>
+<figure><img src="https://data.d4science.org/shub/E_aFlFV0paV3RQaGQwTkJrTGVpd0pVVktJdFpEeXh4b2gySU8yMjJTNGJybFc4Z2JNS2tqWm5raHRXK0U4VHFVRA==" alt="" class="figure mx-auto d-block"><figcaption><em>Dense Point Cloud example of a small
+object</em></figcaption></figure><p>These points can be further use to create a 3d meshes by mean of <a href="https://en.wikipedia.org/wiki/Mesh_generation" class="external-link">another type of
+triangulation</a>.</p>
+<figure><img src="https://data.d4science.org/shub/E_a0hoL2Y2dmZpREorYjNGTkx3QXBGcnZoQUd5NlhIVHQ0eStLZkVMd0hXN2RhckxRMDM5dG9ralpMaFFlSEs4cg==" alt="" class="figure mx-auto d-block"><figcaption><em>3d Mesh of a small object</em></figcaption></figure><p>The mesh can then be <a href="https://en.wikipedia.org/wiki/Texture_mapping" class="external-link">texture mapped</a>
+for the final realistic appearance of the studied subject.</p>
+<figure><img src="https://data.d4science.org/shub/E_ZEp0UkZxbFFvdUVXN29QMmtqWldTdDlBRnBhZUdUcTBPZUhJbG44ZEFLOEsxM2R5dlBZaE1yUG9XVUZzcHZBVg==" alt="" class="figure mx-auto d-block"><figcaption><em>3d Mesh of a small object with texture</em></figcaption></figure><iframe src="https://gltf-viewer.donmccurdy.com#kiosk=1&amp;model=https://data.d4science.org/shub/E_ZXp0WWx5S3JiVjE2RFc3WkVoMjhJSlUyUmpCWUFEQUdCSVlqamY2aC9zRUVGdWZLYWRVV0Vwem0xMHRiRkYwWQ==" style="width: 100%;" height="400px" frameborder="0">
+</iframe>
+<!--Underlying technology is more familiar
+that we think! We can happily ignore 
+the concepts and formulas used 
+in the software. 
+
+But it is useful to be aware of what it works.-->
+<table class="table"><tbody></tbody></table>
+<div class="section level3">
+<h3 id="basic-steps-in-the-processing-phase">Basic steps in the processing phase<a class="anchor" aria-label="anchor" href="#basic-steps-in-the-processing-phase"></a>
+</h3>
+<p><strong>1. Feature detection</strong> (originally performed manually
+but now performed automatically by the algorithm of the software)</p>
+<p><strong>2. Feature matching</strong> (originally performed manually
+but now performed automatically by the algorithm of the software)</p>
+<p><strong>3. Structure reconstruction</strong> (performed automatically
+by the algorithm of the software)</p>
+</div>
+<div class="section level3">
+<h3 id="features-detection">Features detection<a class="anchor" aria-label="anchor" href="#features-detection"></a>
+</h3>
+<p>Features are “interest points” or “key points” in an image. The goal
+of this step is to find points which are repeatable and distinctive.
+Corners and other distinctive patterns in the image are obvious features
+to consider.</p>
+<div id="try-it-yourself" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="try-it-yourself" class="callout-inner">
+<h3 class="callout-title">Try it yourself?<a class="anchor" aria-label="anchor" href="#try-it-yourself"></a>
+</h3>
+<div class="callout-content">
+<p>Open this image in Gimp or others photo editing software and try to
+recognize 6 or more distinctive features.</p>
+<p><a href="https://data.d4science.org/shub/E_VGNNb0R2VVltRmxaOHlhSXZnczIrTkZkL1ZUUXZlTElBLzBWTHUzenREdXZSb1RMcXNwdDBNS1Qwb2d3aWNnWQ==" class="external-link">Match-1</a></p>
+<p>What points would you choose?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<p><a href="https://data.d4science.org/shub/E_WW9zZUluVUxmVzJFRlpDcFV3UE5MeHVJNU96d25LWlJDdDhZZlJSQnpjcWptZVowRS9YcGxHWHZUN0RmLzVlSQ==" class="external-link">Here</a>
+you can download an image of the possible solution. You will need to
+zoom into the image to see the exact feature points.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="features-matching">Features matching<a class="anchor" aria-label="anchor" href="#features-matching"></a>
+</h3>
+<p>Find correspondences of features across different views. The goal of
+this step is to detect (at least some of) correspondence between
+features in two or more images.</p>
+<div id="try-it-yourself-1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="try-it-yourself-1" class="callout-inner">
+<h3 class="callout-title">Try it yourself?<a class="anchor" aria-label="anchor" href="#try-it-yourself-1"></a>
+</h3>
+<div class="callout-content">
+<p>Open this image in Gimp or others photo editing software and try to
+recognize 6 or more features already found in the previous image.</p>
+<p><a href="https://data.d4science.org/shub/E_NXBISUtZTnhDbHVGNHNxUXh0cEQzSGVldFVPMEtWWisyVU8xVmFCWWliTTNEQWIwNGx2VldUQ0xhWUZOMkk2SA==" class="external-link">Match-2</a></p>
+<p>Do the features below correspond with each other?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div class="accordion-body">
+<p><a href="https://data.d4science.org/shub/E_WFZSR0Z0Y29CTzNMNmVTdWNxelZqdFc2bkxOV3VuWU1nc0ViMVQ2MVU3RmtVMGZYd1NWclU4b24zWjB6R3VTUA==" class="external-link">Here</a>
+you can download an image of the solution. You will need to zoom into
+the image to see the exact feature points.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="structure-reconstruction">Structure reconstruction<a class="anchor" aria-label="anchor" href="#structure-reconstruction"></a>
+</h3>
+<!--Load all extracted features from an 
+initial pair of images. Builds a 
+projection of the points in 3D space by using the camera position.-->
+<p>The software will recognize the features from all the loaded images.
+Builds a projection of the points in 3D space by using the camera
+position.</p>
+<p>The scene is incrementally extended by adding new images and
+triangulating new points. A much denser set of features is produced.</p>
+<p>The output of this process is a “point cloud” or a <a href="#definition">collection of points</a>. The 3D model is created by
+creating a <a href="#definition">triangular mesh</a>. The texture is
+then mapped to the <a href="#definition">surface</a>.</p>
+<figure><img src="https://data.d4science.org/shub/E_bU9MSEZaRGpOaGFJZ2hsL1dCWi85U0NZbUJiVDh5YlBlUmxmTGI3UE9ic1dvOEdkOGFpS3JnYmRrelYrY0JOaQ==" alt="" class="figure mx-auto d-block"><figcaption><em>Matching features in multiple images</em></figcaption></figure><p>We can apply a mask to the whole sets of images so that the algorithm
+does not have to calculate the points that are not interested. In this
+case when using turntables is recommended to shoot always one image
+without the object.</p>
+<figure><img src="https://data.d4science.org/shub/E_L3Y4dlE2Rm9ZVU1BcCtSaHFoS1A5UHZpUEpXYVdaK2tRNm9MOGdjT1Y0YXE3bkdvR2FTdU1MSlp1R3ozRVVwYg==" alt="" class="figure mx-auto d-block"><figcaption><em>Mask used in multiple images</em></figcaption></figure><figure><img src="https://data.d4science.org/shub/E_dUFhdW4vd2x0SVRNOWFjOWVjc1pwU2FyaFJXWlA2VnBzWjI1QnN5L3UvalMxYlVVSFhkMmEwb0FqTlkrdHZaMg==" alt="" class="figure mx-auto d-block"><figcaption><em>Reconstructed model from matching features in
+multiple images</em></figcaption></figure><!-- 
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use. 
+ -->
+</div>
+</section></section><section id="aio-photogrammetry-software"><p>Content from <a href="photogrammetry-software.html">Using photogrammetry software</a></p>
+<hr>
+<p>Last updated on 2024-01-25 |
+        
+        <a href="https://github.com/culturedigitalskills/2024-digitisation-photogrammetry/edit/main/episodes/photogrammetry-software.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 60 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>What software is available to create 3d models after image
+acquisition?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Explains the techniques for using specific software for processing
+the images and for creating 3d models.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section id="preparing-the-images"><h2 class="section-heading">Preparing the images<a class="anchor" aria-label="anchor" href="#preparing-the-images"></a>
+</h2>
+<hr class="half-width">
+<p>Once the photographs have been acquired, the next step is to transfer
+the images to a PC (refer to <a href="index.html#equipment">setup</a>
+for specifications).</p>
+<p>Please use the software we downloaded in the setup section <a href="https://www.3dflow.net" class="external-link">Raw Therapee</a>. With this free software
+you can convert the images from the raw file format to various other
+formats. The raw file format of different cameras is probably already
+the best file format you can use during the processing of the images in
+the photogrammetry software, because it retains the exif data, the most
+accurate color range and the best resolution. However not all the
+photogrammetry software are able to read the different type of raw
+formats of the different camera types. In this case you will need to use
+software such as Raw therapy (which you can also use to re-organize your
+files) to convert them in a more readable format. Usually the
+uncompressed Tiff or Tif file format is a good choice, because many
+photogrammetry software can read it and it will retain good quality
+information, including all the ones of the camera at the moment of
+shooting.</p>
+<p>Whatever file format you use it must be readable form the software
+you are about to use for reconstructing the models and you must be sure
+you choose a format that retains the Exif information within the file.
+if you are not sure if your file has the information needed there are
+lots of online tools that can provide such information. One example is
+<a href="https://exifinfo.org/" class="external-link">ExifInfo.org</a>. (Raw Therapee can also
+provide this information on the info panel however you should always
+check at least one of the image after exporting them from Raw
+therapy.</p>
+<blockquote>
+<p>For this lessons the images that you have downloaded from the <a href="setup">examples data sets</a> are already converted for you and,
+although it is better for you to get use to software for batch
+converting images, at this stage you will not need to take further
+actions after downloading them*</p>
+</blockquote>
+<!--
+### Deleting the background 
+
+If you wish to delete the 
+background in the images, open one of the 
+images that contain a large area of the 
+background cloth in the image processing
+software. 
+
+Use the colour picker (circled in red) to select 
+an area of the cloth. 
+
+Click with the right mouse button on the 
+background to select that area.
+
+Go to "save as" and save it in the 
+main project folder (NOT the images folder).
+
+## Photogrammetry Software Workflow
+
+The following instructions are specific
+to 3DF Zephir.
+
+Go to the workflow menu and choose *New Project*
+ 
+### Import Images 
+
+Browse to the folder that contains your 
+images and click *Select Folder*.
+
+Click *Create camera from each file*. 
+The number of cameras that appear 
+in the menu will depend on how
+many images you have taken. 
+
+
+Save the project in the project root folder. 
+
+### Import Masks
+
+Select the tools menu, 
+go to import and select *Import Masks*.
+ 
+ 
+Select *From background* in the Method drop down box.
+
+Select *Replacement* in the *Operation* drop down box. 
+
+In the *Filename template* select type in the 
+name that you saved earlier in paint. 
+
+Under tolerance, select a number from 30 to 50. 
+The idea is that for each point in the image, 
+it will compare it to the colour in our background 
+mask image at the same point. If it is the same, 
+it will not be included in the 3D model. 
+
+The tolerance number is the amount that you 
+expect the colour to vary to the background image. 
+The larger the number, the larger it will allow 
+a deviation from the colour to be masked out. 
+
+Click *OK*. Then select the folder that contains the image.
+ 
+
+Browse to the appropriate folder and 
+click *Select Folder*.
+
+Wait for the masks to be processed. 
+The time to complete will depend on the number 
+of images that you have taken.
+ 
+ 
+Double click each image and look for any areas that 
+have been masked out that shouldn’t have been. 
+In this example, it has masked out the back of 
+the model. 
+Use either the rectangle or the loop tool 
+(circled in red) to select the area.
+
+ 
+Right click and choose *Subtract Selection*. 
+This will remove the selection from the mask. 
+Repeat this for all images.
+
+Save the project so far.
+
+
+### Align Photos
+
+The next step is to align the photos. For
+this, go to *Workflow* in the menu
+and select *Align Photos*.
+ 
+Select the options you want, 
+but make sure the *Constrain features by mask* 
+is selected. Then click *OK*.
+ 
+ 
+Save the project so far. 
+
+### Build dense cloud
+
+Go to *Workflow* in the menu
+and select *Build Dense Cloud*.
+
+
+Choose the options you want and click *OK*.
+
+Save the progress so far. 
+
+### Build mesh
+
+Go to *Workflow* in the menu
+and select *Build Mesh*.
+
+Choose your preferred options. 
+Make sure *Source data* has *Dense cloud*
+selected. 
+Then click OK.
+ 
+
+This process will produce a 3D model. 
+The 3D model can be exported, 
+or edited within the scene. 
+
+### Build Texture
+
+The final, optional step is to re-project 
+the texture onto the 3D surface. 
+This makes the photographic quality much better.
+
+
+Go to *Workflow* in the menu
+and select *Build Texture*.
+
+
+Choose the following options. 
+They are suitable for most models. 
+Then click *OK*.
+ 
+Now you will have a 3D model with the texture. -->
+</section><section id="photogrammetry-software-workflow"><h2 class="section-heading">Photogrammetry Software Workflow<a class="anchor" aria-label="anchor" href="#photogrammetry-software-workflow"></a>
+</h2>
+<hr class="half-width">
+<div class="section level3">
+<h3 id="organizing-the-workspace">Organizing the workspace<a class="anchor" aria-label="anchor" href="#organizing-the-workspace"></a>
+</h3>
+<p>Using a suitable name which reflects your project, transfer all
+images into a folder.</p>
+<p>Good practice includes:</p>
+<pre><code><span>    <span class="va">ResourceIDifExistent_NameofObject_DateProcessedinFormatYY.MM.DD</span></span></code></pre>
+<p>Within this folder, create another one named images. Copy the images
+from the camera into the images folder.</p>
+<p>The following instructions are specific to <a href="https://www.3dflow.net/3df-zephyr-photogrammetry-software/" class="external-link">3DF
+Zephir</a>.</p>
+<p>Go to the workflow menu and choose <strong>New Project</strong>, you
+will be presented with a the <em>“New project wizard window”</em>.</p>
+<p>Choose the first box <em>Sparse</em> in order to go trough the all
+process manually. Click <strong>Next&gt;</strong> you will be presented
+with the <em>“Photos selection page”</em> .</p>
+</div>
+<div class="section level3">
+<h3 id="importing-images">Importing Images<a class="anchor" aria-label="anchor" href="#importing-images"></a>
+</h3>
+<ul>
+<li>Browse to the folder that contains your images and click
+<strong>Select Folder</strong> or Select a your <strong>Single
+Images</strong>. Click <strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>“Camera calibration page<em>”. If
+you have a separate Exif file for calibrating the camera you can add it
+here, and you can also manually calibrate you camera in the </em>”Modify
+Calibration page”</em> otherwise go on and click
+<strong>Next&gt;</strong>
+</li>
+</ul>
+<figure><img src="https://data.d4science.org/shub/E_WHBodVMwdUZ5TXU3Z3h3MDhrQjBIMmFybkNGRXN6aEtqMUNuUWY2QlFKVmF5V1hxbzRFaDd6Q0ZIT0NsZ1BaNQ==" alt="" class="figure mx-auto d-block"><figcaption><em>Original photo</em></figcaption></figure>
+</div>
+<div class="section level3">
+<h3 id="importing-masks-optional">Importing Masks (optional)<a class="anchor" aria-label="anchor" href="#importing-masks-optional"></a>
+</h3>
+<p>In the <em>“Photos selection page”</em> there is an option to import
+the mask, if selected a new option will be presented and a new tool
+called <strong>Masquerade</strong> will be available before importing
+the images. Within this tool (which is also available from the main
+interface), it will be possible to generate a Mask to apply to all the
+images. The tools is quite simple to use so that if you want to try to
+apply a mask you can use a sample image provided in the sets of the
+downloaded dataset as a first file.</p>
+<figure><img src="https://data.d4science.org/shub/E_RFF0RkVickVCSmJCSHFtZm10MEYwNXFCN2xtY2JSVmY5MmxHVlo4a01WRUppcW9GK1Z0UzlXeHJXK1hJR3pwQQ==" alt="" class="figure mx-auto d-block"><figcaption><em>Original photo of the mask</em></figcaption></figure>
+</div>
+<div class="section level3">
+<h3 id="aligning-photos">Aligning Photos<a class="anchor" aria-label="anchor" href="#aligning-photos"></a>
+</h3>
+<p>The next step is to align the photos. For this:</p>
+<ul>
+<li>you will be presented with the <em>“Camera orientation page”</em>.
+Keep the general setting and click <strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>“Start reconstruction”</em> page.
+Click <strong>Run</strong>
+</li>
+<li>you will be presented with the <em>“Reconstruction Successful
+page”</em>. Click <strong>Finish</strong>
+</li>
+<li>Save the project in the same <a href="#id_%20Create%20a%20folder">folder</a> created before.</li>
+</ul>
+<p><em>“Once the camera orientation phase has been completed, the sparse
+point cloud will appear in the workspace as well as the oriented cameras
+identified by blue pyramids.”</em> Now you can familiarize with the
+navigation of the 3d space and the interface. For example go to
+<strong>Scene-&gt; Bounding Box-&gt; Edit Bounding box</strong> and
+limit the created sparse cloud within the the bounding box.This will
+speed-up the process when creating the final mesh.</p>
+<figure><img src="https://data.d4science.org/shub/E_dEtEY3RCZFYyVjMxMjNrOEcvYUxyUENieHpZZUdWc0g1TEVVVUtUTFhWTTRXZ0JON21tRkVKN2ZCREVjcFRxcA==" alt="" class="figure mx-auto d-block"><figcaption><em>Sparse Point Cloud</em></figcaption></figure>
+</div>
+<div class="section level3">
+<h3 id="build-dense-cloud-optional">Build dense cloud (optional)<a class="anchor" aria-label="anchor" href="#build-dense-cloud-optional"></a>
+</h3>
+<p>The next step is to create a Dense PointCloud. For this:</p>
+<ul>
+<li>Go to <em>Workflow</em> in the menu and select <em>Advanced-&gt;
+Dense Point Cloud Generation</em>.</li>
+<li>you will be presented with the <em>“Dense Point Cloud Generation
+wizard”</em>. <strong>Select All Cameras</strong> and click
+<strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>“Dense Point Cloud Creation”</em>
+page. Leave the general settings and click
+<strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>“Start Densification”</em> page.
+Click <strong>Run</strong>
+</li>
+<li>when finished you will be presented with the <em>“Dense Point Cloud
+generation successful”</em> page, click <strong>Finish</strong>
+</li>
+<li>Save the project in the same <a href="#id_%20Create%20a%20folder">folder</a> created before.</li>
+</ul>
+<figure><img src="https://data.d4science.org/shub/E_enEwZ01YYXFVdVlrL3NGbXQrWkoxM2VOYk1sQkY3VVI1L014RUV5UjJsMGwvYWZvcU85endtdXpzU3A1OUpleA==" alt="" class="figure mx-auto d-block"><figcaption><em>Dense Point Cloud</em></figcaption></figure>
+</div>
+<div class="section level3">
+<h3 id="cleaning-the-dense-cloud-optional">Cleaning the dense cloud (optional)<a class="anchor" aria-label="anchor" href="#cleaning-the-dense-cloud-optional"></a>
+</h3>
+<p>Before trying to create the final mesh we should delete all the
+unwanted points that where generated within the bounding box. We could
+do that by using the same bounding box to restrict even more the area
+where the algorithm is going to be applied for the triangulation.
+However in order to be accustom with the software interface, we will
+delete all the unecessary points manually.</p>
+<ul>
+<li>Go to the <em>Editing panel</em> on your right and choose <strong>By
+Hand</strong>. Choose <strong>Poly</strong> and
+<strong>Remove</strong>.</li>
+<li>Start selecting the points that you do not need and once selected
+deleted them with the del key.</li>
+<li>Once happy save the project in the same <a href="#id_%20Create%20a%20folder">folder</a> created before.</li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="building-the-mesh">Building the mesh<a class="anchor" aria-label="anchor" href="#building-the-mesh"></a>
+</h3>
+<p>The next step is to create a Dense PointCloud. For this:</p>
+<ul>
+<li>Go to <em>Workflow</em> in the menu and select <em>Advanced-&gt;
+Mesh Extraction</em>
+</li>
+<li>you will be presented with the <em>“Mesh Generation wizard”</em>.
+<strong>Drop Down</strong> the name of your dense point cloud,
+<strong>Select All Cameras</strong> and click
+<strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>“Surface Reconstruction”</em>
+page. Leave the general settings and click
+<strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>“Start Mesh Creation”</em> page.
+Click <strong>Run</strong>
+</li>
+<li>when finished you will be presented with the <em>“Mesh Creation
+successful”</em> page, click <strong>Finish</strong>. This process will
+produce a 3D model.</li>
+<li>Once happy save the project in the same <a href="#id_%20Create%20a%20folder">folder</a> created before.</li>
+</ul>
+<figure><img src="https://data.d4science.org/shub/E_eEIvTkZMYWdoM3pySDdjZUtjU0J1NGFya29vMDVyQ1ErQ0k5eHh1TVlXZkcxaVBUL21ydGlEa1NPeXU0UUhzZQ==" alt="" class="figure mx-auto d-block"><figcaption><em>High Resolution Mesh</em></figcaption></figure>
+</div>
+<div class="section level3">
+<h3 id="building-the-texture">Building the Texture<a class="anchor" aria-label="anchor" href="#building-the-texture"></a>
+</h3>
+<p>The final step is to re-project the texture onto the 3D surface.For
+this:</p>
+<ul>
+<li>Go to <em>Workflow</em> in the menu and select <em>Textured Mesh
+Generation</em>
+</li>
+<li>you will be presented with the <em>“Textured Mesh Generation
+wizard”</em>. <strong>Drop Down</strong> the name of your mesh,
+<strong>Select All Cameras</strong> and click
+<strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>“Texturing”</em> page. Leave the
+general settings and click <strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>“Textured Mesh Generation
+wizard”</em> page. Click <strong>Run</strong>
+</li>
+<li>when finished you will be presented with the <em>“Textured Mesh
+Generation wizard result”</em> page, click <strong>Finish</strong>. Now
+you will have a 3D model with the texture.</li>
+<li>Save the project in the same <a href="#id_%20Create%20a%20folder">folder</a> created before.</li>
+</ul>
+<figure><img src="https://data.d4science.org/shub/E_R21uT3hnMGRjeGZ0WHVZUkgwTW9FLzFTYzJIaWYvVGY4RWltQ1ZkZmRiZTlndExkMEtPdGRsQll3N0UzZnBVbw==" alt="" class="figure mx-auto d-block"><figcaption><em>High Resolution Mesh Texture</em></figcaption></figure>
+</div>
+<div class="section level3">
+<h3 id="exporting-the-mesh-with-textures-for-high-res-visualization">Exporting the mesh with textures for High-Res visualization<a class="anchor" aria-label="anchor" href="#exporting-the-mesh-with-textures-for-high-res-visualization"></a>
+</h3>
+<p>At this point we need to export an high resolution mesh for different
+purposes. For this:</p>
+<ul>
+<li>Go to <em>Export</em> in the menu and select <em>Export Textured
+Mesh</em>. <strong>Drop Down</strong> the name of your mesh,
+<strong>Drop Down</strong> your preferred format and click
+<strong>Export</strong>
+</li>
+<li>create another folder called <em>“Exports”</em> within the same
+folder of the images and save the model in this folder.</li>
+</ul>
+<p><img src="https://data.d4science.org/shub/E_Zk92OG5TUEN5ZGx1ais1WS80UWdVVEZORGRDKzl1YjNLR2syMWZYY3JFcTBBVGhQTSs5MjdFZTI4NVR3U2p1ZQ==" alt="https://data.d4science.org/shub/E_Zk92OG5TUEN5ZGx1ais1WS80UWdVVEZORGRDKzl1YjNLR2syMWZYY3JFcTBBVGhQTSs5MjdFZTI4NVR3U2p1ZQ==" class="figure"><em>High
+Resolution Mesh Textured</em></p>
+</div>
+<div class="section level3">
+<h3 id="exporting-the-mesh-with-textures-for-online-publishing">Exporting the mesh with textures for online publishing<a class="anchor" aria-label="anchor" href="#exporting-the-mesh-with-textures-for-online-publishing"></a>
+</h3>
+<p>At this point we need to export the model at a lower resolution mesh
+for online publishing. For this:</p>
+<ul>
+<li>Select your textured mesh in the right window <em>“Textured
+Meshes”</em> <strong>Right Click</strong> on it and select
+<strong>Clone</strong>. A copy of your mesh will be created.</li>
+<li>Go to <em>Tools</em> in the menu and select <em>Mesh Filters-&gt;
+Decimatiom</em>. You will be presented with the <em>“Mesh
+decimation”</em> small window. <strong>Drop Down</strong> the name of
+your second mesh, select <em>preserve boundaries</em> and <em>Apply
+Filter</em>
+</li>
+</ul>
+<p>At this point we need to regenerate the texture for the lower
+resolution mesh. To do so we need to repeat the process above:</p>
+<ul>
+<li>Go to <em>Workflow</em> in the menu and select <em>Textured Mesh
+Generation</em>
+</li>
+<li>you will be presented with the <em>“Textured Mesh Generation
+wizard”</em>. <strong>Drop Down</strong> the name of your new mesh,
+<strong>Select All Cameras</strong> and click
+<strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>“Texturing”</em> page. Leave the
+general settings and click <strong>Next&gt;</strong>
+</li>
+<li>you will be presented with the <em>“Textured Mesh Generation
+wizard”</em> page. Click <strong>Run</strong>
+</li>
+<li>when finished you will be presented with the <em>“Textured Mesh
+Generation wizard result”</em> page, click <strong>Finish</strong>. Now
+you will have the new low resolution 3D model with the texture.</li>
+<li>Save the project in the same <a href="#id_%20Create%20a%20folder">folder</a> created before.</li>
+<li>Go to <em>Export</em> in the menu and select <em>Export Textured
+Mesh</em>. <strong>Drop Down</strong> the name of your second mesh,
+<strong>Drop Down</strong> the format <strong><em>.glb</em></strong> or
+<strong><em>.gltf</em></strong> and click <strong>Export</strong>
+</li>
+<li>create another folder called <em>“Exports”</em> within the same
+folder of the images and save the model in this folder.</li>
+</ul>
+<iframe src="https://gltf-viewer.donmccurdy.com#kiosk=1&amp;model=https://data.d4science.org/shub/E_azJzMVp6MENORnRUd0FEdElCa3g5WVBIdEQ5cldBUlJwOHkyYjRITHpTYmVUcFdIUDc1VzRhWTFGdWc5SytNVA==" style="width: 100%;" height="400px" bgcolor="#dbdbdb" frameborder="0">
+</iframe>
+<p><br><br></p>
+</div>
+<div class="section level3">
+<h3 id="adding-real-world-scale">Adding real world scale<a class="anchor" aria-label="anchor" href="#adding-real-world-scale"></a>
+</h3>
+<p><br><br></p>
+</div>
+<div class="section level3">
+<h3 id="final-remarks">Final Remarks<a class="anchor" aria-label="anchor" href="#final-remarks"></a>
+</h3>
+<p>During the whole process you will encounter more options and setting
+then the ones described above. You can find a more complete and
+technical advice in <a href="https://www.3dflow.net/zephyr-doc/en/Extractingadensepointcloud.html" class="external-link">this
+document</a>.</p>
+<p>Or if you prefer it as a PDF file you can find it <a href="https://3df-eu.fra1.digitaloceanspaces.com/zephyr-doc/3DF%20Zephyr%20Manual%207.500%20English.pdf" class="external-link">here</a></p>
+<p>As well as a series of video tutorials on <a href="https://www.3dflow.net/technology/documents/3df-zephyr-tutorials/" class="external-link">this
+page</a>.</p>
+<p>You can also find advice and specific topic help in the official <a href="https://www.3dflow.net/forums/" class="external-link">forum</a> of the software.</p>
+<p>Finally you can also join the <a href="https://discord.com/invite/3HMUKff" class="external-link">Discord Channel</a> if you
+prefer.</p>
+<!-- 
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use. 
+ -->
+</div>
+</section></section><section id="aio-additional-links"><p>Content from <a href="additional-links.html">Additional Links</a></p>
+<hr>
+<p>Last updated on 2024-01-25 |
+        
+        <a href="https://github.com/culturedigitalskills/2024-digitisation-photogrammetry/edit/main/episodes/additional-links.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 12 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<section id="additional-links"><h2 class="section-heading">Additional Links<a class="anchor" aria-label="anchor" href="#additional-links"></a>
+</h2>
+<hr class="half-width">
+<p><br></p>
+<div class="section level3">
+<h3 id="theory">Theory<a class="anchor" aria-label="anchor" href="#theory"></a>
+</h3>
+<p>Image theory</p>
+<ul>
+<li><a href="https://www.cambridgeincolour.com/" class="external-link">Cambridge in
+Color</a></li>
+<li>
+<a href="http://cs.brown.edu/courses/cs143/" class="external-link">Images and content from
+James Hays, Computer Vision module @ Brown University</a> <!--
+-	[Comparison of methods](http://www.stporter.com/wp- content/uploads/2016/04/A_Comparison_of_Methods_for_Creating_3D.pdf)
+-	[Tips and Tricks](http://www.agisoft.com/support/tips-tricks/)-->
+</li>
+</ul>
+<p>Photogrammetry</p>
+<ul>
+<li><a href="https://culturalheritageimaging.org/Technologies/Photogrammetry/" class="external-link">CHI</a></li>
+<li><a href="https://archaeologydataservice.ac.uk/help-guidance/guides-to-good-practice/data-collection-and-fieldwork/close-range-photogrammetry/data-collection-and-documentation/typical-steps-for-a-crp-project/" class="external-link">ADS</a></li>
+<li><a href="https://blog.sketchfab.com/how-to-set-up-a-successful-photogrammetry-project/" class="external-link">Tips
+for setup</a></li>
+<li><a href="http://www.tested.com/art/makers/460142-art-photogrammetry-how-take-your-%20photos/" class="external-link">Tips
+for taking photos</a></li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="principles-and-guidelines">Principles and Guidelines<a class="anchor" aria-label="anchor" href="#principles-and-guidelines"></a>
+</h3>
+<ul>
+<li><a href="https://digital-strategy.ec.europa.eu/en/library/basic-principles-and-tips-3d-digitisation-cultural-heritage" class="external-link">Basic
+principles and tips for 3D digitisation of cultural heritage -European
+Commission</a></li>
+<li><a href="https://carare.gitbook.io/share-3d-guidelines/" class="external-link">Share 3D
+Carare</a></li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="other-tutorials">Other tutorials<a class="anchor" aria-label="anchor" href="#other-tutorials"></a>
+</h3>
+<ul>
+<li><a href="https://historicengland.org.uk/images-books/publications/photogrammetric-applications-for-cultural-heritage/heag066-photogrammetric-applications-cultural-heritage/" class="external-link">Historic
+England’s Photogrammetry tutorial</a></li>
+<li><a href="https://github.com/alicevision/meshroom/wiki/Tutorials" class="external-link">Alicevision</a></li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="tools-and-software">Tools and software<a class="anchor" aria-label="anchor" href="#tools-and-software"></a>
+</h3>
+<ul>
+<li><a href="https://exifinfo.org/" class="external-link">Exif checker</a></li>
+<li><a href="https://archaeologydataservice.ac.uk/about/projects/ads-3d-viewer/" class="external-link">ADS
+3D viewer</a></li>
+<li><a href="https://alicevision.org/#meshroom" class="external-link">Meshroom</a></li>
+<li><a href="https://www.agisoft.com/" class="external-link">Metashape</a></li>
+</ul>
+<!--
+
+### Additional Links
+
+-	[Images and content from James Hays, Computer Vision module @ Brown University](http://cs.brown.edu/courses/cs143/)
+-	[Comparison of methods](http://www.stporter.com/wp- content/uploads/2016/04/A_Comparison_of_Methods_for_Creating_3D.pdf)
+-	[Tips and Tricks](http://www.agisoft.com/support/tips-tricks/)
+-	[Tips for setup](https://blog.sketchfab.com/how-to-set-up-a-successful-photogrammetry-project/)
+-	[Tips for taking photos](http://www.tested.com/art/makers/460142-art-photogrammetry-how-take-your- photos/)
+
+--><!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
