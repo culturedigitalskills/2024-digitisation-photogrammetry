@@ -40,13 +40,13 @@ Once the photographs have been acquired,
 the next step is to transfer the images 
 to a PC (refer to [setup][setup] for specifications).
 
-Please use the software we downloaded in the setup section [Raw Therapee](https://www.3dflow.net). With this free software you can convert the images from the raw file format to various other formats. The raw file format of different cameras is probably already the best file format you can use during the processing of the images in the photogrammetry software, because it retains the exif data, the most accurate color range and the best resolution. However not all the photogrammetry software are able to read the different type of raw formats of the different camera types. In this case you will need to use software such as Raw therapy (which you can  also use to re-organize your files) to convert them in a more readable format. Usually the uncompressed Tiff or Tif file format is a good choice, because many photogrammetry software can read it and it will retain good quality information, including all the ones of the camera at the moment of shooting.
+Please use the software we downloaded in the setup section [Raw Therapee](https://www.3dflow.net). With this free software, you can convert the images from the raw file format to various other formats. The raw file format of different cameras is probably already the best file format you can use during the processing of the images in the photogrammetry software because it retains the exif data, the most accurate color range and the best resolution. However, not all the photogrammetry software is able to read the different types of raw formats of the different camera types. In this case, you will need to use software such as Raw Therapy (which you can also use to re-organize your files) to convert them into a more readable format. Usually, the uncompressed Tiff or Tif file format is a good choice, because many photogrammetry software can read it and it will retain good quality information, including all the ones of the camera at the moment of shooting.
 
-Whatever file format you use it must be readable form the software you are about to use for reconstructing the models and you must be sure you choose a format that retains the Exif information within the file.
+Whatever file format you use it must be readable from the software you are about to use for reconstructing the models and you must be sure you choose a format that retains the Exif information within the file.
 if you are not sure if your file has the information needed there are lots of online tools that can provide such information. One example is [ExifInfo.org](https://exifinfo.org/).
-(Raw Therapee can also provide this information on the info panel however you should always check at least one of the image after exporting them from Raw therapy.
+(Raw Therapee can also provide this information on the info panel however you should always check at least one of the images after exporting them from Raw Therapy.
 
-> For this lessons the images that you have downloaded from the [examples data sets](setup) are already converted for you and, although it is better  for you to get use to software for batch converting images, at this stage you will not need to take further actions after downloading them*
+> For this lesson the images that you have downloaded from the [examples data sets](setup) are already converted for you and, although it is better  for you to get used to software for batch converting images, at this stage you will not need to take further actions after downloading them*
 
 
 
@@ -205,7 +205,7 @@ Now you will have a 3D model with the texture. -->
 Using a suitable name which reflects your project, transfer all
 images into a folder.
 
-Good practice includes:
+Good practices include:
 
 ```
 		ResourceIDifExistent_NameofObject_DateProcessedinFormatYY.MM.DD
@@ -218,15 +218,15 @@ Copy the images from the camera into the images folder.
 The following instructions are specific
 to [3DF Zephir](https://www.3dflow.net/3df-zephyr-photogrammetry-software/).
 
-Go to the workflow menu and choose **New Project**, you will be presented with a the *"New project wizard window"*.
+Go to the workflow menu and choose **New Project**, you will be presented with a *"New project wizard window"*.
 
-Choose the first box *Sparse* in order to go trough the all process manually. Click **Next>** you will be presented with the  *"Photos selection page"* .
+Choose the first box *Sparse* in order to go through the all process manually. Click **Next>** you will be presented with the  *"Photos selection page"* .
  
 ### Importing Images 
 
 - Browse to the folder that contains your 
-images and click **Select Folder** or Select a your **Single Images**. Click **Next>**
-- you will be presented with the  *"Camera calibration page*". If you have a separate Exif file for calibrating the camera you can add it here, and you can also manually calibrate you camera in the *"Modify Calibration page"* otherwise go on and click **Next>**
+images and click **Select Folder** or Select your **Single Images**. Click **Next>**
+- you will be presented with the  *"Camera calibration page*". If you have a separate Exif file for calibrating the camera you can add it here, and you can also manually calibrate your camera in the *"Modify Calibration page"* otherwise go on and click **Next>**
 
 
 ![*Original photo*](https://data.d4science.org/shub/E_WHBodVMwdUZ5TXU3Z3h3MDhrQjBIMmFybkNGRXN6aEtqMUNuUWY2QlFKVmF5V1hxbzRFaDd6Q0ZIT0NsZ1BaNQ==)
@@ -237,7 +237,7 @@ images and click **Select Folder** or Select a your **Single Images**. Click **N
 
 In the *"Photos selection page"* there is an option to import the mask, if selected a new option will be presented and a new tool called **Masquerade** will be available before importing the images.
 Within this tool (which is also available from the main interface), it will be possible to generate a Mask to apply to all the images.
-The tools is quite simple to use so that if you want to try to apply a mask you can use a sample image provided in the sets of the downloaded dataset as a first file.
+The tools are quite simple to use so that if you want to try to apply a mask you can use a sample image provided in the sets of the downloaded dataset as a first file.
 
 ![*Original photo of the mask*](https://data.d4science.org/shub/E_RFF0RkVickVCSmJCSHFtZm10MEYwNXFCN2xtY2JSVmY5MmxHVlo4a01WRUppcW9GK1Z0UzlXeHJXK1hJR3pwQQ==)
 
@@ -252,12 +252,12 @@ this:
 - you will be presented with the *"Reconstruction Successful page"*. Click **Finish**
 - Save the project in the same [folder](# Create a folder) created before.
 
-*"Once the camera orientation phase has been completed, the sparse point cloud will appear in the workspace as well as the oriented cameras identified by blue pyramids."* Now you can familiarize with the navigation of the 3d space and the interface. For example go to **Scene-> Bounding Box-> Edit Bounding box** and limit the created sparse cloud within the the bounding box.This will speed-up the process when creating the final mesh.
+*"Once the camera orientation phase has been completed, the sparse point cloud will appear in the workspace as well as the oriented cameras identified by blue pyramids."* Now you can familiarize yourself with the navigation of the 3d space and the interface. For example, go to **Scene-> Bounding Box-> Edit Bounding box** and limit the created sparse cloud within the bounding box. This will speed up the process when creating the final mesh.
 
 ![*Sparse Point Cloud*](https://data.d4science.org/shub/E_dEtEY3RCZFYyVjMxMjNrOEcvYUxyUENieHpZZUdWc0g1TEVVVUtUTFhWTTRXZ0JON21tRkVKN2ZCREVjcFRxcA==)
 
 
-### Build dense cloud (optional)
+### Build a dense cloud (optional)
 The next step is to create a Dense PointCloud. For
 this:
 
@@ -295,7 +295,7 @@ this:
 
 ### Building the Texture
 
-The final step is to re-project the texture onto the 3D surface.For this:
+The final step is to re-project the texture onto the 3D surface. For this:
 
 - Go to *Workflow* in the menu and select *Textured Mesh Generation*
 - you will be presented with the  *"Textured Mesh Generation wizard"*. **Drop Down** the name of your mesh, **Select All Cameras** and click **Next>**
@@ -309,7 +309,7 @@ The final step is to re-project the texture onto the 3D surface.For this:
 
 
 ### Exporting the mesh with textures for High-Res visualization
-At this point we need to export an high resolution mesh for different purposes. For this:
+At this point, we need to export a high-resolution mesh for different purposes. For this:
 
 - Go to *Export* in the menu and select *Export Textured Mesh*. **Drop Down** the name of your mesh, **Drop Down** your preferred format and click **Export**
 - create another folder called *"Exports"* within the same folder of the images and save the model in this folder.
@@ -319,18 +319,18 @@ At this point we need to export an high resolution mesh for different purposes. 
 
 ### Exporting the mesh with textures for online publishing
 
-At this point we need to export the model at a lower resolution mesh for online publishing. For this:
+At this point, we need to export the model at a lower resolution mesh for online publishing. For this:
 
 - Select your textured mesh in the right window *"Textured Meshes"* **Right Click** on it and select **Clone**. A copy of your mesh will be created.
 - Go to *Tools* in the menu and select *Mesh Filters-> Decimatiom*. You will be presented with the *"Mesh decimation"* small window. **Drop Down** the name of your second mesh, select *preserve boundaries* and *Apply Filter*
 
-At this point we need to regenerate the texture for the lower resolution mesh. To do so we need to repeat the process above:
+At this point, we need to regenerate the texture for the lower-resolution mesh. To do so we need to repeat the process above:
 
 - Go to *Workflow* in the menu and select *Textured Mesh Generation*
 - you will be presented with the  *"Textured Mesh Generation wizard"*. **Drop Down** the name of your new mesh, **Select All Cameras** and click **Next>**
 - you will be presented with the *"Texturing"* page. Leave the general settings and click **Next>**
 - you will be presented with the  *"Textured Mesh Generation wizard"* page. Click **Run**
-- when finished you will be presented with the *"Textured Mesh Generation wizard result"* page, click **Finish**. Now you will have the new low resolution 3D model with the texture.
+- when finished you will be presented with the *"Textured Mesh Generation wizard result"* page, click **Finish**. Now you will have the new low-resolution 3D model with the texture.
 - Save the project in the same [folder](# Create a folder) created before.
 - Go to *Export* in the menu and select *Export Textured Mesh*. **Drop Down** the name of your second mesh, **Drop Down** the format ***.glb*** or ***.gltf*** and click **Export**
 - create another folder called *"Exports"* within the same folder of the images and save the model in this folder.
@@ -341,14 +341,14 @@ At this point we need to regenerate the texture for the lower resolution mesh. T
 \
 
 
-### Adding real world scale
+### Adding real-world scale
 
 \
 \
 
 ### Final Remarks
 
-During the whole process you will encounter more options and setting then the ones described above. You can find a more complete and technical advice in [this document](https://www.3dflow.net/zephyr-doc/en/Extractingadensepointcloud.html).
+During the whole process, you will encounter more options and settings than the ones described above. You can find a piece of more complete and technical advice in [this document](https://www.3dflow.net/zephyr-doc/en/Extractingadensepointcloud.html).
 
 Or if you prefer it as a PDF file you can find it [here](https://3df-eu.fra1.digitaloceanspaces.com/zephyr-doc/3DF%20Zephyr%20Manual%207.500%20English.pdf)
 
@@ -356,4 +356,4 @@ As well as a series of video tutorials on [this page](https://www.3dflow.net/tec
 
 You can also find advice and specific topic help in the official [forum](https://www.3dflow.net/forums/) of the software.
 
-Finally you can also join the [Discord Channel](https://discord.com/invite/3HMUKff) if you prefer.
+Finally, you can also join the [Discord Channel](https://discord.com/invite/3HMUKff) if you prefer.
