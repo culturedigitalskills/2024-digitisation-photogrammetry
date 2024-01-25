@@ -8,14 +8,14 @@ exercises: 2
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you create 3d models for 3D digital preservation and publication ?
+- How do you create 3d models for 3D digital preservation and publication?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- To explains the techniques for creating 3d objects from 2d images positioned at a different interval in space with specialized software.
+- To explain the techniques for creating 3d objects from 2d images positioned at a different interval in space with specialized software.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -26,7 +26,7 @@ Multiple 2d photographs can be used to generate [point clouds](https://en.wikipe
 ![*Dense Point Cloud example of a small object*](https://data.d4science.org/shub/E_aFlFV0paV3RQaGQwTkJrTGVpd0pVVktJdFpEeXh4b2gySU8yMjJTNGJybFc4Z2JNS2tqWm5raHRXK0U4VHFVRA==)
 
 
-These points can be further use to create a 3d meshes by mean of [another type of triangulation](https://en.wikipedia.org/wiki/Mesh_generation). 
+These points can be further used to create 3d meshes by means of [another type of triangulation](https://en.wikipedia.org/wiki/Mesh_generation). 
 
 ![*3d Mesh of a small object*](https://data.d4science.org/shub/E_a0hoL2Y2dmZpREorYjNGTkx3QXBGcnZoQUd5NlhIVHQ0eStLZkVMd0hXN2RhckxRMDM5dG9ralpMaFFlSEs4cg==)
 
@@ -69,8 +69,8 @@ in the image are obvious features to consider.
 
 :::::::::::challenge 
 
-## Try it yourself?
-Open this image in Gimp or others photo editing software and try to recognize 6 or more distinctive features.
+## Try it yourself.
+Open this image in Gimp or other photo editing software and try to recognize 6 or more distinctive features.
 
 [Match-1](https://data.d4science.org/shub/E_VGNNb0R2VVltRmxaOHlhSXZnczIrTkZkL1ZUUXZlTElBLzBWTHUzenREdXZSb1RMcXNwdDBNS1Qwb2d3aWNnWQ==)
 
@@ -94,9 +94,9 @@ two or more images.
 
 :::::::::::challenge 
 
-## Try it yourself?
+## Try it yourself.
 
-Open this image in Gimp or others photo editing software and try to recognize 6 or more features already found in the previous image.
+Open this image in Gimp or other photo editing software and try to recognize 6 or more features already found in the previous image.
 
 [Match-2](https://data.d4science.org/shub/E_NXBISUtZTnhDbHVGNHNxUXh0cEQzSGVldFVPMEtWWisyVU8xVmFCWWliTTNEQWIwNGx2VldUQ0xhWUZOMkk2SA==)
 
@@ -128,7 +128,7 @@ The 3D model is created by creating a [triangular mesh](#definition). The textur
 
 ![*Matching features in multiple images*](https://data.d4science.org/shub/E_bU9MSEZaRGpOaGFJZ2hsL1dCWi85U0NZbUJiVDh5YlBlUmxmTGI3UE9ic1dvOEdkOGFpS3JnYmRrelYrY0JOaQ==)
 
-We can apply a mask to the whole sets of images so that the algorithm does not have to calculate the points that are not interested. In this case when using turntables is recommended to shoot always one image without the object.
+We can apply a mask to the whole sets of images so that the algorithm does not have to calculate the points that are not interesting. In this case when using turntables is recommended to shoot always one image without the object.
 
 ![*Mask  used in multiple images*](https://data.d4science.org/shub/E_L3Y4dlE2Rm9ZVU1BcCtSaHFoS1A5UHZpUEpXYVdaK2tRNm9MOGdjT1Y0YXE3bkdvR2FTdU1MSlp1R3ozRVVwYg==)
 
