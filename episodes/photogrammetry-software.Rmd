@@ -1,8 +1,12 @@
 ---
-title: 'Using the photogrammetry software'
-teaching: 10
-exercises: 2
+title: 'Using photogrammetry software'
+teaching: 60
+exercises: 0
 ---
+
+
+
+
 :::::::::::::::::::::::::::::::::::::: questions 
 
 - What software is available to create 3d models after image acquisition?
@@ -46,20 +50,7 @@ if you are not sure if your file has the information needed there are lots of on
 
 
 
-## Organizing the workspace
 
-Using a suitable name which reflects your project, transfer all
-images into a folder.
-
-Good practice includes:
-
-```
-		ResourceIDifExistent_NameofObject_DateProcessedinFormatYY.MM.DD
-```
-
-Within this folder, create another 
-one named images. 
-Copy the images from the camera into the images folder.
  
 <!--
 ### Deleting the background 
@@ -207,6 +198,23 @@ Now you will have a 3D model with the texture. -->
 
 ## Photogrammetry Software Workflow
 
+
+
+### Organizing the workspace
+
+Using a suitable name which reflects your project, transfer all
+images into a folder.
+
+Good practice includes:
+
+```
+		ResourceIDifExistent_NameofObject_DateProcessedinFormatYY.MM.DD
+```
+
+Within this folder, create another 
+one named images. 
+Copy the images from the camera into the images folder.
+
 The following instructions are specific
 to [3DF Zephir](https://www.3dflow.net/3df-zephyr-photogrammetry-software/).
 
@@ -329,11 +337,14 @@ At this point we need to regenerate the texture for the lower resolution mesh. T
 
 <iframe src="https://gltf-viewer.donmccurdy.com#kiosk=1&model=https://data.d4science.org/shub/E_azJzMVp6MENORnRUd0FEdElCa3g5WVBIdEQ5cldBUlJwOHkyYjRITHpTYmVUcFdIUDc1VzRhWTFGdWc5SytNVA==" style="width: 100%;" height="400px" bgColor="#dbdbdb" frameBorder="0"></iframe>
 
-
+\
+\
 
 
 ### Adding real world scale
 
+\
+\
 
 ### Final Remarks
 
@@ -346,5 +357,3 @@ As well as a series of video tutorials on [this page](https://www.3dflow.net/tec
 You can also find advice and specific topic help in the official [forum](https://www.3dflow.net/forums/) of the software.
 
 Finally you can also join the [Discord Channel](https://discord.com/invite/3HMUKff) if you prefer.
-
-

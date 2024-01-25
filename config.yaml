@@ -62,10 +62,11 @@ episodes:
 
 
 # other-methods.Rmd
-- photogrammetry.Rmd
-#- capturing-photographs.Rmd
-# - setting-up-the-environment.Rmd
-# - photogrammetry-software.Rmd
+- introduction.Rmd
+- capturing-photographs.Rmd
+- processing-overview.Rmd
+- photogrammetry-software.Rmd
+- additional-links.Rmd
 
 
 # Information for Learners

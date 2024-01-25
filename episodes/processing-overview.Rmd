@@ -4,15 +4,22 @@ teaching: 10
 exercises: 2
 ---
 
+
+
 :::::::::::::::::::::::::::::::::::::: questions 
 
 - How do you create 3d models for 3D digital preservation and publication ?
+
 ::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
 - To explains the techniques for creating 3d objects from 2d images positioned at a different interval in space with specialized software.
+
 ::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Processing overview
 
 Multiple 2d photographs can be used to generate [point clouds](https://en.wikipedia.org/wiki/Point_Cloud) where each point has now three-dimensional coordinates.
 
@@ -127,10 +134,4 @@ We can apply a mask to the whole sets of images so that the algorithm does not h
 
 
 ![*Reconstructed model from matching features in multiple images*](https://data.d4science.org/shub/E_dUFhdW4vd2x0SVRNOWFjOWVjc1pwU2FyaFJXWlA2VnBzWjI1QnN5L3UvalMxYlVVSFhkMmEwb0FqTlkrdHZaMg==)
-
-
-
-
-
-
 
