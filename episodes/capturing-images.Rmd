@@ -1,8 +1,9 @@
 ---
 title: 'Capturing images'
 teaching: 10
-exercises: 2
+exercises: 0
 --- 
+
 
 :::::::::::::::::::::::::::::::::::::: questions
 - What are the premises before a shooting session?
@@ -24,7 +25,6 @@ exercises: 2
 
 
 
-
 ## Camera setup
 
 Please [refer to the equipment][setup] that you will need
@@ -34,10 +34,15 @@ You will need to consider the following camera settings during your acquisition 
 
 
 -	Preferably shoot in **RAW** and in maximal resolution. JPG compression creates noise that should be avoided. If JPG images are to be used, then prefer high-quality JPG images.
--	**ISO** values should be the **lowest possible** as you want **clear, sharp images** without too much noise. ISO 100 will provide good pictures without much noise <!--but for this you will need a tripod because longer shutter speeds will be required. For a hand-held camera, you can go up to ISO 800 but this will bring more grain to your pictures.-->
+-	**ISO** values should be the **lowest possible** as you want **clear, sharp images** without too much noise. ISO 100 will provide good pictures without much noise 
+
+<!--but for this you will need a tripod because longer shutter speeds will be required. For a hand-held camera, you can go up to ISO 800 but this will bring more grain to your pictures.-->
+
 -	**Aperture** value (f-number) should be **high enough** so as to be able to distinguish details without having blurred surfaces. A higher f-number means that you will get a **better depth of field**. Something between f/8 and f/16 would work well.
 -	**Shutter speed** should be **fast enough** to freeze images and avoid blur that is caused by the movement of the camera. If you are using a tripod you can use slower shutter speeds. The rule here is that anything below **(slower) than 1/60 of a second requires a tripod**.
-- You should consider always a **large depth of field** when possible as **good focus** especially on the subject is important. Be careful to have all the important parts of the image in focus. Automatic focus is not advice because you would not want to change focus for each picture you take. Once you have your subject in focus keep it as it is and try not to change your distance from the subject. For a better explanation on how **depth of field** works in conjunction with **aperture, focal length and focus distance** you can refer to the website [Cambridge in Color](https://www.cambridgeincolour.com/tutorials/depth-of-field.htm) or [Photographylife](https://photographylife.com/what-is-depth-of-field)<!--can be used when you are rotating around the object, but you can set focus manually if you are using a turntable-->.
+- You should consider always a **large depth of field** when possible as **good focus** especially on the subject is important. Be careful to have all the important parts of the image in focus. Automatic focus is not advice because you would not want to change focus for each picture you take. Once you have your subject in focus keep it as it is and try not to change your distance from the subject. For a better explanation on how **depth of field** works in conjunction with **aperture, focal length and focus distance** you can refer to the website [Cambridge in Color](https://www.cambridgeincolour.com/tutorials/depth-of-field.htm) or [Photographylife](https://photographylife.com/what-is-depth-of-field)
+
+<!--can be used when you are rotating around the object, but you can set focus manually if you are using a turntable-->.
 
 
 |   |   |
@@ -204,3 +209,5 @@ Please keep in mind that the right/optimal setup will provide you with the corre
 - Avoid shooting against the sun when you are outside
 - Capture images with good texture.
 - Avoid completely texture-less, transparent and reflective images. The software will have difficulty finding and matching features. If the scene does not contain enough texture itself, you could place additional background objects, such as posters, etc.
+
+~->
