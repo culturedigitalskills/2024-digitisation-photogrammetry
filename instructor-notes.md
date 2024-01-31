@@ -14,6 +14,19 @@ dataset for photogrammetry.
 
 By the end of this lessons learners will be able to:
 
+- preparing an object for a photogrammetry shooting session
+- setting up lighting for the session
+- taking photograph of different environments
+  - small object on turntable
+  - rotating around an object
+  - interior or exterior facade(s)
+  - building 
+- downloading and preparing images for processing
+- process data
+  - creating point-cloud
+  - creating a mesh
+  - export high and low resolution mesh for archiving and publishing
+
 
 
 ## Prerequisite knowledge level
