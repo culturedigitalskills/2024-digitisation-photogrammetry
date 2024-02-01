@@ -343,8 +343,14 @@ At this point, we need to regenerate the texture for the lower-resolution mesh. 
 
 
 ### Adding real-world scale
+Although it can be achieved in a later stage by measuring parts of the model, adding areal world scale within the work space is a very good practice.
 
-\
+This is useful for two reasons:
+- Scaling the object to real measurement
+- Make measurements of objects or environments
+
+After including a [printed scale reference](), the best way to achieve this would be to use Control Points. However this is only available on the non-free version of 3dZephyr.   
+
 \
 
 ### Final Remarks
