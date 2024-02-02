@@ -343,8 +343,26 @@ At this point, we need to regenerate the texture for the lower-resolution mesh. 
 
 
 ### Adding real-world scale
+![Real World Sclae](./fig/HorseMatch1Cut.jpg)*High Resolution Mesh Textured*
 
-\
+
+A very good practice, although it can  also be achieved in a later stage by measuring parts of the model, is to add a real world scale within the working environment. .
+
+This is useful for two reasons:
+- Scaling the object to real measurement
+- Make measurements of objects or environments
+
+After including a [small](https://services.d4science.org/group/d4science-services-gateway/workspace?itemid=e1899013-7777-49e0-8344-0d52f4de61d6&operation=gotofolder) or [larger](https://services.d4science.org/group/d4science-services-gateway/workspace?itemid=1948622a-c26d-47a7-aaf0-be6c6a6489a8&operation=gotofolder) printed scale reference, the best way to achieve this would be to use Control Points. However this is only available on the non-free version of 3dZephyr.
+
+Steps to add real a scale within the model:
+
+- print the scale and make sure that the measurements are correct (when printing go to the printer settings and use 100% real size without adapting the image to the size of the paper)
+- attach the printed sheet to an hard surface such as a base or a turntable and make sure it does not have any bulges.
+- at this point you have two options:
+  - when using a turntable if you attach the scale to the object and to the turntable, the scale will be part of the 3D Model and will not be used as a mask.
+  - when not using a turntable if you attach the scale to the object it will be part of the object and cannot be used as a mask while if you do not attach it to the object you can also use it as a musk.
+ 
+
 \
 
 ### Final Remarks
