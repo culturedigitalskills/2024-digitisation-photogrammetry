@@ -343,7 +343,7 @@ At this point, we need to regenerate the texture for the lower-resolution mesh. 
 
 
 ### Adding real-world scale
-![Real World Sclae](./fig/HorseMatch1Cut.jpg)*High Resolution Mesh Textured*
+![Real World Scale](./fig/HorseMatch1Cut.jpg)*High Resolution Mesh Textured*
 
 
 A very good practice, although it can  also be achieved in a later stage by measuring parts of the model, is to add a real world scale within the working environment. .
@@ -352,7 +352,7 @@ This is useful for two reasons:
 - Scaling the object to real measurement
 - Make measurements of objects or environments
 
-After including a [small](https://services.d4science.org/group/d4science-services-gateway/workspace?itemid=e1899013-7777-49e0-8344-0d52f4de61d6&operation=gotofolder) or [larger](https://services.d4science.org/group/d4science-services-gateway/workspace?itemid=1948622a-c26d-47a7-aaf0-be6c6a6489a8&operation=gotofolder) printed scale reference, the best way to achieve this would be to use Control Points. However this is only available on the non-free version of 3dZephyr.
+After including a [small](./files/Photogrammetric_scale_noncoded_markers_plus_small.pdf) or [larger](./files/photogrammetric_scale_noncoded_markers_medium.pdf) printed scale reference, the best way to achieve this would be to use Control Points. However this is only available on the non-free version of 3dZephyr.
 
 Steps to add real a scale within the model:
 
