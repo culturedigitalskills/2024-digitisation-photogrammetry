@@ -249,7 +249,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Processing overview</h1>
-        <p>Last updated on 2024-02-27 |
+        <p>Last updated on 2024-03-05 |
         
         <a href="https://github.com/culturedigitalskills/2024-digitisation-photogrammetry/edit/main/episodes/processing-overview.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -291,12 +291,16 @@ software.</li>
 </h2>
 <hr class="half-width"><p>Multiple 2d photographs can be used to generate <a href="https://en.wikipedia.org/wiki/Point_Cloud" class="external-link">point clouds</a> where
 each point has now three-dimensional coordinates.</p>
-<figure><img src="https://data.d4science.org/shub/E_aFlFV0paV3RQaGQwTkJrTGVpd0pVVktJdFpEeXh4b2gySU8yMjJTNGJybFc4Z2JNS2tqWm5raHRXK0U4VHFVRA==" alt="" class="figure mx-auto d-block"><figcaption><em>Dense Point Cloud example of a small
-object</em></figcaption></figure><p>These points can be further used to create 3d meshes by means of <a href="https://en.wikipedia.org/wiki/Mesh_generation" class="external-link">another type of
+<figure><img src="https://data.d4science.org/shub/E_aFlFV0paV3RQaGQwTkJrTGVpd0pVVktJdFpEeXh4b2gySU8yMjJTNGJybFc4Z2JNS2tqWm5raHRXK0U4VHFVRA==" alt="Dense Point Cloud example of a small object" class="figure mx-auto d-block"><div class="figcaption"><em>Dense Point Cloud example of a small
+object</em></div>
+</figure><p>These points can be further used to create 3d meshes by means of <a href="https://en.wikipedia.org/wiki/Mesh_generation" class="external-link">another type of
 triangulation</a>.</p>
-<figure><img src="https://data.d4science.org/shub/E_a0hoL2Y2dmZpREorYjNGTkx3QXBGcnZoQUd5NlhIVHQ0eStLZkVMd0hXN2RhckxRMDM5dG9ralpMaFFlSEs4cg==" alt="" class="figure mx-auto d-block"><figcaption><em>3d Mesh of a small object</em></figcaption></figure><p>The mesh can then be <a href="https://en.wikipedia.org/wiki/Texture_mapping" class="external-link">texture mapped</a>
+<figure><img src="https://data.d4science.org/shub/E_a0hoL2Y2dmZpREorYjNGTkx3QXBGcnZoQUd5NlhIVHQ0eStLZkVMd0hXN2RhckxRMDM5dG9ralpMaFFlSEs4cg==" alt="3d Mesh of a small object" class="figure mx-auto d-block"><div class="figcaption"><em>3d Mesh of a small object</em></div>
+</figure><p>The mesh can then be <a href="https://en.wikipedia.org/wiki/Texture_mapping" class="external-link">texture mapped</a>
 for the final realistic appearance of the studied subject.</p>
-<figure><img src="https://data.d4science.org/shub/E_ZEp0UkZxbFFvdUVXN29QMmtqWldTdDlBRnBhZUdUcTBPZUhJbG44ZEFLOEsxM2R5dlBZaE1yUG9XVUZzcHZBVg==" alt="" class="figure mx-auto d-block"><figcaption><em>3d Mesh of a small object with texture</em></figcaption></figure><iframe src="https://gltf-viewer.donmccurdy.com#kiosk=1&amp;model=https://data.d4science.org/shub/E_ZXp0WWx5S3JiVjE2RFc3WkVoMjhJSlUyUmpCWUFEQUdCSVlqamY2aC9zRUVGdWZLYWRVV0Vwem0xMHRiRkYwWQ==" style="width: 100%;" height="400px" frameborder="0">
+<figure><img src="https://data.d4science.org/shub/E_ZEp0UkZxbFFvdUVXN29QMmtqWldTdDlBRnBhZUdUcTBPZUhJbG44ZEFLOEsxM2R5dlBZaE1yUG9XVUZzcHZBVg==" alt="3d Mesh of a small object with texture" class="figure mx-auto d-block"><div class="figcaption"><em>3d Mesh of a small object with
+texture</em></div>
+</figure><iframe src="https://gltf-viewer.donmccurdy.com#kiosk=1&amp;model=https://data.d4science.org/shub/E_ZXp0WWx5S3JiVjE2RFc3WkVoMjhJSlUyUmpCWUFEQUdCSVlqamY2aC9zRUVGdWZLYWRVV0Vwem0xMHRiRkYwWQ==" style="width: 100%;" height="400px" frameborder="0">
 </iframe>
 <!--Underlying technology is more familiar
 that we think! We can happily ignore 
@@ -397,12 +401,16 @@ triangulating new points. A much denser set of features is produced.</p>
 <p>The output of this process is a “point cloud” or a <a href="#definition">collection of points</a>. The 3D model is created by
 creating a <a href="#definition">triangular mesh</a>. The texture is
 then mapped to the <a href="#definition">surface</a>.</p>
-<figure><img src="https://data.d4science.org/shub/E_bU9MSEZaRGpOaGFJZ2hsL1dCWi85U0NZbUJiVDh5YlBlUmxmTGI3UE9ic1dvOEdkOGFpS3JnYmRrelYrY0JOaQ==" alt="" class="figure mx-auto d-block"><figcaption><em>Matching features in multiple images</em></figcaption></figure><p>We can apply a mask to the whole sets of images so that the algorithm
+<figure><img src="https://data.d4science.org/shub/E_bU9MSEZaRGpOaGFJZ2hsL1dCWi85U0NZbUJiVDh5YlBlUmxmTGI3UE9ic1dvOEdkOGFpS3JnYmRrelYrY0JOaQ==" alt="Matching features in multiple images" class="figure mx-auto d-block"><div class="figcaption"><em>Matching features in multiple
+images</em></div>
+</figure><p>We can apply a mask to the whole sets of images so that the algorithm
 does not have to calculate the points that are not interesting. In this
 case when using turntables is recommended to shoot always one image
 without the object.</p>
-<figure><img src="https://data.d4science.org/shub/E_L3Y4dlE2Rm9ZVU1BcCtSaHFoS1A5UHZpUEpXYVdaK2tRNm9MOGdjT1Y0YXE3bkdvR2FTdU1MSlp1R3ozRVVwYg==" alt="" class="figure mx-auto d-block"><figcaption><em>Mask used in multiple images</em></figcaption></figure><figure><img src="https://data.d4science.org/shub/E_dUFhdW4vd2x0SVRNOWFjOWVjc1pwU2FyaFJXWlA2VnBzWjI1QnN5L3UvalMxYlVVSFhkMmEwb0FqTlkrdHZaMg==" alt="" class="figure mx-auto d-block"><figcaption><em>Reconstructed model from matching features in
-multiple images</em></figcaption></figure><!-- 
+<figure><img src="https://data.d4science.org/shub/E_L3Y4dlE2Rm9ZVU1BcCtSaHFoS1A5UHZpUEpXYVdaK2tRNm9MOGdjT1Y0YXE3bkdvR2FTdU1MSlp1R3ozRVVwYg==" alt="Mask used in multiple images" class="figure mx-auto d-block"><div class="figcaption"><em>Mask used in multiple images</em></div>
+</figure><figure><img src="https://data.d4science.org/shub/E_dUFhdW4vd2x0SVRNOWFjOWVjc1pwU2FyaFJXWlA2VnBzWjI1QnN5L3UvalMxYlVVSFhkMmEwb0FqTlkrdHZaMg==" alt="Reconstructed model from matching features in multiple images" class="figure mx-auto d-block"><div class="figcaption"><em>Reconstructed model from matching features
+in multiple images</em></div>
+</figure><!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  --></div>
@@ -464,8 +472,8 @@ any links that you are not going to use.
   "url": "https://culturedigitalskills.github.io/2024-digitisation-photogrammetry/instructor/processing-overview.html",
   "identifier": "https://culturedigitalskills.github.io/2024-digitisation-photogrammetry/instructor/processing-overview.html",
   "dateCreated": "2023-11-29",
-  "dateModified": "2024-02-27",
-  "datePublished": "2024-02-27"
+  "dateModified": "2024-03-05",
+  "datePublished": "2024-03-05"
 }
 
   </script><script>
